@@ -5,6 +5,10 @@ This repository is a template for creating and sharing electronic (and paper)
 general aviation checklists and provides automation for compiling it into
 several popular EFIS/EFB compliant formats.
 
+## Credits
+This project uses the [aviation-checklists](https://github.com/alexnj/aviation-checklists) template created by [Alexnj](https://github.com/alexnj). 
+Special thanks to Alex for the framework and guidance.
+
 ## Using
 
 <a href="https://github.com/alexnj/aviation-checklists/releases/latest">
