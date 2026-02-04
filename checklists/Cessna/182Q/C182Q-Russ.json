@@ -504,7 +504,11 @@
               "expectation": "ALL EGT HIGH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
-            {
+             {
+              "prompt": "R MAG should show high temps on 1,3,5 (top plugs) and v-v for L MAG",
+              "type": "ITEM_NOTE"
+            },
+           {
               "prompt": "Propeller Check 1",
               "expectation": "THROTTLE TO 1900RPM, PROP TO 1700RPM, THROTTLE DOWN BY 2in",
               "type": "ITEM_CHALLENGE_RESPONSE"
