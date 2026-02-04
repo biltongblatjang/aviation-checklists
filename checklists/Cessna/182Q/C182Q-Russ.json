@@ -193,6 +193,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Hold LF and DIM simultaneously diplays Hobbs - press STEP or LF to exit",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Documents (ARROW)",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1064,6 +1068,10 @@
               "prompt": "Hobbs/Tach",
               "expectation": "RECORD",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Hold LF and DIM simultaneously diplays Hobbs - press STEP or LF to exit",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Master Switch",
