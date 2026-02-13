@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - C140-spins-and-things
   pull_request:
   workflow_dispatch: # This enables the manual trigger button
 
