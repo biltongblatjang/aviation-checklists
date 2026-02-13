@@ -1060,6 +1060,69 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
+        },
+        {
+          "title": "Spin",
+          "items": [
+            {
+              "prompt": "Clear area, climb to >= 4000' AGL",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Carb heat",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel",
+              "expectation": "BOTH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps",
+              "expectation": "UP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "1700 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pitch up",
+              "expectation": "10 DEG, HOLD TO STALL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Don't pitch up aggressively to avoid whip stall",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "On stall",
+              "expectation": "STICK BACK, FULL LEFT RUDDER",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Hold to established spin",
+              "type": "ITEM_CHALLENGE"
+            },
+            {
+              "prompt": "Opposite rudder",
+              "expectation": "APPLY FULL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Break stall with stick",
+              "expectation": "FULL FORWARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Recover from dive",
+              "expectation": "EASE STICK BACK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
         }
       ],
       "category": "normal"
