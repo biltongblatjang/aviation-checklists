@@ -1,0 +1,469 @@
+{
+  "metadata": {
+    "name": "Instrument Approaches",
+    "makeAndModel": "Garmin GFC500 G5 GTN",
+    "aircraftInfo": "ASEL",
+    "copyrightInfo": "Dedicated IFR Approach Checklists",
+    "modifiedTime": 1781976255
+  },
+  "groups": [
+    {
+      "title": "Normal Procedures",
+      "checklists": [
+        {
+          "title": "Approach Setup (Universal)",
+          "items": [
+            {
+              "prompt": "Destination Airport ATIS / AWOS",
+              "expectation": "RECORD & RUNWAY EVAL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Maintain current altimeter settings on primary G5 until advised by ATC or cleared appch",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Approach Suitability",
+              "expectation": "DETERMINE (WX, PILOT, ACFT CAP)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Approach Plate (Briefed)",
+              "expectation": "NATS: NOTAMS, APPCH, TERRAIN, SFC",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "GTN 750Xi Navigation",
+              "expectation": "LOAD APPROACH FROM LIKELY IAF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "DO NOT ACTIVATE APPROACH. Premature activation alters active routing and violates 91.123",
+              "type": "ITEM_WARNING"
+            }
+          ],
+          "completionAction": "ACTION_GO_TO_NEXT_CHECKLIST"
+        },
+        {
+          "title": "Routing: Direct IAF",
+          "items": [
+            {
+              "prompt": "GTN 750Xi Navigation",
+              "expectation": "DIRECT-TO IAF within APCH FltPln",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fly the lateral course until cleared for the Approach",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Cleared for the Approach",
+              "expectation": "Record",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Autopilot Mode (Vertical Guidance Approach)",
+              "expectation": "PRESS APR (GPS ACTIVE, GP/GS ARMED)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Local Airport Altimeter",
+              "expectation": "SET PRIMARY & BACKUP G5",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Published Altitude Profile",
+              "expectation": "INITIATE STEP-DOWNS AFTER IAF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ],
+          "completionAction": "ACTION_GO_TO_NEXT_CHECKLIST"
+        },
+        {
+          "title": "Routing: Radar Vectors to Final",
+          "items": [
+            {
+              "prompt": "Autopilot Mode",
+              "expectation": "HDG MODE ACTIVE / BUG ASSIGNED HDG",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "GTN 750Xi Navigation",
+              "expectation": "ACTIVATE VECTORS TO FINAL (VTF)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Assigned ATC Altitude",
+              "expectation": "MAINTAIN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Upon Final Intercept Heading & Clearance",
+              "expectation": "BUG NEW HEADING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Autopilot Mode",
+              "expectation": "PRESS APR (V guidance) or NAV (non V guidance)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "G5 Scoreboard",
+              "expectation": "HDG ACTIVE, GPS/LOC ARMED, GS/GP ARMED (V guidance)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Local Airport Altimeter",
+              "expectation": "SET PRIMARY & BACKUP G5",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "RNAV Approach (With Vertical)",
+          "items": [
+            {
+              "prompt": "Approach Setup / Routing Modules",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Local Altimeter (G5 Screen)",
+              "expectation": "VERIFY CORRECTLY SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Garmin G5 Nav Source",
+              "expectation": "VERIFY GPS (MAGENTA TAPE)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Autopilot Scoreboard",
+              "expectation": "GPS (GREEN), APR MODE ARMED (GP IN WHITE)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "3nm to FAF: Pre-Landing Checklist",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Within 2NM of FAF",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "GTN 750Xi Annunciation",
+              "expectation": "VERIFY LPV OR LNAV+V ACTIVE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "At Glidepath Intercept",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Autopilot Scoreboard",
+              "expectation": "VERIFY GP ACTIVE (GREEN)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Final Descent Configuration",
+              "expectation": "POWER REDUCE, PITCH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Advisory vertical guidance (+V) does not guarantee terrain clearance; step-downs must be verified manually",
+              "type": "ITEM_WARNING"
+            },
+            {
+              "prompt": "At FAF Crosscheck Altitude",
+              "expectation": "VERIFY ON BARO ALTIMETER",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "RNAV Approach (LNAV Only)",
+          "items": [
+            {
+              "prompt": "Approach Setup / Routing Modules",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Local Altimeter (G5 Screen)",
+              "expectation": "VERIFY CORRECTLY SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Garmin G5 Nav Source",
+              "expectation": "VERIFY GPS (MAGENTA TAPE)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Autopilot Scoreboard",
+              "expectation": "GPS (GREEN)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Confirm that no +V advisory path is displayed; prepare for explicit MDA minimums",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "3nm to FAF: Pre-Landing Checklist",
+              "expectation": "Complete",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Within 2NM of FAF",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "GTN 750Xi Annunciation",
+              "expectation": "VERIFY LNAV ACTIVE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Garmin G5 Vertical Pointer",
+              "expectation": "VERIFY NO GP INDICATOR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "At FAF",
+              "expectation": "DESCEND TO MDA / STEP-DOWNS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Step-Down Fixes",
+              "expectation": "MONITOR ALTITUDE vs PLATE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "VOR Approach via GPS Overlay (+V)",
+          "items": [
+            {
+              "prompt": "Approach Setup / Routing Modules",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Local Altimeter (G5 Screen)",
+              "expectation": "VERIFY CORRECTLY SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Garmin G5 Nav Source",
+              "expectation": "VERIFY GPS (MAGENTA TAPE)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Autopilot Scoreboard",
+              "expectation": "GPS (GREEN), APR MODE ARMED (GP IN WHITE)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "3nm to FAF: Pre-Landing Checklist",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Within 2NM of FAF",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "GTN 750Xi Annunciation",
+              "expectation": "VERIFY LNAV+V ACTIVE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "At Glidepath Intercept",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Autopilot Scoreboard",
+              "expectation": "VERIFY GP ACTIVE (GREEN)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Final Descent Configuration",
+              "expectation": "POWER REDUCE, PITCH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Advisory vertical guidance (+V) does not guarantee terrain clearance; step-downs must be verified manually",
+              "type": "ITEM_WARNING"
+            },
+            {
+              "prompt": "Final Descent Profile",
+              "expectation": "CROSS-CHECK STEP-DOWNS ON ALTIMETER",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "VOR Approach via VLOC",
+          "items": [
+            {
+              "prompt": "Approach Setup / Routing Modules",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Local Altimeter (G5 Screen)",
+              "expectation": "VERIFY CORRECTLY SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "GTN 750Xi VOR Frequency",
+              "expectation": "TUNE ACTIVE & VERIFY IDENT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "GTN 750Xi CDI Mode",
+              "expectation": "SWITCH TO VLOC (GREEN TAPE)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Garmin G5 Nav Source",
+              "expectation": "VERIFY VOR / SET OBS TO INBOUND CRS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "GTN 650: VOR Freq & Analog CDI",
+              "expectation": "TUNE ACTIVE & SET/VERIFY RADIAL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "GTN 650: Select Nearest VOR Page Display",
+              "expectation": "MONITOR DISTANCE TO VOR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "3nm to FAF: Pre-Landing Checklist",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "At FAF (On-Station or Fix)",
+              "expectation": "DESCEND TO STEP DOWN/MDA",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Step-Down Fixes / MDA",
+              "expectation": "MONITOR BARO ALTIMETER",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "ILS Approach",
+          "items": [
+            {
+              "prompt": "Approach Setup / Routing Modules",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Local Altimeter (G5 Screen)",
+              "expectation": "VERIFY CORRECTLY SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "GTN 750Xi ILS Frequency",
+              "expectation": "VERIFY ACTIVE & IDENTIFIED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Prior to FAF",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "GTN 750Xi CDI Mode",
+              "expectation": "VERIFY VLOC (GREEN TAPE)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Autopilot Scoreboard",
+              "expectation": "LOC ACTIVE (GREEN), APR MODE ARMED (GS IN WHITE)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pre-Landing Checklist",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "At Glideslope Intercept",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Final Descent Configuration",
+              "expectation": "POWER REDUCE, PITCH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "At FAF Crosscheck Altitude",
+              "expectation": "GS ACTIVE (GREEN), VERIFY ON BARO ALTIMETER",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "Localizer Approach (No GS)",
+          "items": [
+            {
+              "prompt": "Approach Setup / Routing Modules",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Local Altimeter (G5 Screen)",
+              "expectation": "VERIFY CORRECTLY SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "GTN 750Xi LOC Frequency",
+              "expectation": "VERIFY ACTIVE & IDENTIFIED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Prior to FAF",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "GTN 750Xi CDI Mode",
+              "expectation": "VERIFY VLOC (GREEN TAPE)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Autopilot Scoreboard",
+              "expectation": "LOC ACTIVE (GREEN)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pre-Landing Checklist",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "At FAF (Maltese Cross)",
+              "expectation": "INITIATE TIMING / DESCENT TO MDA",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Ensure you do not chase a false vertical indicator if present on localizer-only lines",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Step-Down Fixes",
+              "expectation": "MONITOR ALTITUDE vs PLATE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        }
+      ],
+      "category": "normal"
+    }
+  ]
+}
