@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "Mooney M20J",
-    "makeAndModel": "Mooney M20J 201",
-    "aircraftInfo": "N5772R Mooney M20J (S/N 24-1402)",
+    "name": "M20J",
+    "makeAndModel": "Mooney M20J",
+    "aircraftInfo": "N5772R M20J",
     "copyrightInfo": "Based on N5772R POH Manual 1227"
   },
   "groups": [
