@@ -377,7 +377,6 @@
               "expectation": "SET TO 1000 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
-        
           ]
         },
         {
@@ -606,7 +605,7 @@
               "prompt": "Emergency Gear Extension Red Handle",
               "expectation": "DOWN & LATCHED",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
+            }
           ]
         },
         {
