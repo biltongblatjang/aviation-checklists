@@ -2,7 +2,7 @@
   "metadata": {
     "name": "M20J",
     "makeAndModel": "Mooney M20J",
-    "aircraftInfo": "N5772R M20J",
+    "aircraftInfo": "N5772R",
     "copyrightInfo": "Based on N5772R POH Manual 1227"
   },
   "groups": [
@@ -23,8 +23,18 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Documents (ARROW)",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Ignition Switch",
               "expectation": "OFF, KEYS ON DASH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Landing Gear Switch",
+              "expectation": "DOWN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -53,23 +63,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Landing Gear Switch",
-              "expectation": "DOWN",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Circuit Breakers",
               "expectation": "CHECK IN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Alternate Static Source",
-              "expectation": "NORMAL (IN)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Documents (ARROW)",
-              "expectation": "CHECK",
+              "expectation": "NORMAL/OFF (PUSH IN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -77,12 +77,12 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Main Gear, Door, Tire (30 PSI), Brake",
-              "expectation": "CHECK",
+              "prompt": "Main Gear, Door, Tire, Brake",
+              "expectation": "CHECK (30 PSI)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Wing Fuel Sump Drains (3)",
+              "prompt": "Wing Fuel Sump Drains",
               "expectation": "DRAIN & CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -112,6 +112,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Static Ports",
+              "expectation": "CLEAR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "EMPENNAGE",
               "type": "ITEM_TITLE"
             },
@@ -121,7 +126,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Elevator, Rudder & Trim Tab",
+              "prompt": "Elevator, Rudder",
               "expectation": "CHECK FREEDOM & SECURITY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -140,6 +145,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Static Ports",
+              "expectation": "CLEAR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Leading Edge & Wing Tip",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -155,13 +165,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Wing Fuel Sump Drains (3)",
+              "prompt": "Wing Fuel Sump Drains",
               "expectation": "DRAIN & CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Main Gear, Door, Tire (30 PSI), Brake",
-              "expectation": "CHECK",
+              "prompt": "Main Gear, Door, Tire, Brake",
+              "expectation": "CHECK (30 PSI)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -189,13 +199,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Nose Gear Strut, Tire (49 PSI), Linkage",
-              "expectation": "CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Static Ports (Left & Right)",
-              "expectation": "CLEAR",
+              "prompt": "Nose Gear Strut, Tire, Linkage",
+              "expectation": "CHECK (49 PSI)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -206,7 +211,7 @@
           ]
         },
         {
-          "title": "Start",
+          "title": "Cold Start",
           "items": [
             {
               "prompt": "Preflight Inspection",
@@ -235,12 +240,22 @@
             },
             {
               "prompt": "Fuel Selector",
-              "expectation": "LEFT OR RIGHT (FULLER TANK)",
+              "expectation": "L OR R (FULLER TANK)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Cowl Flaps",
               "expectation": "OPEN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Ram Air",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Landing Gear Switch",
+              "expectation": "DOWN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -254,8 +269,18 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Boost Pump",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Throttle",
               "expectation": "OPEN ¼ INCH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "IDLE CUTOFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -266,6 +291,11 @@
             {
               "prompt": "Beacon",
               "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "RICH (FULL IN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -289,6 +319,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Mixture",
+              "expectation": "ADVANCE SLOWLY TO RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Throttle",
               "expectation": "1000 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -299,13 +334,83 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "JPI EDM-830 Fuel Prompt",
-              "expectation": "PROGRAM (REFUEL / ADD FUEL)",
+              "prompt": "Mixture",
+              "expectation": "LEAN FOR TAXI",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "Warm Start",
+          "items": [
+            {
+              "prompt": "Shutdown should have left Throttle for 1100RPM, do not touch throttle",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "IDLE CUTOFF (AFT)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Boost Pump",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Ignition Switch",
+              "expectation": "START AND RELEASE WHEN ENGINE FIRES",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Mixture",
-              "expectation": "LEAN FOR TAXI",
+              "expectation": "OPEN SLOWLY TO FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Pressure",
+              "expectation": "CHECK (GREEN WITHIN 30 SEC)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "SET TO 1000 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+        
+          ]
+        },
+        {
+          "title": "Flooded Engine Clearing",
+          "items": [
+            {
+              "prompt": "Throttle",
+              "expectation": "FULL OPEN (FWD)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "IDLE CUTOFF (AFT)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Boost Pump",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Ignition Switch",
+              "expectation": "START AND RELEASE WHEN ENGINE FIRES",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "OPEN SLOWLY TO FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Pressure",
+              "expectation": "CHECK (GREEN WITHIN 30 SEC)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -374,9 +479,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Fuel Selector",
-              "expectation": "SWITCH TANK (CHECK PRESSURE)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
+              "prompt": "Fuel Selector - do not switch tank",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Elevator & Rudder Trim",
@@ -415,12 +519,12 @@
             },
             {
               "prompt": "Magnetos (R then L)",
-              "expectation": "CHECK (MAX DROP 175 RPM, DIFF 50 RPM)",
+              "expectation": "CHECK EGT ALL CYL(MAX 175 RPM, DIFF 50 RPM)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Propeller",
-              "expectation": "CYCLE 3X (MIN RPM DROP, CHECK MP RISES)",
+              "expectation": "CYCLE 2X (RPM DROP, CHECK MP RISES)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -469,7 +573,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Landing Light / Rec Light",
+              "prompt": "Landing Light / Strobe Light",
               "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -479,18 +583,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Flaps (15° Takeoff / UP)",
+              "prompt": "Flaps (15° Takeoff)",
               "expectation": "SET",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Pitot Heat",
               "expectation": "AS REQUIRED",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Nav / Frequencies",
-              "expectation": "SET",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -504,10 +603,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Tower / CTAF",
-              "expectation": "CONTACT",
+              "prompt": "Emergency Gear Extension Red Handle",
+              "expectation": "DOWN & LATCHED",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            }
+            },
           ]
         },
         {
@@ -515,17 +614,7 @@
           "items": [
             {
               "prompt": "Mixture",
-              "expectation": "FULL RICH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Boost Pump",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Strobes",
-              "expectation": "ON",
+              "expectation": "MAX POWER",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -550,7 +639,7 @@
             },
             {
               "prompt": "Landing Gear (Positive Rate)",
-              "expectation": "UP (BELOW 132 KIAS)",
+              "expectation": "UP (BELOW 106 KIAS)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -600,7 +689,7 @@
             },
             {
               "prompt": "Rotate (VR)",
-              "expectation": "55-60 KIAS",
+              "expectation": "62 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -630,7 +719,7 @@
           "items": [
             {
               "prompt": "Power",
-              "expectation": "26\" MAP / 2500 RPM",
+              "expectation": "26\" MAP / 2600 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -670,7 +759,7 @@
             },
             {
               "prompt": "Propeller",
-              "expectation": "2300 - 2400 RPM",
+              "expectation": "2400 - 2600 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -720,7 +809,7 @@
             },
             {
               "prompt": "Avoid continuous operation between 1500-1950 RPM below 15\" MP",
-              "type": "ITEM_NOTE"
+              "type": "ITEM_WARNING"
             },
             {
               "prompt": "Fuel Selector",
@@ -804,7 +893,7 @@
             },
             {
               "prompt": "Airspeed",
-              "expectation": "65-70 KIAS",
+              "expectation": "71 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -919,7 +1008,7 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "IDLE",
+              "expectation": "SET FOR 1100RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -933,10 +1022,15 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "HOLD L BUTTON DOWN TACH",
+              "expectation": "RECORD TACH HRS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "JPI EDM-830 Hobbs / Tach",
               "expectation": "RECORD",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
+            },           
             {
               "prompt": "Master Switch",
               "expectation": "OFF",
@@ -1064,7 +1158,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "87 KIAS",
+              "expectation": "Vg 91 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1104,7 +1198,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "87 KIAS (BEST GLIDE)",
+              "expectation": "91 KIAS (BEST GLIDE)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1159,16 +1253,11 @@
           ]
         },
         {
-          "title": "Manual Gear Extension",
+          "title": "Failure of Landing Gear to Extend Electrically",
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "REDUCE TO 100 KIAS OR LESS",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Landing Gear Switch",
-              "expectation": "DOWN",
+              "expectation": "REDUCE TO 132 KIAS OR LESS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1177,8 +1266,22 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Emergency Extension T-Handle",
-              "expectation": "DISENGAGE & PULL FULL OUT",
+              "prompt": "Landing Gear Switch",
+              "expectation": "DOWN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Manual Gear Extension Mechanism",
+              "expectation": "LATCH FORWARD/LEVER BACK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Slowly pull T-Handle 1-2 inches to rotate clutch mechanism and allow it to engage drive shaft",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Pull Extension T-Handle",
+              "expectation": "12-20 INCHES & RETURN UNTIL GEAR DOWN LIGHT ILLUMINATED (12-20 PULLS)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1193,7 +1296,41 @@
             }
           ]
         },
-        {
+         {
+          "title": "Failure to Retract Landing Gear Electrically",
+          "items": [
+            {
+              "prompt": "GR SAFETY BY PASS Switch",
+              "expectation": "DEPRESS UNTIL GEAR FULLY RETRACTED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "GEAR UNSAFE and GEAR DOWN lights",
+              "expectation": "OUT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "GEAR CONT. circuit breaker",
+              "expectation": "PULL (WARNING HORN OFF)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Landing Gear Switch",
+              "expectation": "DOWN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Check AIRSPEED safety switch as soon as practicable",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "If above procedures do not initiate retraction process, check emergency manual extension lever on floor for proper position.",
+              "type": "ITEM_NOTE"
+            }
+          ]
+        },
+       {
           "title": "Engine Fire In Flight",
           "items": [
             {
