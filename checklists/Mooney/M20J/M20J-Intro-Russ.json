@@ -53,7 +53,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "New to complex aircraft: the Annunciator/Gear Lights test and the panel of caution lights above are things fixed-gear trainers (172/Cherokee) simply don't have. Get in the habit of reading this panel every time, not just glancing at it.",
+              "prompt": "New to complex aircraft: the Annunciator/Gear Lights test and the panel of caution lights above are critical information. Get in the habit of reading this panel every time, not just glancing at it.",
               "type": "ITEM_NOTE"
             },
             {
@@ -81,7 +81,7 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Mooney gear differs from the club's Cherokees/172s: it's electrically actuated (motor under the rear seat driving a mechanical linkage), not just 'gear that happens to fold up.' A bent door or damaged linkage here can prevent normal extension later — this is a more safety-critical inspection point than on fixed-gear aircraft.",
+              "prompt": "Mooney gear is electrically actuated (motor under the rear seat driving a mechanical linkage), not just 'gear that happens to fold up.' Debris/bird nests, a bent door or damaged linkage here can prevent normal extension later — this is a more safety-critical inspection point than on fixed-gear aircraft.",
               "type": "ITEM_NOTE"
             },
             {
@@ -120,7 +120,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "The M20J wing is a laminar-flow airfoil, unlike the Hershey-bar wings on the club's Cherokees. Laminar wings are noticeably more sensitive to leading-edge contamination — bugs, frost, even paint chips can measurably raise stall speed and degrade handling. Look harder here than you would on a 172.",
+              "prompt": "The M20J wing is a laminar-flow airfoil, unlike the Hershey-bar wings on the club's Cherokees. Laminar wings are noticeably more sensitive to leading-edge contamination — bugs, frost, even paint chips can measurably raise stall speed and degrade handling.",
               "type": "ITEM_NOTE"
             },
             {
@@ -133,7 +133,7 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "This aircraft has NO elevator trim tab. Pitch trim is achieved by moving the entire horizontal stabilizer (a jackscrew-driven variable-incidence tail), controlled by the console trim wheel. When you check 'Elevator, Rudder — freedom & security,' also look at the stabilizer leading edge and the trim jackscrew fairing at its root — there's no separate tab hinge to inspect like on a Cherokee or 172.",
+              "prompt": "This aircraft has NO elevator trim tab. Pitch trim is achieved by moving the entire horizontal stabilizer (a jackscrew-driven variable-incidence tail), controlled by the console trim wheel. When you check 'Elevator, Rudder — freedom & security,' also look at the stabilizer leading edge and the trim jackscrew fairing at its root.",
               "type": "ITEM_NOTE"
             },
             {
@@ -210,7 +210,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "The constant-speed prop's pitch-change mechanism is oil-actuated through the hub — that's new territory if you've only flown fixed-pitch trainers. Check the spinner and hub area for oil staining/leaks, not just nicks on the blades; a leak here is a governor-system problem, not just cosmetic.",
+              "prompt": "The constant-speed prop's pitch-change mechanism is oil-actuated through the hub. Check the spinner and hub area for oil staining/leaks, not just nicks on the blades; a leak here is a governor-system problem, not just cosmetic.",
               "type": "ITEM_NOTE"
             },
             {
@@ -274,7 +274,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "FPI Club policy: Ram Air stays OFF at all times in this aircraft, including in climb and cruise. The factory POH (Section IV, Climb and Cruise) actually calls for Ram Air ON once clear of dusty/icing air to gain manifold pressure — the club has intentionally overridden that normal procedure, most likely to avoid the risk of unfiltered induction air (FOD/ice) on a shared club aircraft. Brief every new student on this explicitly: the POH and this checklist will not agree on Ram Air, and the checklist governs.",
+              "prompt": "FPI Club policy: Ram Air stays OFF at all times in this aircraft, including in climb and cruise. Note difference from POH to avoid contamination.",
               "type": "ITEM_WARNING"
             },
             {
@@ -291,10 +291,6 @@
               "prompt": "Propeller",
               "expectation": "FULL FORWARD (HIGH RPM)",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "The prop (blue) lever goes full forward/high RPM for start — but unlike a fixed-pitch trainer, this lever independently controls RPM in flight via the governor. If a student has only flown 172s/Cherokees, spend time on the ramp before engine start just explaining throttle vs. prop as two separate power controls; conflating them is the single most common early mistake.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Boost Pump",
@@ -515,7 +511,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Because there's no trim tab, 'Elevator & Rudder Trim — Takeoff' means spinning the trim wheel to the takeoff band on the indicator, not moving a small tab lever. The wheel is geared low, so it takes more turns and more deliberate motion than trim wheels on the club's other aircraft — don't let a student assume a quick flick is enough.",
+              "prompt": "Because there's no trim tab, the wheel is geared low, so it takes more turns and more deliberate motion than trim wheels on the club's other aircraft — don't let a student assume a quick flick is enough.",
               "type": "ITEM_NOTE"
             },
             {
@@ -644,7 +640,7 @@
             },
             {
               "prompt": "The red Emergency Gear Extension T-handle down-and-latched check exists only because this airplane has retractable gear. Make it a hard habit to verify this on every single pre-takeoff flow — if this handle is out of position, the manual gear extension system may not work if you need it later. See the 'Failure of Landing Gear to Extend Electrically' emergency checklist for how this handle is used.",
-              "type": "ITEM_NOTE"
+              "type": "ITEM_WARNING"
             }
           ]
         },
@@ -677,12 +673,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Landing Gear (Positive Rate)",
+              "prompt": "Landing Gear (Positive Rate) no runway remaining",
               "expectation": "UP (BELOW 106 KIAS)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Positive rate first, THEN gear up — resist retracting early. But also don't dawdle: VLO (max speed to extend gear) is only 107 KIAS, just above the 106 KIAS gear-up target here, so there isn't much margin if the airplane accelerates fast. This is a very different rhythm from a fixed-gear trainer, where there's no gear-related airspeed to think about at all during the takeoff roll.",
+              "prompt": "Positive rate first, THEN gear up — resist retracting early. But also don't dawdle: VLO (max speed to retract gear) is only 107 KIAS.",
               "type": "ITEM_WARNING"
             },
             {
@@ -696,7 +692,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "88 KIAS Vy is a sea-level number only — it decreases to about 82 KIAS by 10,000 ft. Unlike the fixed Vy students are used to in trainers, remind them to adjust their climb target as altitude increases, especially on longer climbs to cruise.",
+              "prompt": "88 KIAS Vy is a sea-level number only — it decreases to about 82 KIAS by 10,000 ft.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -745,7 +741,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "This airplane is noticeably sluggish in the climb if the nose comes up before reaching Vx/Vy — it will not reward an aggressive early pitch-up the way some trainers tolerate. Hold the correct attitude and let the airspeed build to the target before demanding more climb; premature nose-up here costs climb performance rather than gaining it.",
+              "prompt": "This airplane is noticeably sluggish in the climb if the nose comes up before reaching Vx/Vy — it will not reward an aggressive early pitch-up. Hold the correct attitude and let the airspeed build to the target before demanding more climb; premature nose-up here costs climb performance rather than gaining it.",
               "type": "ITEM_NOTE"
             },
             {
@@ -828,10 +824,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Same stabilator trim system as takeoff — cruise trim just means running the wheel further. Because the response is slower and less 'twitchy' than a rudder-trim-tab setup, coach students to make a change, let the airplane settle for a few seconds, and re-check rather than chasing the trim wheel back and forth.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Mixture",
               "expectation": "LEAN TO PEAK EGT OR 50-100°F ROP",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -890,7 +882,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "This is the single most important habit to build for this airplane: begin slowing down and descending EARLY. The M20J is clean and slippery, and slips are largely ineffective on this airframe (low drag, limited rudder authority in a slip) compared to a 172 or Cherokee. If a student arrives at the pattern too fast or too high, power and configuration are really the only tools that work — there's no 'slip it off' fix like they may be used to.",
+              "prompt": "This is the single most important habit to build for this airplane: begin slowing down and descending EARLY. The M20J is clean and slippery, and slips are largely ineffective. If arriving at the pattern too fast or too high, power and configuration are really the only tools that work.",
               "type": "ITEM_WARNING"
             }
           ]
@@ -972,7 +964,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "71 KIAS is the target for a reason: this airplane floats noticeably if it crosses the fence even a few knots fast, far more than the club's trainers do. Excess airspeed on final is the #1 cause of long/hard landings in this type — hold students to precise airspeed control, not 'close enough.'",
+              "prompt": "71 KIAS is the target for a reason: this airplane floats noticeably if fast. Excess airspeed on final is the #1 cause of long/hard landings in this type",
               "type": "ITEM_WARNING"
             },
             {
