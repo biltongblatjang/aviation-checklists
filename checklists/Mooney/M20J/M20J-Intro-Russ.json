@@ -883,7 +883,7 @@
             },
             {
               "prompt": "Begin slowing down and descending EARLY. The M20J is clean and slippery, and slips are largely ineffective.",
-              "type": "ITEM_WARNING"
+              "type": "ITEM_NOTE"
             }
           ]
         },
