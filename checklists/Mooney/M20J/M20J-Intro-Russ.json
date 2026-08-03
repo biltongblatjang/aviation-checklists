@@ -274,7 +274,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "FPI Club policy: Ram Air stays OFF at all times in this aircraft, including in climb and cruise. Note difference from POH to avoid contamination.",
+              "prompt": "FPI Club policy: Ram Air stays OFF at all times in this aircraft.",
               "type": "ITEM_WARNING"
             },
             {
@@ -639,7 +639,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "The red Emergency Gear Extension T-handle down-and-latched check exists only because this airplane has retractable gear. Make it a hard habit to verify this on every single pre-takeoff flow — if this handle is out of position, the manual gear extension system may not work if you need it later. See the 'Failure of Landing Gear to Extend Electrically' emergency checklist for how this handle is used.",
+              "prompt": "The red Emergency Gear Extension T-handle check is critical.",
               "type": "ITEM_WARNING"
             }
           ]
@@ -678,7 +678,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Positive rate first, THEN gear up — resist retracting early. But also don't dawdle: VLO (max speed to retract gear) is only 107 KIAS.",
+              "prompt": "Positive rate first, THEN gear up — resist retracting early.",
               "type": "ITEM_WARNING"
             },
             {
@@ -882,7 +882,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "This is the single most important habit to build for this airplane: begin slowing down and descending EARLY. The M20J is clean and slippery, and slips are largely ineffective. If arriving at the pattern too fast or too high, power and configuration are really the only tools that work.",
+              "prompt": "Begin slowing down and descending EARLY. The M20J is clean and slippery, and slips are largely ineffective.",
               "type": "ITEM_WARNING"
             }
           ]
@@ -964,8 +964,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "71 KIAS is the target for a reason: this airplane floats noticeably if fast. Excess airspeed on final is the #1 cause of long/hard landings in this type",
+              "prompt": "71 KIAS is the target for a reason.",
               "type": "ITEM_WARNING"
+            },
+            {
+              "prompt": "Excess airspeed on final is the #1 cause of long/hard landings in this type",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Touchdown",
