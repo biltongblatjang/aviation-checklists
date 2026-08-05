@@ -1314,6 +1314,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "GEAR CONT. circuit breaker",
+              "expectation": "RESET PUSH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Landing Gear Switch",
               "expectation": "DOWN",
               "type": "ITEM_CHALLENGE_RESPONSE"
