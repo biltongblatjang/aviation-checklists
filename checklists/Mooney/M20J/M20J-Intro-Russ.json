@@ -299,6 +299,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Only the left pilot seat has brakes!!",
+              "type": "ITEM_WARNING"
+            },
+            {
               "prompt": "Brakes",
               "expectation": "HOLD / SET",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -872,7 +876,11 @@
           "title": "Before Approach / Descent",
           "items": [
             {
-              "prompt": "Avoid continuous operation between 1500-1950 RPM below 15\" MP",
+              "prompt": "Begin slowing down and descending EARLY. The M20J is clean and slippery, and slips are largely ineffective.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Retarding throttle below 12\" MP causes gear warning horn if gear retracted.",
               "type": "ITEM_WARNING"
             },
             {
@@ -891,8 +899,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Begin slowing down and descending EARLY. The M20J is clean and slippery, and slips are largely ineffective.",
-              "type": "ITEM_NOTE"
+              "prompt": "Avoid continuous operation between 1500-1950 RPM below 15\" MP",
+              "type": "ITEM_WARNING"
             }
           ]
         },
