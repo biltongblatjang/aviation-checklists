@@ -695,8 +695,8 @@
       "expectation": "PRESS - VERIFY AP DISENGAGES & TONE SOUNDS",
       "type": "ITEM_CHALLENGE_RESPONSE"
     }
-  ]
-},
+          ]
+        },
         {
           "title": "Pre Takeoff",
           "items": [
@@ -1349,7 +1349,7 @@
         }
       ]
     }
-      ]
+  ]
     },
     {
       "title": "Abnormal Procedures",
