@@ -14,6 +14,18 @@
           "title": "Preflight Inspection",
           "items": [
             {
+              "prompt": "Rev Switch on top right of panel does failover of the GI-275.",
+              "type": "ITEM_NOTE"
+            },
+            { 
+              "prompt": "GEAR SAFETY OVERRIDE SWITCH. This provides a manual means of electrically bypassing the airspeed safety switch. In the event the gear control switch is inadvertently placed in the gear-up position, the gear airspeed safety switch prevents the gear being retracted before approximately 65 KTS airspeed is reached. Should it be necessary-to retract at lower airspeed the gear safety override switch may be pressed allowing the gear to retract.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Beware that this can cause gear to start retracting on the ground!",
+              "type": "ITEM_WARNING"
+            },
+            {
               "prompt": "INTERIOR",
               "type": "ITEM_TITLE"
             },
@@ -65,6 +77,10 @@
               "prompt": "Master Switch",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "There is no circuit breaker for the Electric trim - note position of the switch instead.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Circuit Breakers",
@@ -564,6 +580,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "There is no alternator field switch, check alternator through load only, DO NOT turn of master else.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Vacuum Gauge",
               "expectation": "CHECK (4.5 - 5.2 IN HG)",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -688,11 +708,11 @@
             },
             {
               "prompt": "Climb Airspeed",
-              "expectation": "88 KIAS (VY)",
+              "expectation": "100 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "88 KIAS Vy is a sea-level number only — it decreases to about 82 KIAS by 10,000 ft.",
+              "prompt": "100 KIAS is preferred to 88 KIAS Vy",
               "type": "ITEM_NOTE"
             }
           ]
@@ -805,13 +825,17 @@
           "items": [
             {
               "prompt": "Throttle",
-              "expectation": "20-22\" MAP",
+              "expectation": "23\" MAP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Propeller",
               "expectation": "2400 - 2600 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "See the visor for cruise performance combinations at various altitudes.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Cowl Flaps",
@@ -829,7 +853,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "The JPI EDM-830 engine monitor gives per-cylinder EGT/CHT, which is a real step up from the single-probe gauges (or none) most trainers have. Teach students to lean off the *first* cylinder to peak, not an average — leaning to an average EGT can leave the actual leanest cylinder dangerously lean of peak.",
+              "prompt": "The JPI EDM-830 engine monitor gives per-cylinder EGT/CHT. Teach students to lean off the *first* cylinder to peak, not an average — leaning to an average EGT can leave the actual leanest cylinder dangerously lean of peak.",
               "type": "ITEM_NOTE"
             },
             {
@@ -847,21 +871,6 @@
         {
           "title": "Before Approach / Descent",
           "items": [
-            {
-              "prompt": "ATIS / AWOS",
-              "expectation": "RECORD",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Altimeter",
-              "expectation": "SET",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Avionics & Briefing",
-              "expectation": "SET & REVIEW",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
             {
               "prompt": "Avoid continuous operation between 1500-1950 RPM below 15\" MP",
               "type": "ITEM_WARNING"
@@ -894,6 +903,10 @@
               "prompt": "Seat Backs / Belts",
               "expectation": "UPRIGHT / SECURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Select a new tank before nearing the destination, no need to add a fuel problem close to landing.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Fuel Selector",
