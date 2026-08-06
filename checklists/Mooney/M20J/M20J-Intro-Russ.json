@@ -1247,6 +1247,18 @@
           ]
         },
         {
+      "title": "Autopilot - Approach Coupling & Go-Around",
+      "items": [
+        {
+          "prompt": "APPROACH SETUP & CAPTURE",
+          "type": "ITEM_TITLE"
+        },
+        {
+          "prompt": "GTN 650 Approach",
+          "expectation": "LOAD & ACTIVATED",
+          "type": "ITEM_CHALLENGE_RESPONSE"
+        },
+        {
           "prompt": "LATERAL NAVIGATION (HDG / NAV)",
           "type": "ITEM_TITLE"
         },
@@ -1290,7 +1302,7 @@
           "type": "ITEM_CHALLENGE_RESPONSE"
         }
       ]
-    },
+        },
     {
       "title": "Autopilot - Approach Coupling & Go-Around",
       "items": [
@@ -1349,7 +1361,7 @@
         }
       ]
     }
-  ]
+      ]
     },
     {
       "title": "Abnormal Procedures",
@@ -1764,3 +1776,5 @@
     }
   ]
 }
+
+
