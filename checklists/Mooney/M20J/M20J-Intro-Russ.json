@@ -18,7 +18,7 @@
               "type": "ITEM_NOTE"
             },
             { 
-              "prompt": "GEAR SAFETY OVERRIDE SWITCH. This provides a manual means of electrically bypassing the airspeed safety switch. In the event the gear control switch is inadvertently placed in the gear-up position, the gear airspeed safety switch prevents the gear being retracted before approximately 65 KTS airspeed is reached. Should it be necessary-to retract at lower airspeed the gear safety override switch may be pressed allowing the gear to retract.",
+              "prompt": "GEAR SAFETY OVERRIDE SWITCH. This electrically bypasses the airspeed safety switch. In the event the gear control switch is inadvertently placed in the gear-up position, the gear airspeed safety switch prevents the gear being retracted before approximately 65 KTS airspeed is reached. Should it be necessary-to retract at lower airspeed the gear safety override switch may be pressed allowing the gear to retract.",
               "type": "ITEM_NOTE"
             },
             {
@@ -48,6 +48,10 @@
               "prompt": "Landing Gear Switch",
               "expectation": "DOWN",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Failure to pull the Landing Gear switch out before up or down can break the switch.",
+              "type": "ITEM_WARNING"
             },
             {
               "prompt": "Master Switch",
@@ -80,7 +84,7 @@
             },
             {
               "prompt": "There is no circuit breaker for the Electric trim - note position of the switch instead.",
-              "type": "ITEM_NOTE"
+              "type": "ITEM_WARNING"
             },
             {
               "prompt": "Circuit Breakers",
@@ -97,12 +101,12 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Mooney gear is electrically actuated (motor under the rear seat driving a mechanical linkage), not just 'gear that happens to fold up.' Debris/bird nests, a bent door or damaged linkage here can prevent normal extension later — this is a more safety-critical inspection point than on fixed-gear aircraft.",
+              "prompt": "The landing gear is electrically actuated (motor under the rear seat driving a mechanical linkage). Debris/bird nests, a bent door or damaged linkage here can prevent gear extension and retraction — this is a safety-critical inspection point.",
               "type": "ITEM_NOTE"
             },
             {
               "prompt": "Main Gear, Door, Tire, Brake",
-              "expectation": "CHECK (30 PSI)",
+              "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -116,6 +120,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Club policy is to refuel tanks to 25 gal/side.",
+              "type": "ITEM_NOTE"
+            },
+           {
               "prompt": "Pitot Tube & Stall Warning Vane",
               "expectation": "CLEAR / CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -131,17 +139,26 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "A pitot system drain valve is located on the forward bottom skin of the left wing just outboard of the wing root. The static system also has a drain just rearward of the left wing.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Pitot System Drain Valve",
+              "expectation": "PRESS TO DRAIN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Aileron & Flap",
               "expectation": "CHECK MOVEMENTS & HINGES",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "The M20J wing is a laminar-flow airfoil, unlike the Hershey-bar wings on the club's Cherokees. Laminar wings are noticeably more sensitive to leading-edge contamination — bugs, frost, even paint chips can measurably raise stall speed and degrade handling.",
+              "prompt": "The M20J wing is a laminar-flow airfoil, and noticeably more sensitive to leading-edge contamination — bugs, frost, even paint chips can measurably raise stall speed and degrade handling.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Static Ports",
-              "expectation": "CLEAR",
+              "prompt": "Static System Drain",
+              "expectation": "PRESS TO DRAIN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -149,8 +166,13 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "This aircraft has NO elevator trim tab. Pitch trim is achieved by moving the entire horizontal stabilizer (a jackscrew-driven variable-incidence tail), controlled by the console trim wheel. When you check 'Elevator, Rudder — freedom & security,' also look at the stabilizer leading edge and the trim jackscrew fairing at its root.",
+              "prompt": "This aircraft has NO elevator trim tab. Pitch trim is achieved by moving the entire horizontal stabilizer, controlled by the console trim wheel.",
               "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Static Ports",
+              "expectation": "UNOBSTRUCTED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Tail Tie-Down",
@@ -177,11 +199,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Static Ports",
-              "expectation": "CLEAR",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Leading Edge & Wing Tip",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -203,7 +220,7 @@
             },
             {
               "prompt": "Main Gear, Door, Tire, Brake",
-              "expectation": "CHECK (30 PSI)",
+              "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -216,7 +233,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Engine Oil Level (Min 6 qts, Max 8 qts)",
+              "prompt": "Engine Oil Level (Min 5 qts, Max 7 qts)",
               "expectation": "CHECK, SECURE CAP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -236,7 +253,7 @@
             },
             {
               "prompt": "Nose Gear Strut, Tire, Linkage",
-              "expectation": "CHECK (49 PSI)",
+              "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -288,10 +305,6 @@
               "prompt": "Ram Air",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "FPI Club policy: Ram Air stays OFF at all times in this aircraft.",
-              "type": "ITEM_WARNING"
             },
             {
               "prompt": "Landing Gear Switch",
@@ -388,7 +401,7 @@
           "title": "Warm Start",
           "items": [
             {
-              "prompt": "Shutdown should have left Throttle for 1100RPM, do not touch throttle",
+              "prompt": "Shutdown should have left Throttle for 1100RPM (< ¼ inch), do not touch throttle",
               "type": "ITEM_NOTE"
             },
             {
@@ -493,7 +506,7 @@
             },
             {
               "prompt": "Transponder",
-              "expectation": "ALT + VFR (1200)",
+              "expectation": "SET",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -522,11 +535,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Fuel Selector - do not switch tank",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Elevator & Rudder Trim",
+              "prompt": "Elevator Trim",
               "expectation": "TAKEOFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -560,11 +569,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Engine Gauges / Annunciator",
-              "expectation": "CHECK, GREEN",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "JPI EDM-830 Normalize",
               "expectation": "PRESS & HOLD LF (3S)",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -580,21 +584,17 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Cycling the prop here isn't just a checklist formality — it circulates warm oil into the governor and hub and confirms the governor actually responds (watch for the RPM drop and the MP rise as the prop coarsens). Trainers with fixed-pitch props don't have this step at all; make sure the student can explain *why* they're doing it, not just that they are.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Alternator / Volts",
               "expectation": "CHECK LOAD & VOLTAGE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "There is no alternator field switch, check alternator through load only, DO NOT turn of master else.",
-              "type": "ITEM_NOTE"
+              "type": "ITEM_WARNING"
             },
             {
               "prompt": "Vacuum Gauge",
-              "expectation": "CHECK (4.5 - 5.2 IN HG)",
+              "expectation": "NONE - UNINSTALLED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -620,81 +620,91 @@
           ]
         },
         {
-        "title": "KAP 160 Autopilot & Trim Preflight Test",
+        "title": "KAP 150 Autopilot & Trim Preflight Test",
           "items": [
             {
-      "prompt": "KAP 160 Self-Test Sequence",
-      "expectation": "PRESS AND HOLD TEST - 5 BEEPS, VERIFY ALL ANNUNCIATORS FLASH & TURN OFF",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    },
-    {
-      "prompt": "KAP 160 Annunciator Panel",
-      "expectation": "VERIFY 'RDY' ILLUMINATED",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    },
-    {
-      "prompt": "MANUAL ELECTRIC TRIM (MET) TEST",
-      "type": "ITEM_TITLE"
-    },
-    {
-      "prompt": "MET Switch (Left Half Only)",
-      "expectation": "FORWARD & AFT - VERIFY NO TRIM MOVEMENT",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    },
-    {
-      "prompt": "MET Switch (Right Half Only)",
-      "expectation": "FORWARD & AFT - VERIFY NO TRIM MOVEMENT",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    },
-    {
-      "prompt": "MET Switch (Both Halves - NOSE DN)",
-      "expectation": "VERIFY TRIM WHEEL RUNS NOSE DOWN",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    },
-    {
-      "prompt": "MET Switch (Both Halves - NOSE UP)",
-      "expectation": "VERIFY TRIM WHEEL RUNS NOSE UP",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    },
-    {
-      "prompt": "AP DISC / Trim Cutout Switch",
-      "expectation": "HOLD DISC & ACTUATE MET - VERIFY NO MOVEMENT",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    },
-    {
-      "prompt": "AUTOPILOT & SERVO FUNCTION TEST",
-      "type": "ITEM_TITLE"
-    },
-    {
-      "prompt": "AP Engage Button",
-      "expectation": "PRESS TO ENGAGE (VERIFY 'AP' ILLUMINATED)",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    },
-    {
-      "prompt": "Flight Controls (Roll & Pitch)",
-      "expectation": "OVERRIDE MANUALLY - VERIFY SERVO RESISTANCE",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    },
-    {
-      "prompt": "GI 275 HDG Bug",
-      "expectation": "ROTATE LEFT & RIGHT - VERIFY YOKE FOLLOWS BUG",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    },
-    {
-      "prompt": "Control Wheel Steering (CWS)",
-      "expectation": "PRESS & HOLD - VERIFY SERVOS RELEASE, RELEASE TO RE-ENGAGE",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    },
-    {
-      "prompt": "Autotrim Test",
-      "expectation": "HOLD PITCH UP/DOWN - VERIFY TRIM WHEEL RUNS AFTER 3 SEC",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    },
-    {
-      "prompt": "AP Disconnect Switch (Yoke)",
-      "expectation": "PRESS - VERIFY AP DISENGAGES & TONE SOUNDS",
-      "type": "ITEM_CHALLENGE_RESPONSE"
-    }
+              "prompt": "KAP 150 Self-Test Sequence",
+              "expectation": "PRESS AND HOLD TEST - 5 BEEPS, VERIFY ALL ANNUNCIATORS FLASH & TURN OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "KAP 150 Annunciator Panel",
+              "expectation": "VERIFY 'RDY' ILLUMINATED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "MANUAL ELECTRIC TRIM (MET) TEST",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "MET Switch (Left Half Only)",
+              "expectation": "FORWARD & AFT - VERIFY NO TRIM MOVEMENT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+              },
+            {
+              "prompt": "MET Switch (Right Half Only)",
+              "expectation": "FORWARD & AFT - VERIFY NO TRIM MOVEMENT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "MET Switch (Both Halves - NOSE DN)",
+              "expectation": "VERIFY TRIM WHEEL RUNS NOSE DOWN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "MET Switch (Both Halves - NOSE UP)",
+              "expectation": "VERIFY TRIM WHEEL RUNS NOSE UP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "AP DISC / Trim Cutout Switch",
+              "expectation": "HOLD DISC & ACTUATE MET - VERIFY NO MOVEMENT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "AUTOPILOT & SERVO FUNCTION TEST",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "AP Engage Button",
+              "expectation": "PRESS TO ENGAGE (VERIFY 'AP' ILLUMINATED)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flight Controls (Roll & Pitch)",
+              "expectation": "OVERRIDE MANUALLY - VERIFY SERVO RESISTANCE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Center GI 275 HDG Bug",
+              "expectation": "CENTER",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Engage Autopilot HDG Mode",
+              "expectation": "PRESS HDG - HDG LIGHT ILLUMINATED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Move GI 275 HDG Bug",
+              "expectation": "ROTATE LEFT & RIGHT - VERIFY YOKE FOLLOWS BUG",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Control Wheel Steering (CWS)",
+              "expectation": "PRESS & HOLD - VERIFY SERVOS RELEASE, RELEASE TO RE-ENGAGE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Autotrim Test",
+              "expectation": "HOLD PITCH UP/DOWN - VERIFY TRIM WHEEL RUNS AFTER 3 SEC",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "AP Disconnect Switch (Yoke)",
+              "expectation": "PRESS - VERIFY AP DISENGAGES & TONE SOUNDS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
           ]
         },
         {
@@ -722,7 +732,7 @@
             },
             {
               "prompt": "Flaps (15° Takeoff)",
-              "expectation": "SET",
+              "expectation": "SET BY COUNTING 3 SECONDS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -848,7 +858,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "This airplane is noticeably sluggish in the climb if the nose comes up before reaching Vx/Vy — it will not reward an aggressive early pitch-up. Hold the correct attitude and let the airspeed build to the target before demanding more climb; premature nose-up here costs climb performance rather than gaining it.",
+              "prompt": "This airplane is sluggish in the climb if the nose comes up before reaching Vy. Hold the correct attitude and let the airspeed build to the target before demanding more climb.",
               "type": "ITEM_NOTE"
             },
             {
@@ -863,7 +873,7 @@
             },
             {
               "prompt": "Climb Airspeed",
-              "expectation": "88 KIAS (VY)",
+              "expectation": "88 KIAS (VY) - 100 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -878,12 +888,8 @@
             },
             {
               "prompt": "Airspeed",
-              "expectation": "95-105 KIAS",
+              "expectation": "100 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "This club checklist deliberately has no Ram Air step, even though the POH normal-climb procedure calls for Ram Air ON in clear air. That's intentional (see the note under Cold Start) — don't let a student who has read the POH independently get confused about why it's missing here.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Boost Pump",
@@ -912,12 +918,12 @@
           "items": [
             {
               "prompt": "Throttle",
-              "expectation": "23\" MAP",
+              "expectation": "24\" MAP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Propeller",
-              "expectation": "2400 - 2600 RPM",
+              "expectation": "2400 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1020,17 +1026,22 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Ram Air",
+              "expectation": "OFF (IN)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Landing Gear",
               "expectation": "DOWN (BELOW 132 KIAS)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Gear-down limit is 132 KIAS — closer to typical descent/pattern-entry speeds than a student may expect, so this isn't a 'whenever' item like it might feel on paper. Tie gear extension into the broader early-deceleration habit from the Before Approach/Descent note rather than treating it as a last-second box to check.",
+              "prompt": "Tie gear extension into the broader early-deceleration habit from the Before Approach/Descent note rather than treating it as a last-second box to check.",
               "type": "ITEM_NOTE"
             },
             {
               "prompt": "Gear Indicators",
-              "expectation": "CHECK 3 GREEN & VISUAL FLOOR INDICATOR",
+              "expectation": "CHECK GEAR SAFE LIGHT & VISUAL FLOOR INDICATOR",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1054,7 +1065,7 @@
           "items": [
             {
               "prompt": "Landing Gear",
-              "expectation": "CHECK 3 GREEN & VISUAL FLOOR INDICATOR",
+              "expectation": "CHECK GEAR SAFE & VISUAL FLOOR INDICATOR",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1066,10 +1077,6 @@
               "prompt": "Airspeed",
               "expectation": "71 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "71 KIAS is the target for a reason.",
-              "type": "ITEM_WARNING"
             },
             {
               "prompt": "Excess airspeed on final is the #1 cause of long/hard landings in this type",
@@ -1109,10 +1116,6 @@
               "prompt": "Landing Gear (Positive Rate)",
               "expectation": "UP",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Same gear-up discipline as a normal takeoff: confirm a positive rate of climb before raising the gear during a go-around, even though everything is happening quickly and close to the ground.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Airspeed",
@@ -1171,7 +1174,7 @@
             },
             {
               "prompt": "Transponder",
-              "expectation": "SET VFR / ALT",
+              "expectation": "SET VFR",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1193,6 +1196,10 @@
               "prompt": "Throttle",
               "expectation": "SET FOR 1100RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "1100 RPM leaves the throttle at a good setting for a warm start",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Mixture",
@@ -1247,7 +1254,7 @@
           ]
         },
         {
-      "title": "Autopilot - Approach Coupling & Go-Around",
+      "title": "Autopilot - Basic Lateral and Vertical Modes",
       "items": [
         {
           "prompt": "APPROACH SETUP & CAPTURE",
@@ -1278,7 +1285,7 @@
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
-          "prompt": "KAP 160 Mode",
+          "prompt": "KAP 150 Mode",
           "expectation": "ENGAGE HDG OR NAV",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
@@ -1293,7 +1300,7 @@
         },
         {
           "prompt": "Target Altitude (Level-Off)",
-          "expectation": "PRESS ALT ON KAP 160 AT DESIRED ALTITUDE",
+          "expectation": "PRESS ALT ON KAP 150 AT DESIRED ALTITUDE",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
@@ -1326,7 +1333,7 @@
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
-          "prompt": "KAP 160 Mode",
+          "prompt": "KAP 150 Mode",
           "expectation": "SELECT APR (VERIFY ARM/CAPTURE)",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
@@ -1376,7 +1383,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "This is one of the highest-value emergency procedures to over-practice during complex transition training — an electric gear failure is a real, not-uncommon Mooney event, and the manual extension sequence (12-20 pulls) is physical and can be fumbled under stress the first time. Have the student run this on the ground, from memory, more than once before Milestone 1's evaluation flight.",
+              "prompt": "An electric gear failure is a real, not-uncommon Mooney event, and the manual extension sequence (12-20 pulls) is physical and can be fumbled under stress. Mentally prepare.",
               "type": "ITEM_NOTE"
             },
             {
@@ -1405,7 +1412,7 @@
             },
             {
               "prompt": "Gear Down Lights",
-              "expectation": "VERIFY 3 GREEN",
+              "expectation": "VERIFY GEAR SAFE LIGHT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1495,7 +1502,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "87 KIAS (BEST GLIDE)",
+              "expectation": "91 KIAS (Vg MAX GROSS)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1544,7 +1551,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "Vg 91 KIAS",
+              "expectation": "Vg 91 KIAS MAX GROSS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1584,7 +1591,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "91 KIAS (BEST GLIDE)",
+              "expectation": "Vg 91 KIAS (MAX GROSS)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
