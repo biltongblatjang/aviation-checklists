@@ -936,7 +936,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Elevator & Rudder Trim",
+              "prompt": "Elevator Trim",
               "expectation": "SET",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1065,7 +1065,7 @@
           "items": [
             {
               "prompt": "Landing Gear",
-              "expectation": "CHECK GEAR SAFE & VISUAL FLOOR INDICATOR",
+              "expectation": "CHECK GEAR SAFE LIGHT & VISUAL FLOOR INDICATOR",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1163,7 +1163,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Elevator / Rudder Trim",
+              "prompt": "Elevator Trim",
               "expectation": "TAKEOFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1194,7 +1194,7 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "SET FOR 1100RPM",
+              "expectation": "SET FOR 1100 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
