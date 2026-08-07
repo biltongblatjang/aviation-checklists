@@ -1,8 +1,7 @@
 {
   "metadata": {
-    "name": "C182Q",
     "makeAndModel": "Cessna Skylane 182Q (C182)",
-    "aircraftInfo": "N61705 C182Q",
+    "aircraftInfo": "N61705",
     "copyrightInfo": "Based on Alex's 182Q checklist"
   },
   "groups": [
