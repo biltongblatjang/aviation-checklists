@@ -14,7 +14,7 @@
           "title": "Preflight Inspection",
           "items": [
             {
-              "prompt": "Rev Switch on top right of panel does failover of the GI-275.",
+              "prompt": "Rev Switch on top left of panel does failover of the GI-275.",
               "type": "ITEM_NOTE"
             },
             { 
