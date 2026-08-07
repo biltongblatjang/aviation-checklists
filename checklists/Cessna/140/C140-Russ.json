@@ -978,6 +978,39 @@
               "prompt": "Seat Belts and Harnesses",
               "expectation": "ON/SECURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "3 POINT LANDING - 65 MPH",
+              "type": "ITEM_PLAINTEXT"
+            },
+            {
+              "prompt": "Establish ground attitude (nose up)",
+              "expectation": "HOLD OFF AND TOUCH 3 PTS OR TAIL FIRST",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Stick back",
+              "expectation": "STICK BACK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "WHEEL LANDING - 70 MPH",
+              "type": "ITEM_PLAINTEXT"
+            },
+            {
+              "prompt": "Establish level attitude",
+              "expectation": "HOLD OFF AND ADJUST ATTITUDE TO AVOID LANDING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Slight stick forward on mains touchdown",
+              "expectation": "STICK FWD UNTIL RUDDER AUTHORITY LOST",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Stick back",
+              "expectation": "STICK BACK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
         },
@@ -1063,6 +1096,51 @@
         }
       ],
       "category": "normal"
+    }, 
+    {
+      "title": "Abnormal Procedures",
+      "checklists": [
+        {
+          "title": "Spin",
+          "items": [
+            {
+              "prompt": "Safe area (eg over Meadowlark airport) 5500 ft min",
+              "expectation": "CLEAR WITH VISUAL REFERENCE BELOW",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "1st rotation will lose 500ft, 2nd 350ft, 3rd and subseq. 200ft",
+              "type": "ITEM_WARNING"
+            },
+            {
+              "prompt": "Level flight 1700 RPM",
+              "expectation": "1700 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Establish gradual pitch up",
+              "expectation": "HOLD TO STALL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "At stall, power idle, stick full back, kick full rudder to spin",
+              "expectation": "POWER IDLE, HOLD TO ESTABLISH SPIN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Break spin",
+              "expectation": "NEUTRALIZE ELEVATOR AND OPPOSITE RUDDER",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Recover from dive",
+              "expectation": "GRADUAL PULL OUT OF DIVE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        }
+      ],
+      "category": "abnormal"
     },
     {
       "title": "Emergency Procedures",
@@ -1085,8 +1163,9 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Exit aircraft immediately",
-              "type": "ITEM_CHALLENGE"
+              "prompt": "Exit aircraft",
+              "expectation": "IMMEDIATELY",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "IF ENGINE FAILS TO START",
