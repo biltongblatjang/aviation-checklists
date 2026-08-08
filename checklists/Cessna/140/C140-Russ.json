@@ -394,7 +394,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": " Friction Lock",
+              "prompt": "Throttle Friction Lock",
               "expectation": "ADJUST AS NEEDED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
