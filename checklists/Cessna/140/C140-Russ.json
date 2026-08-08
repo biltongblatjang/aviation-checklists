@@ -440,7 +440,7 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "OPEN ⅛ INCH",
+              "expectation": "OPEN 1/8 INCH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
