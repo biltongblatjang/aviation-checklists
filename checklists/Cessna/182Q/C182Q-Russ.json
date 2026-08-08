@@ -1118,6 +1118,82 @@
       "category": "normal"
     },
     {
+      "title": "Maintenance and Abnormal Procedures",
+      "checklists": [
+        {
+          "title": "Oil Change - part 1 Drain",
+          "items": [
+            {
+              "prompt": "Run engine to warm and shutoff and hangar",
+              "type": "ITEM_CHALLENGE"
+            },
+            {
+              "prompt": "Top Cowling",
+              "expectation": "REMOVE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "First checklist",
+          "items": [
+            {
+              "prompt": "Challenge Response",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Challenge",
+              "type": "ITEM_CHALLENGE"
+            },
+            {
+              "prompt": "Plaintext",
+              "type": "ITEM_PLAINTEXT"
+            },
+            {
+              "prompt": "Title",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Warning",
+              "type": "ITEM_WARNING"
+            },
+            {
+              "prompt": "Caution",
+              "type": "ITEM_CAUTION"
+            },
+            {
+              "prompt": "Note",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "type": "ITEM_SPACE"
+            },
+            {
+              "prompt": "Plaintext after space",
+              "type": "ITEM_PLAINTEXT"
+            },
+            {
+              "type": "ITEM_SPACE"
+            },
+            {
+              "prompt": "Title after space",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "type": "ITEM_SPACE"
+            },
+            {
+              "prompt": "Challenge response after space",
+              "expectation": "THING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        }
+      ],
+      "category": "abnormal"
+    },
+    {
       "title": "Emergency Procedures",
       "checklists": [
         {
