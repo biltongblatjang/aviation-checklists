@@ -1121,76 +1121,6 @@
       "title": "Maintenance and Abnormal Procedures",
       "checklists": [
         {
-          "title": "Oil Change - part 1 Drain",
-          "items": [
-            {
-              "prompt": "Run engine to warm and shutoff",
-              "expectation": "AIRCRAFT IN HANGAR",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Top Cowling",
-              "expectation": "REMOVE",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            }
-          ]
-        },
-        {
-          "title": "First checklist",
-          "items": [
-            {
-              "prompt": "Challenge Response",
-              "expectation": "CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Challenge",
-              "type": "ITEM_CHALLENGE"
-            },
-            {
-              "prompt": "Plaintext",
-              "type": "ITEM_PLAINTEXT"
-            },
-            {
-              "prompt": "Title",
-              "type": "ITEM_TITLE"
-            },
-            {
-              "prompt": "Warning",
-              "type": "ITEM_WARNING"
-            },
-            {
-              "prompt": "Caution",
-              "type": "ITEM_CAUTION"
-            },
-            {
-              "prompt": "Note",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "type": "ITEM_SPACE"
-            },
-            {
-              "prompt": "Plaintext after space",
-              "type": "ITEM_PLAINTEXT"
-            },
-            {
-              "type": "ITEM_SPACE"
-            },
-            {
-              "prompt": "Title after space",
-              "type": "ITEM_TITLE"
-            },
-            {
-              "type": "ITEM_SPACE"
-            },
-            {
-              "prompt": "Challenge response after space",
-              "expectation": "THING",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            }
-          ]
-        },{
           "title": "Oil Change Part 1 (Drain)",
           "items": [
             {
@@ -1203,6 +1133,11 @@
             {
               "prompt": "Engine Run",
               "expectation": "WARM TO OPERATING TEMP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Airplane shutdown and in Hangar",
+              "expectation": "ENGINE WARM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1234,17 +1169,17 @@
             },
             {
               "prompt": "Oil Drain Tube",
-              "expectation": "THREAD THROUGH COWLING INTO BUCKET",
+              "expectation": "THROUGH COWLING INTO BUCKET",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Oil Drain Hose to Sump Drain Nipple",
+              "prompt": "Oil Drain Hose to Sump Drain",
               "expectation": "ATTACH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Sump Valve Nipple",
-              "expectation": "PUSH IN & TWIST UNTIL OIL RUNS",
+              "prompt": "Sump Drain Nipple",
+              "expectation": "PUSH IN & TWIST SO OIL RUNS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1285,8 +1220,8 @@
               "type": "ITEM_SPACE"
             },
             {
-              "prompt": "Oil Drain Hose",
-              "expectation": "REMOVE FROM DRAIN NIPPLE & THREAD OUT",
+              "prompt": "Disconnect Oil Drain Hose",
+              "expectation": "PULL OFF DRAIN & THREAD OUT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1343,7 +1278,7 @@
             },
             {
               "prompt": "Safety Wire to Bolt",
-              "expectation": "TWIST 1/2 LENGTH TO FILTER DEPTH",
+              "expectation": "TWIST ½ LENGTH TO FILTER DEPTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1358,7 +1293,7 @@
             },
             {
               "prompt": "Safety Wire to Filter",
-              "expectation": "COMPLETE TWIST & SECURE",
+              "expectation": "COMPLETE TWIST, SECURE & TRIM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1444,7 +1379,7 @@
             },
             {
               "prompt": "Engine Start",
-              "expectation": "RUN AT 1200 RPM FOR 3 MINUTES",
+              "expectation": "RUN AT 1200 RPM FOR 3 MINS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
