@@ -1132,8 +1132,7 @@
               "prompt": "Top Cowling",
               "expectation": "REMOVE",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            
+            }
           ]
         },
         {
