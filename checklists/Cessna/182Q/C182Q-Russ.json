@@ -1198,6 +1198,9 @@
               "type": "ITEM_TITLE"
             },
             {
+              "type": "ITEM_SPACE"
+            },
+            {
               "prompt": "Engine Run",
               "expectation": "WARM TO OPERATING TEMP",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1208,13 +1211,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Lower Cowling Right Side Bolts",
-              "expectation": "OPEN / LOOSEN",
+              "prompt": "Lower Cowling",
+              "expectation": "LOOSEN R SIDE BOLTS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Oil Drain Bucket",
-              "expectation": "PLACE UNDER RH SIDE OF COWLING",
+              "expectation": "PLACE UNDER COWLING",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1227,8 +1230,11 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Plastic Oil Drain Tube",
-              "expectation": "THREAD THROUGH COWLING TO BUCKET",
+              "type": "ITEM_SPACE"
+            },
+            {
+              "prompt": "Oil Drain Tube",
+              "expectation": "THREAD THROUGH COWLING INTO BUCKET",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1238,7 +1244,7 @@
             },
             {
               "prompt": "Sump Valve Nipple",
-              "expectation": "PUSH IN UNTIL OIL RUNS",
+              "expectation": "PUSH IN & TWIST UNTIL OIL RUNS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1276,8 +1282,11 @@
               "type": "ITEM_TITLE"
             },
             {
+              "type": "ITEM_SPACE"
+            },
+            {
               "prompt": "Oil Drain Hose",
-              "expectation": "REMOVE & THREAD OUT",
+              "expectation": "REMOVE FROM DRAIN NIPPLE & THREAD OUT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1292,7 +1301,7 @@
             },
             {
               "prompt": "Rags Under Oil Filter",
-              "expectation": "PLACE UNDER MOUNT",
+              "expectation": "PLACE UNDER FILTER",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1320,6 +1329,9 @@
               "type": "ITEM_TITLE"
             },
             {
+              "type": "ITEM_SPACE"
+            },
+            {
               "prompt": "Old Safety Wire",
               "expectation": "CUT AND REMOVE",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1332,11 +1344,6 @@
             {
               "prompt": "Safety Wire to Bolt",
               "expectation": "TWIST 1/2 LENGTH TO FILTER DEPTH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "New Oil Filter Gasket",
-              "expectation": "LUBRICATE WITH CLEAN OIL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1359,7 +1366,10 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "New Engine Oil (First Quart)",
+              "type": "ITEM_SPACE"
+            },
+            {
+              "prompt": "New Engine Oil (1st Quart)",
               "expectation": "ADD 1 QT THROUGH FILLER CAP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1398,6 +1408,9 @@
               "type": "ITEM_TITLE"
             },
             {
+              "type": "ITEM_SPACE"
+            },
+            {
               "prompt": "Sump Drain Nipple",
               "expectation": "CHECK NO LEAKS",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1420,6 +1433,9 @@
             {
               "prompt": "LEAK CHECK RUN",
               "type": "ITEM_TITLE"
+            },
+            {
+              "type": "ITEM_SPACE"
             },
             {
               "prompt": "Airplane",
@@ -1451,6 +1467,9 @@
               "type": "ITEM_TITLE"
             },
             {
+              "type": "ITEM_SPACE"
+            },
+            {
               "prompt": "Airplane",
               "expectation": "PULL BACK INTO HANGAR",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1461,13 +1480,18 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Cowlings (Top & Lower Bolts)",
+              "prompt": "Cowlings (Top & Lower Rt Bolts)",
               "expectation": "REPLACE & SECURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Oil Dipstick Level",
-              "expectation": "FINAL CHECK",
+              "expectation": "CHECK & ADD TO 10 QTS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Sample",
+              "expectation": "COMPLETE FORM & MAIL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
