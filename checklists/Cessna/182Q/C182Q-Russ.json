@@ -1118,6 +1118,304 @@
       "category": "normal"
     },
     {
+      "title": "Maintenance and Abnormal Procedures",
+      "checklists": [
+        {
+          "title": "Oil Change Part 1 (Drain)",
+          "items": [
+            {
+              "prompt": "PREPARATION",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Engine Run",
+              "expectation": "WARM TO OPERATING TEMP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Airplane shutdown and in Hangar",
+              "expectation": "ENGINE WARM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Top Cowling",
+              "expectation": "REMOVE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Lower Cowling",
+              "expectation": "LOOSEN R SIDE BOLTS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Drain Bucket",
+              "expectation": "PLACE UNDER COWLING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Sample Bottle",
+              "expectation": "READY NEXT TO BUCKET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "SUMP DRAIN & FILTER LOOSENING",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Oil Drain Tube",
+              "expectation": "THROUGH COWLING INTO BUCKET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Drain Hose to Sump Drain",
+              "expectation": "ATTACH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Sump Drain Nipple",
+              "expectation": "PUSH IN & TWIST SO OIL RUNS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Sample",
+              "expectation": "COLLECT INTO BOTTLE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Filter Safety Wire",
+              "expectation": "CUT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Filter",
+              "expectation": "CRACK OPEN (1-2 TURNS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Filler Cap",
+              "expectation": "OPEN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil System",
+              "expectation": "DRAIN OVERNIGHT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "Oil Change Part 2 (Filter & Refill)",
+          "items": [
+            {
+              "prompt": "SUMP DISCONNECT & FILTER REMOVAL",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Disconnect Oil Drain Hose",
+              "expectation": "PULL OFF DRAIN & THREAD OUT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Sump Drain Nipple",
+              "expectation": "WIPE CLEAN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Drain Bucket",
+              "expectation": "MOVE AWAY",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Rags Under Oil Filter",
+              "expectation": "PLACE UNDER FILTER",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Filter (Socket Wrench)",
+              "expectation": "UNSCREW 2-3 TURNS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Ziplock Bag",
+              "expectation": "PLACE OVER FILTER",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Filter",
+              "expectation": "UNSCREW BY HAND & RETAIN IN BAG",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Filter Mount Oil Spill",
+              "expectation": "DRAIN ONTO RAGS / REPLACE AS REQD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "SAFETY WIRE & NEW FILTER INSTALL",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Old Safety Wire",
+              "expectation": "CUT AND REMOVE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "New Safety Wire (80 cm)",
+              "expectation": "THREAD THROUGH BOLT HOLE BEHIND MOUNT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Safety Wire to Bolt",
+              "expectation": "TWIST ½ LENGTH TO FILTER DEPTH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "New Oil Filter",
+              "expectation": "SCREW IN HAND TIGHT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Filter (Torque Wrench)",
+              "expectation": "TORQUE 16-18 FT-LBS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Safety Wire to Filter",
+              "expectation": "COMPLETE TWIST, SECURE & TRIM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "OIL REFILL & LEAK CHECK",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "New Engine Oil (1st Quart)",
+              "expectation": "ADD 1 QT THROUGH FILLER CAP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Sump Nipple & Filter Mount",
+              "expectation": "CHECK FOR LEAKS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Remaining Engine Oil",
+              "expectation": "ADD 9 QTS (10 QTS TOTAL)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Sump Nipple & Filter Mount",
+              "expectation": "RE-CHECK FOR LEAKS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Filler Cap",
+              "expectation": "SECURE & TIGHTEN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Rags & Oil Residue",
+              "expectation": "REMOVE & WIPE CLEAN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "Oil Change Part 3 (Post-Check & Run)",
+          "items": [
+            {
+              "prompt": "INSPECTION BEFORE ENGINE RUN",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Sump Drain Nipple",
+              "expectation": "CHECK NO LEAKS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Filler Cap",
+              "expectation": "VERIFY TIGHT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Filter & Safety Wire",
+              "expectation": "VISUALLY CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Engine Compartment",
+              "expectation": "VERIFY NO RAGS OR TOOLS REMAIN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "LEAK CHECK RUN",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Airplane",
+              "expectation": "PULL OUT OF HANGAR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Engine Start",
+              "expectation": "RUN AT 1200 RPM FOR 3 MINS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Pressure",
+              "expectation": "CHECK GREEN ARC WITHIN 30 SEC",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Engine Shutdown",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Engine Compartment & Filter",
+              "expectation": "CHECK FOR LEAKS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "POST-RUN SECURING",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Airplane",
+              "expectation": "PULL BACK INTO HANGAR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tools & Rags",
+              "expectation": "ACCOUNT FOR ALL ITEMS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cowlings (Top & Lower Rt Bolts)",
+              "expectation": "REPLACE & SECURE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Dipstick Level",
+              "expectation": "CHECK & ADD TO 10 QTS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Sample",
+              "expectation": "COMPLETE FORM & MAIL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Logbook Entry",
+              "expectation": "COMPLETE & SIGN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        }
+      ],
+      "category": "abnormal"
+    },
+    {
       "title": "Emergency Procedures",
       "checklists": [
         {
