@@ -394,7 +394,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Throttle Friction Lock",
+              "prompt": " Friction Lock",
               "expectation": "ADJUST AS NEEDED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -585,7 +585,7 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "OPEN ¼+ Inch",
+              "expectation": "OPEN 1/4+ Inch",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
