@@ -757,7 +757,7 @@
             },
             {
               "prompt": "Climb Airspeed",
-              "expectation": "88 KIAS (VY)",
+              "expectation": "100 KIAS (preferred to 88 KIAS VY)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -806,7 +806,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Landing Gear (Positive Rate) no runway remaining",
+              "prompt": "Landing Gear (Positive Rate & Clear)",
               "expectation": "UP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
