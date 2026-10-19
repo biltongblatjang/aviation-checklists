@@ -757,7 +757,7 @@
             },
             {
               "prompt": "Climb Airspeed",
-              "expectation": "100 KIAS (VY)",
+              "expectation": "88 KIAS (VY)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -806,7 +806,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Landing Gear (Positive Rate & Clear)",
+              "prompt": "Landing Gear (Positive Rate) no runway remaining",
               "expectation": "UP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -832,7 +832,7 @@
             },
             {
               "prompt": "Airspeed",
-              "expectation": "95-105 KIAS",
+              "expectation": "91-100 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1425,7 +1425,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "87 KIAS (BEST GLIDE)",
+              "expectation": "91 KIAS (BEST GLIDE)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1686,8 +1686,8 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Alternator Field Switch",
-              "expectation": "OFF",
+              "prompt": "Alternator Field Circuit Breaker",
+              "expectation": "PULL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
