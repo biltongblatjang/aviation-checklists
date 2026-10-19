@@ -220,7 +220,7 @@
             },
             {
               "prompt": "Main Gear, Door, Tire, Brake",
-              "expectation": "CHECK",
+              "expectation": "CHECK (30 PSI)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -253,7 +253,7 @@
             },
             {
               "prompt": "Nose Gear Strut, Tire, Linkage",
-              "expectation": "CHECK",
+              "expectation": "CHECK (49 PSI)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -535,6 +535,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Fuel Selector - do not switch tank",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Elevator Trim",
               "expectation": "TAKEOFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -790,7 +794,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Landing Gear (Positive Rate) no runway remaining",
+              "prompt": "Landing Gear (Positive Rate)",
               "expectation": "UP (BELOW 106 KIAS)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -888,7 +892,7 @@
             },
             {
               "prompt": "Airspeed",
-              "expectation": "100 KIAS",
+              "expectation": "91-100 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -964,6 +968,21 @@
         {
           "title": "Before Approach / Descent",
           "items": [
+            {
+              "prompt": "ATIS / AWOS",
+              "expectation": "RECORD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Altimeter",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Avionics & Briefing",
+              "expectation": "SET & REVIEW",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
             {
               "prompt": "Begin slowing down and descending EARLY. The M20J is clean and slippery, and slips are largely ineffective.",
               "type": "ITEM_NOTE"
@@ -1763,8 +1782,8 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Alternator Field Switch",
-              "expectation": "OFF",
+              "prompt": "Alternator Field Circuit Breaker",
+              "expectation": "PULL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
