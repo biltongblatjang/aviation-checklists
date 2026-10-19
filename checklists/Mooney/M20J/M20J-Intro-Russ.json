@@ -794,7 +794,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Landing Gear (Positive Rate)",
+              "prompt": "Landing Gear (Positive Rate) no runway remaining",
               "expectation": "UP (BELOW 106 KIAS)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
