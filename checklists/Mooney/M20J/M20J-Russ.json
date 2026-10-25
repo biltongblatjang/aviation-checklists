@@ -101,7 +101,7 @@
             },
             {
               "prompt": "Pitot Tube & Stall Warning Vane",
-              "expectation": "CLEAR / CHECK",
+              "expectation": "REMOVE COVER, CLEAR / CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -413,15 +413,16 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Throttle",
+              "expectation": "SET TO 1000 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Oil Pressure",
               "expectation": "CHECK (GREEN WITHIN 30 SEC)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
-            {
-              "prompt": "Throttle",
-              "expectation": "SET TO 1000 RPM",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            }
+            {"prompt": "Mixture", "expectation": "LEAN FOR TAXI", "type": "ITEM_CHALLENGE_RESPONSE"}
           ]
         },
         {
@@ -1166,19 +1167,15 @@
             },
             {
               "prompt": "Ignition Switch",
-              "expectation": "OFF, FPI: KEY OUT & ON DASH",
+              "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
+            {"prompt": "FPI: Keys", "expectation": "ON DASH", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "FPI: HOLD L BUTTON DOWN TACH",
               "expectation": "RECORD TACH HRS",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "JPI EDM-830 Hobbs / Tach",
-              "expectation": "RECORD",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },           
+            },         
             {
               "prompt": "Master Switch",
               "expectation": "OFF",
