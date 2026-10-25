@@ -371,6 +371,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Keys",
+              "expectation": "IN IGNITION",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Ignition Switch",
               "expectation": "START (ADVANCE MIXTURE WHEN ENGINE FIRES)",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -412,6 +417,16 @@
             {
               "prompt": "Boost Pump",
               "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller Area",
+              "expectation": "CLEAR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Keys",
+              "expectation": "IN IGNITION",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1227,7 +1242,7 @@
             },
             {
               "prompt": "Ignition Switch",
-              "expectation": "OFF, KEY OUT",
+              "expectation": "OFF, FPI: KEY OUT & ON DASH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
