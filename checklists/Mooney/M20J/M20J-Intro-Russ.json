@@ -405,6 +405,17 @@
         {
           "title": "Warm Start",
           "items": [
+            {"prompt": "Preflight Inspection", "expectation": "COMPLETE", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Passenger Briefing (SAFETY)", "expectation": "COMPLETE", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Seats & Seat Belts/Harnesses", "expectation": "ADJUST & LOCKED", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Avionics Master Switch", "expectation": "OFF", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Circuit Breakers", "expectation": "CHECK IN", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Fuel Selector", "expectation": "L OR R (FULLER TANK)", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Cowl Flaps", "expectation": "OPEN", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Ram Air", "expectation": "OFF", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Landing Gear Switch", "expectation": "DOWN", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Brakes", "expectation": "HOLD / SET", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Propeller", "expectation": "FULL FORWARD (HIGH RPM)", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "Shutdown should have left Throttle for 1100RPM (< ¼ inch), do not touch throttle",
               "type": "ITEM_NOTE"
@@ -419,6 +430,8 @@
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
+            {"prompt": "Master Switch", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Beacon", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "Propeller Area",
               "expectation": "CLEAR",
@@ -469,6 +482,9 @@
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
+            {"prompt": "Master Switch", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Propeller Area", "expectation": "CLEAR", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Keys", "expectation": "IN IGNITION", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "Ignition Switch",
               "expectation": "START AND RELEASE WHEN ENGINE FIRES",
