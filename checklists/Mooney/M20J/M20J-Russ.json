@@ -212,7 +212,7 @@
             },
             {
               "prompt": "Air Inlets & Filter",
-              "expectation": "CLEAR",
+              "expectation": "CLEAR, PLUGS REMOVED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -789,7 +789,7 @@
             },
             {
               "prompt": "Climb Airspeed",
-              "expectation": "100 KIAS (preferred to 88 KIAS Vy)",
+              "expectation": "100 KIAS (preferred to 88 KIAS VY)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -849,7 +849,7 @@
             },
             {
               "prompt": "Climb Airspeed",
-              "expectation": "100 KIAS (preferred to 88 KIAS VY)",
+              "expectation": "88 KIAS (VY) - 100 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1167,7 +1167,7 @@
             },
             {
               "prompt": "Ignition Switch",
-              "expectation": "OFF, KEYS OUT",
+              "expectation": "OFF, KEY OUT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {"prompt": "FPI: Keys", "expectation": "ON DASH", "type": "ITEM_CHALLENGE_RESPONSE"},
