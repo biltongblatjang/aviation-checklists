@@ -125,7 +125,7 @@
             },
            {
               "prompt": "Pitot Tube & Stall Warning Vane",
-              "expectation": "CLEAR / CHECK",
+              "expectation": "REMOVE COVER, CLEAR / CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -453,15 +453,16 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Throttle",
+              "expectation": "SET TO 1000 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Oil Pressure",
               "expectation": "CHECK (GREEN WITHIN 30 SEC)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
-            {
-              "prompt": "Throttle",
-              "expectation": "SET TO 1000 RPM",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            }
+            {"prompt": "Mixture", "expectation": "LEAN FOR TAXI", "type": "ITEM_CHALLENGE_RESPONSE"}
           ]
         },
         {
@@ -840,11 +841,11 @@
             },
             {
               "prompt": "Climb Airspeed",
-              "expectation": "100 KIAS (preferred to 88 KIAS VY)",
+              "expectation": "100 KIAS (preferred to 88 KIAS Vy)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "100 KIAS (preferred to 88 KIAS VY) for heat management",
+              "prompt": "Preferred to Vy for heat management",
               "type": "ITEM_NOTE"
             }
           ]
@@ -1258,17 +1259,13 @@
             },
             {
               "prompt": "Ignition Switch",
-              "expectation": "OFF, FPI: KEY OUT & ON DASH",
+              "expectation": "OFF, KEY OUT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
+            {"prompt": "FPI: Keys", "expectation": "ON DASH", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
-              "prompt": "HOLD L BUTTON DOWN TACH",
+              "prompt": "FPI": HOLD L BUTTON DOWN TACH",
               "expectation": "RECORD TACH HRS",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "JPI EDM-830 Hobbs / Tach",
-              "expectation": "RECORD",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
