@@ -789,7 +789,7 @@
             },
             {
               "prompt": "Climb Airspeed",
-              "expectation": "100 KIAS (preferred to 88 KIAS VY)",
+              "expectation": "100 KIAS (preferred to 88 KIAS Vy)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1167,7 +1167,7 @@
             },
             {
               "prompt": "Ignition Switch",
-              "expectation": "OFF",
+              "expectation": "OFF, KEYS OUT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {"prompt": "FPI: Keys", "expectation": "ON DASH", "type": "ITEM_CHALLENGE_RESPONSE"},
