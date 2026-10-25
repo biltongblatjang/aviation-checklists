@@ -817,7 +817,7 @@
             },
             {
               "prompt": "Climb Airspeed",
-              "expectation": "88 KIAS (VY) - 100 KIAS",
+              "expectation": "100 KIAS (preferred to 88 KIAS VY)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -914,6 +914,10 @@
               "prompt": "Avionics & Briefing",
               "expectation": "SET & REVIEW",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Retarding throttle below 12\" MP causes gear warning horn if gear retracted.",
+              "type": "ITEM_WARNING"
             },
             {
               "prompt": "Avoid continuous operation between 1500-1950 RPM below 15\" MP",
@@ -1425,7 +1429,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "91 KIAS (BEST GLIDE)",
+              "expectation": "91 KIAS (BEST GLIDE, MAX GROSS)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1474,7 +1478,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "Vg 91 KIAS",
+              "expectation": "91 KIAS (BEST GLIDE, MAX GROSS)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1514,7 +1518,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "91 KIAS (BEST GLIDE)",
+              "expectation": "91 KIAS (BEST GLIDE, MAX GROSS)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
