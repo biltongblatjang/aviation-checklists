@@ -16,5 +16,4 @@ jobs:
 
       - name: Compile checklists
         uses: alexnj/aviation-checklist-compiler-action@main
-        with:
-          efis_editor_ref: f6a0c18ccc803093bcd8221e0ee154caf16aabbf
+
