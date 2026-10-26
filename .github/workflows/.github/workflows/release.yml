@@ -1,0 +1,63 @@
+name: Official Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release tag, for example v2026.10.26 (add -2 for a second release the same day)'
+        required: true
+        type: string
+      notes:
+        description: 'Short release notes: what changed'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout current repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Stamp copyright and update date into Preflight
+        run: |
+          for f in $(find checklists -name '*.json'); do
+            d=$(git log -1 --format=%cs -- "$f")
+            jq --arg d "$d" '. as $r | .groups |= map(.checklists |= map(if .title == "Preflight Inspection" then .items = [{prompt: ($r.metadata.copyrightInfo + ". Updated " + $d + "."), type: "ITEM_NOTE"}] + .items else . end))' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
+          done
+
+      - name: Compile checklists
+        uses: alexnj/aviation-checklist-compiler-action@main
+        with:
+          create_release: false
+          comment_on_pr: false
+          formats: 4col,csv,ace,gplt,fmd
+
+      - name: Write release notes
+        env:
+          VERSION: ${{ inputs.version }}
+          NOTES: ${{ inputs.notes }}
+        run: |
+          sed -i "s#releases/download/latest/#releases/download/${VERSION}/#g" output.md
+          {
+            echo "Official Flying Particles checklist release ${VERSION}, built $(date -u +%Y-%m-%d) from commit ${GITHUB_SHA::7}."
+            echo
+            if [ -n "$NOTES" ]; then echo "$NOTES"; echo; fi
+            cat output.md
+          } > release-body.md
+
+      - name: Create release
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: ${{ inputs.version }}
+          target_commitish: ${{ github.sha }}
+          name: Flying Particles Checklists ${{ inputs.version }}
+          make_latest: true
+          body_path: release-body.md
+          files: output-release/*
