@@ -1418,22 +1418,45 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Wheel Chocks & Tie-Downs",
+              "prompt": "Cabin Door",
+              "expectation": "LOCK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "FPI: In LVK Hangar - Nothing Further",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "FPI: Temporary Shelter, Ramp or Cross-Country",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Wheel Chocks",
               "expectation": "INSTALL, THEN RELEASE PARKING BRAKE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Pitot Cover / Inlet Plugs",
+              "prompt": "Tie-Downs (Wing & Tail)",
               "expectation": "INSTALL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Extended parking: secure the control wheel, close cabin vents, tie down at wing and tail points.",
-              "type": "ITEM_NOTE"
+              "prompt": "FPI: Overnight Away From Hangar",
+              "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Cabin Door",
-              "expectation": "LOCK",
+              "prompt": "Pitot Cover & Inlet Plugs",
+              "expectation": "INSTALL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Control Wheel",
+              "expectation": "SECURE WITH SEAT BELT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cabin Vents",
+              "expectation": "CLOSED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1566,10 +1589,6 @@
               "prompt": "Airspeed",
               "expectation": "REDUCE TO 132 KIAS OR LESS",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "An electric gear failure is a real, not-uncommon Mooney event, and the manual extension sequence (12-20 inch pulls, repeated) is physical and can be fumbled under stress. Mentally prepare.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Gear Actuator Circuit Breaker",
@@ -1897,12 +1916,16 @@
           "title": "Unlatched Door In Flight",
           "items": [
             {
-              "prompt": "An unlatched door may trail about 3 inches open; flight characteristics are not affected. Return to the field normally. If practicable, have a passenger hold the door during the landing flare.",
+              "prompt": "NOT AN EMERGENCY. Many fatal accidents have occurred when pilots lost control while trying to close an unlatched door. Fly the airplane, return and land; flight characteristics are not affected.",
+              "type": "ITEM_WARNING"
+            },
+            {
+              "prompt": "If practicable, have a passenger hold the door during the landing flare.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "If it is impractical to return and land, close the door in flight at a safe altitude:",
-              "type": "ITEM_NOTE"
+              "prompt": "Only If Return Is Impractical: Close Door At Safe Altitude",
+              "type": "ITEM_TITLE"
             },
             {
               "prompt": "Airspeed",
