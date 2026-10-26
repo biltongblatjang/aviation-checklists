@@ -13,7 +13,15 @@ jobs:
     steps:
       - name: Checkout current repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Stamp copyright and update date into Preflight
+        run: |
+          for f in $(find checklists -name '*.json'); do
+            d=$(git log -1 --format=%cs -- "$f")
+            jq --arg d "$d" '. as $r | .groups |= map(.checklists |= map(if .title == "Preflight Inspection" then .items = [{prompt: ($r.metadata.copyrightInfo + ". Updated " + $d + "."), type: "ITEM_NOTE"}] + .items else . end))' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
+          done
 
       - name: Compile checklists
         uses: alexnj/aviation-checklist-compiler-action@main
-
