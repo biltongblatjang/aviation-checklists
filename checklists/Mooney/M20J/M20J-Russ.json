@@ -774,7 +774,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "There is no alternator field switch, check alternator through load only, DO NOT turn of master else.",
+              "prompt": "There is no alternator field switch, check alternator through load only, DO NOT turn of master.",
               "type": "ITEM_WARNING"
             },
             {
@@ -1253,7 +1253,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Crosswind landing: approach above normal speed with full flaps (use 1/2 flaps if the crosswind component exceeds 12 KTS); crab on final, slip into wind before the flare.",
+              "prompt": "Crosswind landing: approach above normal speed with full flaps (use 1/2 flaps if the crosswind component exceeds 12 KTS).",
               "type": "ITEM_NOTE"
             }
           ]
@@ -1428,7 +1428,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Extended parking: secure the control wheel with the seat belt, close cabin vents, tie down at wing and tail points.",
+              "prompt": "Extended parking: secure the control wheel, close cabin vents, tie down at wing and tail points.",
               "type": "ITEM_NOTE"
             },
             {
