@@ -1691,11 +1691,11 @@
           "title": "Engine Roughness",
           "items": [
             {
-              "prompt": "The engine may quit completely when one magneto is switched off if the other magneto is faulty. If this happens, close the throttle to idle and the mixture to idle cutoff before turning the magnetos back ON to prevent a severe backfire, then proceed to Engine Failure In Flight - Restart.",
+              "prompt": "Quits on one magneto? Throttle idle and mixture cutoff BEFORE turning magnetos back ON (backfire).",
               "type": "ITEM_WARNING"
             },
             {
-              "prompt": "Severe roughness may be sufficient to cause propeller separation. Do not continue to operate a rough engine unless there is no other alternative.",
+              "prompt": "Severe roughness can cause propeller separation. Do not continue unless no alternative.",
               "type": "ITEM_WARNING"
             },
             {
@@ -1916,7 +1916,7 @@
           "title": "Unlatched Door In Flight",
           "items": [
             {
-              "prompt": "NOT AN EMERGENCY. Many fatal accidents have occurred when pilots lost control while trying to close an unlatched door. Fly the airplane, return and land; flight characteristics are not affected.",
+              "prompt": "NOT AN EMERGENCY. Many fatal accidents began with loss of control closing a door. Return and land.",
               "type": "ITEM_WARNING"
             },
             {
@@ -2540,7 +2540,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "When disconnecting the autopilot after a trim malfunction, hold the control wheel firmly: up to 45 pounds of force may be needed to hold the aircraft level.",
+              "prompt": "Hold wheel firmly when disconnecting: up to 45 lb of force may be needed to hold level.",
               "type": "ITEM_WARNING"
             },
             {
