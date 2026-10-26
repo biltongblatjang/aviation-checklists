@@ -14,6 +14,10 @@
           "title": "Preflight Inspection",
           "items": [
             {
+              "prompt": "INTERIOR",
+              "type": "ITEM_TITLE"
+            },
+            {
               "prompt": "Rev Switch on top left of panel does failover of the GI-275.",
               "type": "ITEM_NOTE"
             },
@@ -24,10 +28,6 @@
             {
               "prompt": "Beware that this can cause gear to start retracting on the ground!",
               "type": "ITEM_WARNING"
-            },
-            {
-              "prompt": "INTERIOR",
-              "type": "ITEM_TITLE"
             },
             {
               "prompt": "Control Wheel Lock",
