@@ -8,7 +8,7 @@
       "title": "Prior to Airport",
       "checklists": [
         {
-          "title": "Previous Day Checklist",
+          "title": "Previous Night Checklist",
           "items": [
             {
               "prompt": "iPad",
@@ -21,27 +21,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Garmin Watch",
-              "expectation": "MIN 3D CHARGED",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "A30 Headset Batteries",
-              "expectation": "INSTALL, VERIFY",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Voice Recorder Batteries",
-              "expectation": "VERIFY",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Backup VHF Radio Batteries",
-              "expectation": "VERIFY",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Headlamp (Night flight)",
+              "prompt": "Lightspeed Headset Batteries",
               "expectation": "CHARGING",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
@@ -50,21 +30,6 @@
         {
           "title": "Flight Bag",
           "items": [
-            {
-              "prompt": "Certificate",
-              "expectation": "VERIFY",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Medical",
-              "expectation": "VERIFY",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Identification",
-              "expectation": "VERIFY",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
             {
               "prompt": "iPad and mount",
               "expectation": "VERIFY",
@@ -76,17 +41,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Garmin Watch",
-              "expectation": "VERIFY",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "A30 Headset",
-              "expectation": "VERIFY",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Voice Recorder",
+              "prompt": "Headsets",
               "expectation": "VERIFY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -96,13 +51,23 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Backup battery pack and cable",
+              "prompt": "Backup batteries and cable",
               "expectation": "VERIFY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Headlamp (Night flight)",
-              "expectation": "CHARGING",
+              "expectation": "VERIFY",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flight data sheet",
+              "expectation": "PRINTED IN KNEEBOARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "HOOD FOR SIM. IMC",
+              "expectation": "VERIFY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
