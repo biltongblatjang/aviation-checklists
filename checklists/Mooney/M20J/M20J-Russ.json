@@ -331,21 +331,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Ignition Switch",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Lights & Pitot Heat",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Flap Switch",
-              "expectation": "CENTERED (FLAPS UP)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Cabin Heat & Defrost",
               "expectation": "PUSH OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -356,8 +341,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "ELT",
-              "expectation": "ARM",
+              "prompt": "Ignition Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Lights & Pitot Heat",
+              "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -371,8 +361,18 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "ELT",
+              "expectation": "ARM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Fuel Selector",
               "expectation": "L OR R (FULLER TANK)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flap Switch",
+              "expectation": "CENTERED (FLAPS UP)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -498,21 +498,6 @@
             {"prompt": "Passenger Briefing (SAFETY)", "expectation": "COMPLETE", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Seats & Seat Belts/Harnesses", "expectation": "ADJUST & LOCKED", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
-              "prompt": "Ignition Switch",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Lights & Pitot Heat",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Flap Switch",
-              "expectation": "CENTERED (FLAPS UP)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Cabin Heat & Defrost",
               "expectation": "PUSH OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -523,13 +508,28 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "ELT",
-              "expectation": "ARM",
+              "prompt": "Ignition Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Lights & Pitot Heat",
+              "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {"prompt": "Avionics Master Switch", "expectation": "OFF", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Circuit Breakers", "expectation": "CHECK IN", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {
+              "prompt": "ELT",
+              "expectation": "ARM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
             {"prompt": "Fuel Selector", "expectation": "L OR R (FULLER TANK)", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {
+              "prompt": "Flap Switch",
+              "expectation": "CENTERED (FLAPS UP)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
             {"prompt": "Cowl Flaps", "expectation": "OPEN", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Ram Air", "expectation": "OFF", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Landing Gear Switch", "expectation": "DOWN", "type": "ITEM_CHALLENGE_RESPONSE"},
@@ -911,16 +911,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Boost Pump",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Flaps (15° Takeoff)",
-              "expectation": "SET BY COUNTING 3 SECONDS",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Pitot Heat",
               "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -928,6 +918,21 @@
             {
               "prompt": "Autopilot",
               "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Boost Pump",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Selector",
+              "expectation": "CONFIRM TANK, NO SWITCHING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps (15° Takeoff)",
+              "expectation": "SET BY COUNTING 3 SECONDS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1169,13 +1174,18 @@
           "title": "Before Landing",
           "items": [
             {
-              "prompt": "Seat Backs / Belts",
-              "expectation": "UPRIGHT / SECURE",
+              "prompt": "Boost Pump",
+              "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Boost Pump",
-              "expectation": "ON",
+              "prompt": "Landing Gear",
+              "expectation": "DOWN (BELOW 132 KIAS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Gear Indicators",
+              "expectation": "CHECK GEAR DOWN LIGHT & VISUAL FLOOR INDICATOR",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1194,13 +1204,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Landing Gear",
-              "expectation": "DOWN (BELOW 132 KIAS)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Gear Indicators",
-              "expectation": "CHECK GEAR DOWN LIGHT & VISUAL FLOOR INDICATOR",
+              "prompt": "Seat Backs / Belts",
+              "expectation": "UPRIGHT / SECURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
