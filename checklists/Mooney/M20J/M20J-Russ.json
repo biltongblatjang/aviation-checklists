@@ -87,7 +87,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Interior / Exterior Lights / Pitot Heat",
+              "prompt": "Lights & Pitot Heat",
               "expectation": "ON, CHECK, OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -97,8 +97,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Fuel Selector (R, then L)",
-              "expectation": "PULL GASCOLATOR RING 5 SEC EACH",
+              "prompt": "Fuel Selector R, L",
+              "expectation": "GASC 5 SEC EA",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -111,8 +111,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Alternate Static Source",
-              "expectation": "NORMAL/OFF (PUSH IN)",
+              "prompt": "Alternate Static",
+              "expectation": "OFF (PUSH IN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -120,8 +120,8 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Main Gear, Door, Tire, Brake",
-              "expectation": "CHECK (30 PSI)",
+              "prompt": "Main Gear, Tire, Brake",
+              "expectation": "CHECK, 30 PSI",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -130,8 +130,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Fuel Quantity & Cap",
-              "expectation": "CHECK VISUALLY, SECURE",
+              "prompt": "Fuel Qty & Cap",
+              "expectation": "CHECK, SECURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -140,8 +140,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Pitot Tube & Stall Warning Vane",
-              "expectation": "REMOVE COVER, CLEAR / CHECK",
+              "prompt": "Pitot & Stall Vane",
+              "expectation": "COVER OFF, CLEAR",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -151,7 +151,7 @@
             },
             {
               "prompt": "Wing Skin",
-              "expectation": "CHECK, REMOVE ALL ICE, SNOW & FROST",
+              "expectation": "CHECK, ICE FREE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -160,7 +160,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "A pitot system drain valve is located on the forward bottom skin of the left wing just outboard of the wing root. The static system also has a drain just rearward of the left wing.",
+              "prompt": "Pitot drain: left wing, forward bottom skin, outboard of root. Static drain: just aft of left wing.",
               "type": "ITEM_NOTE"
             },
             {
@@ -169,8 +169,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Aileron, Flap & Linkages",
-              "expectation": "CHECK MOVEMENTS & HINGES",
+              "prompt": "Aileron, Flap, Linkage",
+              "expectation": "CHECK, FREE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -194,17 +194,17 @@
             },
             {
               "prompt": "Elevator, Rudder",
-              "expectation": "CHECK FREEDOM & SECURITY",
+              "expectation": "FREE, SECURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Elevator & Rudder Attach Points / Linkage",
+              "prompt": "Elev/Rudder Attach, Linkage",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Fuselage & Empennage Skin",
-              "expectation": "CHECK, REMOVE ALL ICE, SNOW & FROST",
+              "prompt": "Fuselage & Tail Skin",
+              "expectation": "CHECK, ICE FREE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -227,13 +227,13 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Flap, Aileron & Linkages",
-              "expectation": "CHECK MOVEMENTS & HINGES",
+              "prompt": "Flap, Aileron, Linkage",
+              "expectation": "CHECK, FREE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Wing Skin",
-              "expectation": "CHECK, REMOVE ALL ICE, SNOW & FROST",
+              "expectation": "CHECK, ICE FREE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -247,8 +247,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Fuel Quantity & Cap",
-              "expectation": "CHECK VISUALLY, SECURE",
+              "prompt": "Fuel Qty & Cap",
+              "expectation": "CHECK, SECURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -262,8 +262,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Main Gear, Door, Tire, Brake",
-              "expectation": "CHECK (30 PSI)",
+              "prompt": "Main Gear, Tire, Brake",
+              "expectation": "CHECK, 30 PSI",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -271,18 +271,18 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Fuel Drain (Central / Gascolator)",
-              "expectation": "DRAIN & CHECK, VALVE CLOSED (NO DRIPS)",
+              "prompt": "Fuel Drain, Gascolator",
+              "expectation": "DRAIN, NO DRIPS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Engine Oil Level (Min 6 qts, Capacity 8 qts)",
-              "expectation": "CHECK, SECURE CAP",
+              "prompt": "Oil (Min 6, Max 8 qt)",
+              "expectation": "CHECK, CAP ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Cowl Fasteners & Cowl Flaps (L & R)",
-              "expectation": "SECURED, CHECK",
+              "prompt": "Cowl Fasteners & Flaps",
+              "expectation": "SECURE, CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -301,13 +301,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Propeller & Spinner",
-              "expectation": "CHECK NICKS, CRACKS, OIL LEAKS, ROTATION; SPINNER SECURE",
+              "prompt": "Prop & Spinner",
+              "expectation": "NICKS, CRACKS, SECURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Air Inlets & Filter",
-              "expectation": "CLEAR, PLUGS REMOVED",
+              "expectation": "CLEAR, PLUGS OUT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -321,8 +321,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Nose Gear Strut, Tire, Linkage",
-              "expectation": "CHECK (49 PSI)",
+              "prompt": "Nose Gear, Tire, Linkage",
+              "expectation": "CHECK, 49 PSI",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -356,8 +356,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Seats & Seat Belts/Harnesses",
-              "expectation": "ADJUST & LOCKED",
+              "prompt": "Seats & Belts",
+              "expectation": "ADJUST, LOCKED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -457,8 +457,12 @@
             },
             {
               "prompt": "Annunciator Lights",
-              "expectation": "TEST (GEAR DOWN & L/R FUEL LOW ON, VOLTS FLASHING; IGNORE VAC LIGHT)",
+              "expectation": "TEST",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Expect GEAR DOWN, L/R FUEL LOW, VOLTS flashing. Ignore VAC.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Mixture",
@@ -467,7 +471,7 @@
             },
             {
               "prompt": "Boost Pump",
-              "expectation": "ON (3-5 SEC WITH MIXTURE RICH, THEN OFF)",
+              "expectation": "ON 3-5 SEC, OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -487,11 +491,11 @@
             },
             {
               "prompt": "Ignition Switch",
-              "expectation": "START (ADVANCE MIXTURE WHEN ENGINE FIRES)",
+              "expectation": "START",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Limit cranking to 30 seconds; allow several minutes between cranking periods for the starter to cool.",
+              "prompt": "Crank 30 sec max; allow several minutes to cool between.",
               "type": "ITEM_NOTE"
             },
             {
@@ -506,12 +510,12 @@
             },
             {
               "prompt": "Oil Pressure",
-              "expectation": "CHECK (GREEN WITHIN 30 SEC, ELSE STOP ENGINE)",
+              "expectation": "GREEN IN 30 SEC",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Ammeter",
-              "expectation": "CHECK (LANDING LIGHT ON, NEEDLE MOVES NEGATIVE)",
+              "expectation": "LDG LT ON, MOVES NEG",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -526,7 +530,7 @@
           "items": [
             {"prompt": "Preflight Inspection", "expectation": "COMPLETE", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Passenger Briefing (SAFETY)", "expectation": "COMPLETE", "type": "ITEM_CHALLENGE_RESPONSE"},
-            {"prompt": "Seats & Seat Belts/Harnesses", "expectation": "ADJUST & LOCKED", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {"prompt": "Seats & Belts", "expectation": "ADJUST, LOCKED", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "Cabin Heat & Defrost",
               "expectation": "PUSH OFF",
@@ -566,7 +570,7 @@
             {"prompt": "Brakes", "expectation": "HOLD / SET", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Propeller", "expectation": "FULL FORWARD (HIGH RPM)", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
-              "prompt": "Shutdown should have left Throttle for 1100RPM (< ¼ inch), do not touch throttle",
+              "prompt": "Shutdown leaves throttle at 1100 RPM (< 1/4 in): do not touch.",
               "type": "ITEM_NOTE"
             },
             {
@@ -583,8 +587,12 @@
             {"prompt": "Beacon", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "Annunciator Lights",
-              "expectation": "TEST (GEAR DOWN & L/R FUEL LOW ON, VOLTS FLASHING; IGNORE VAC LIGHT)",
+              "expectation": "TEST",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Expect GEAR DOWN, L/R FUEL LOW, VOLTS flashing. Ignore VAC.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Propeller Area",
@@ -598,16 +606,16 @@
             },
             {
               "prompt": "Ignition Switch",
-              "expectation": "START AND RELEASE WHEN ENGINE FIRES",
+              "expectation": "START, RELEASE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Limit cranking to 30 seconds; allow several minutes between cranking periods for the starter to cool.",
+              "prompt": "Crank 30 sec max; allow several minutes to cool between.",
               "type": "ITEM_NOTE"
             },
             {
               "prompt": "Mixture",
-              "expectation": "OPEN SLOWLY TO FULL RICH",
+              "expectation": "SLOWLY TO RICH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -617,12 +625,12 @@
             },
             {
               "prompt": "Oil Pressure",
-              "expectation": "CHECK (GREEN WITHIN 30 SEC, ELSE STOP ENGINE)",
+              "expectation": "GREEN IN 30 SEC",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Ammeter",
-              "expectation": "CHECK (LANDING LIGHT ON, NEEDLE MOVES NEGATIVE)",
+              "expectation": "LDG LT ON, MOVES NEG",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {"prompt": "Mixture", "expectation": "LEAN FOR TAXI", "type": "ITEM_CHALLENGE_RESPONSE"}
@@ -651,7 +659,7 @@
             {"prompt": "Keys", "expectation": "IN IGNITION", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "Ignition Switch",
-              "expectation": "START AND RELEASE WHEN ENGINE FIRES",
+              "expectation": "START, RELEASE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -661,12 +669,12 @@
             },
             {
               "prompt": "Mixture",
-              "expectation": "OPEN SLOWLY TO FULL RICH",
+              "expectation": "SLOWLY TO RICH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Oil Pressure",
-              "expectation": "CHECK (GREEN WITHIN 30 SEC, ELSE STOP ENGINE)",
+              "expectation": "GREEN IN 30 SEC",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -711,7 +719,7 @@
             },
             {
               "prompt": "Fuel Selector",
-              "expectation": "SWITCH TANKS, VERIFY ENGINE RUNS ON EACH, RETURN TO FULLER TANK",
+              "expectation": "TEST EACH, FULLER",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -769,8 +777,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Oil Temperature",
-              "expectation": "75°F MINIMUM (NEEDLE OFF WHITE DOT)",
+              "prompt": "Oil Temp",
+              "expectation": "OFF WHITE DOT (75°F)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -779,23 +787,18 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Engine Gauges / Annunciator",
-              "expectation": "CHECK, GREEN",
+              "prompt": "Engine Gauges, Annunc",
+              "expectation": "GREEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "JPI EDM-830 Normalize",
-              "expectation": "PRESS & HOLD LF (3S)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Magnetos (R then L)",
-              "expectation": "CHECK EGT ALL CYL(MAX 175 RPM, DIFF 50 RPM)",
+              "prompt": "Magnetos R, L",
+              "expectation": "MAX 175, DIFF 50",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Propeller",
-              "expectation": "CYCLE 3X, RETURN TO HIGH RPM (CHECK MP RISES)",
+              "expectation": "CYCLE 3X, HIGH RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -819,12 +822,7 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "CHECK IDLE, THEN 1000 RPM",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "JPI EDM-830 Normalize OFF",
-              "expectation": "PRESS & HOLD LF (3S)",
+              "expectation": "IDLE, THEN 1000 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -838,13 +836,13 @@
         "title": "KAP 150 Autopilot & Trim Preflight Test",
           "items": [
             {
-              "prompt": "KAP 150 Self-Test Sequence",
-              "expectation": "PRESS AND HOLD TEST - 5 BEEPS, VERIFY ALL ANNUNCIATORS FLASH & TURN OFF",
+              "prompt": "KAP 150 Self-Test",
+              "expectation": "HOLD, 5 BEEPS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "KAP 150 Annunciator Panel",
-              "expectation": "VERIFY 'RDY' ILLUMINATED",
+              "prompt": "KAP 150 Annunciators",
+              "expectation": "'RDY' ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -852,28 +850,28 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "MET Switch (Left Half Only)",
-              "expectation": "FORWARD & AFT - VERIFY NO TRIM MOVEMENT",
+              "prompt": "MET Left Half Only",
+              "expectation": "NO TRIM MOVEMENT",
               "type": "ITEM_CHALLENGE_RESPONSE"
               },
             {
-              "prompt": "MET Switch (Right Half Only)",
-              "expectation": "FORWARD & AFT - VERIFY NO TRIM MOVEMENT",
+              "prompt": "MET Right Half Only",
+              "expectation": "NO TRIM MOVEMENT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "MET Switch (Both Halves - NOSE DN)",
-              "expectation": "VERIFY TRIM WHEEL RUNS NOSE DOWN",
+              "prompt": "MET Both, Nose Dn",
+              "expectation": "TRIM RUNS DOWN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "MET Switch (Both Halves - NOSE UP)",
-              "expectation": "VERIFY TRIM WHEEL RUNS NOSE UP",
+              "prompt": "MET Both, Nose Up",
+              "expectation": "TRIM RUNS UP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "AP DISC / Trim Cutout Switch",
-              "expectation": "HOLD DISC & ACTUATE MET - VERIFY NO MOVEMENT",
+              "prompt": "AP DISC Held, MET",
+              "expectation": "NO TRIM MOVEMENT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -881,13 +879,13 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "AP Engage Button",
-              "expectation": "PRESS TO ENGAGE (VERIFY 'AP' ILLUMINATED)",
+              "prompt": "AP Engage",
+              "expectation": "PRESS, 'AP' ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Flight Controls (Roll & Pitch)",
-              "expectation": "OVERRIDE MANUALLY - VERIFY SERVO RESISTANCE",
+              "prompt": "Roll & Pitch Override",
+              "expectation": "SERVOS RESIST",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -896,28 +894,28 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Engage Autopilot HDG Mode",
-              "expectation": "PRESS HDG - HDG LIGHT ILLUMINATED",
+              "prompt": "AP HDG Mode",
+              "expectation": "PRESS, HDG LIGHT ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Move GI 275 HDG Bug",
-              "expectation": "ROTATE LEFT & RIGHT - VERIFY YOKE FOLLOWS BUG",
+              "prompt": "GI 275 HDG Bug L/R",
+              "expectation": "YOKE FOLLOWS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Control Wheel Steering (CWS)",
-              "expectation": "PRESS & HOLD - VERIFY SERVOS RELEASE, RELEASE TO RE-ENGAGE",
+              "prompt": "CWS Hold",
+              "expectation": "SERVOS RELEASE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Autotrim Test",
-              "expectation": "HOLD PITCH UP/DOWN - VERIFY TRIM WHEEL RUNS AFTER 3 SEC",
+              "prompt": "Autotrim, Hold Pitch",
+              "expectation": "RUNS AFTER 3 SEC",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "AP Disconnect Switch (Yoke)",
-              "expectation": "PRESS - VERIFY AP DISENGAGES & TONE SOUNDS",
+              "prompt": "AP Disc (Yoke)",
+              "expectation": "AP OFF, TONE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -957,12 +955,12 @@
             },
             {
               "prompt": "Fuel Selector",
-              "expectation": "CONFIRM TANK, NO SWITCHING",
+              "expectation": "NO SWITCHING",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Flaps (15° Takeoff)",
-              "expectation": "SET BY COUNTING 3 SECONDS",
+              "prompt": "Flaps (15°)",
+              "expectation": "COUNT 3 SECONDS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -971,8 +969,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Emergency Gear Extension Red Handle",
-              "expectation": "DOWN & LATCHED",
+              "prompt": "Emerg Gear Handle",
+              "expectation": "DOWN, LATCHED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -991,7 +989,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Engine Instruments MAP / RPM / OIL",
+              "prompt": "MAP / RPM / Oil",
               "expectation": "CHECK, GREEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1006,8 +1004,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Landing Gear (Positive Rate)",
-              "expectation": "UP (BELOW 107 KIAS)",
+              "prompt": "Gear, Positive Rate",
+              "expectation": "UP (< 107)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1017,7 +1015,7 @@
             },
             {
               "prompt": "Climb Airspeed",
-              "expectation": "100 KIAS (preferred to 88 KIAS VY)",
+              "expectation": "100 KIAS (VY 88)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1046,7 +1044,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Engine Instruments MAP / RPM / OIL",
+              "prompt": "MAP / RPM / Oil",
               "expectation": "CHECK, GREEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1071,7 +1069,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Wing Flaps (above obstacle)",
+              "prompt": "Flaps (Past Obstacle)",
               "expectation": "RETRACT SLOWLY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1102,7 +1100,7 @@
             },
             {
               "prompt": "Mixture",
-              "expectation": "FULL RICH (LEAN ABOVE 5000 MSL FOR MAX POWER)",
+              "expectation": "RICH (LEAN > 5000 MSL)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1112,7 +1110,7 @@
             },
             {
               "prompt": "Cowl Flaps",
-              "expectation": "AS REQUIRED (MONITOR CHT)",
+              "expectation": "AS REQD, CHECK CHT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1142,12 +1140,12 @@
             },
             {
               "prompt": "Mixture",
-              "expectation": "LEAN TO PEAK EGT OR 50-100°F ROP",
+              "expectation": "PEAK EGT OR 50-100° ROP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Engine Gauges / CHT",
-              "expectation": "CHECK, CHT <= 380°F",
+              "prompt": "Engine Gauges",
+              "expectation": "CHT <= 380°F",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1215,7 +1213,7 @@
             },
             {
               "prompt": "Gear Indicators",
-              "expectation": "CHECK GEAR DOWN LIGHT & VISUAL FLOOR INDICATOR",
+              "expectation": "LIGHT + FLOOR IND",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1260,7 +1258,7 @@
           "items": [
             {
               "prompt": "Landing Gear",
-              "expectation": "CHECK GEAR DOWN LIGHT & VISUAL FLOOR INDICATOR",
+              "expectation": "LIGHT + FLOOR IND",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1284,11 +1282,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Maximum performance landing: 65 KIAS on final, full flaps, main wheels first, maximum braking without locking wheels.",
+              "prompt": "Max performance: 65 KIAS final, full flaps, brake max without locking.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Crosswind landing: approach above normal speed with full flaps (use 1/2 flaps if the crosswind component exceeds 12 KTS).",
+              "prompt": "Crosswind: approach faster, full flaps (1/2 flaps if crosswind > 12 KTS).",
               "type": "ITEM_NOTE"
             }
           ]
@@ -1313,17 +1311,17 @@
             },
             {
               "prompt": "Airspeed",
-              "expectation": "65 KIAS (UNTIL CLIMB ESTABLISHED)",
+              "expectation": "65 KIAS TO CLIMB",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Flaps",
-              "expectation": "RETRACT TO TAKEOFF (15°) AFTER CLIMB ESTABLISHED",
+              "expectation": "TO 15° IN CLIMB",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Trim",
-              "expectation": "NOSE DOWN TO REDUCE CONTROL FORCE",
+              "expectation": "NOSE DOWN, EASE FORCE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1377,8 +1375,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Strobes & Landing Light",
-              "expectation": "OFF / AS REQUIRED",
+              "prompt": "Strobes & Ldg Light",
+              "expectation": "OFF / AS REQD",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1418,7 +1416,7 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "SET FOR 1100 RPM (UNTIL CHT STARTS TO DROP)",
+              "expectation": "1100 RPM UNTIL CHT DROPS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1438,8 +1436,8 @@
             },
             {"prompt": "FPI: Keys", "expectation": "ON DASH", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
-              "prompt": "FPI: HOLD L BUTTON DOWN TACH",
-              "expectation": "RECORD TACH HRS",
+              "prompt": "FPI: Tach (Hold L Button)",
+              "expectation": "RECORD",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },         
             {
@@ -1462,12 +1460,12 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "FPI: Temporary Shelter, Ramp or Cross-Country",
+              "prompt": "FPI: Shelter, Ramp, Cross-Country",
               "type": "ITEM_TITLE"
             },
             {
               "prompt": "Wheel Chocks",
-              "expectation": "INSTALL, THEN RELEASE PARKING BRAKE",
+              "expectation": "IN, RELEASE P-BRAKE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1513,8 +1511,8 @@
           "type": "ITEM_TITLE"
         },
         {
-          "prompt": "GTN 650 Flight Plan / Course",
-          "expectation": "VERIFY ACTIVE WAYPOINT",
+          "prompt": "GTN 650 Course",
+          "expectation": "ACTIVE WAYPOINT",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
@@ -1524,7 +1522,7 @@
         },
         {
           "prompt": "GI 275 HDG Bug",
-          "expectation": "SET TO CURRENT HEADING",
+          "expectation": "SET CURRENT HDG",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
@@ -1537,18 +1535,18 @@
           "type": "ITEM_TITLE"
         },
         {
-          "prompt": "Pitch / Vertical Speed",
-          "expectation": "ADJUST VIA CWS OR VS ENGAGEMENT",
+          "prompt": "Pitch / VS",
+          "expectation": "ADJUST VIA CWS OR VS",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
-          "prompt": "Target Altitude (Level-Off)",
-          "expectation": "PRESS ALT ON KAP 150 AT DESIRED ALTITUDE",
+          "prompt": "Level-Off",
+          "expectation": "PRESS ALT AT ALTITUDE",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
           "prompt": "Trim Indicator",
-          "expectation": "VERIFY AIRCRAFT IN TRIM (NO UP/DN TRIM WARNINGS)",
+          "expectation": "IN TRIM, NO WARNING",
           "type": "ITEM_CHALLENGE_RESPONSE"
         }
       ]
@@ -1566,23 +1564,23 @@
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
-          "prompt": "GI 275 CDI Source",
-          "expectation": "VERIFY GPS (LPV/LNAV) OR NAV1 (ILS)",
+          "prompt": "GI 275 CDI",
+          "expectation": "GPS (LPV) OR NAV1 (ILS)",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
-          "prompt": "Inbound Course (ILS / VLOC)",
-          "expectation": "VERIFY SET ON GI 275 HSI",
+          "prompt": "ILS Inbound Course",
+          "expectation": "SET ON HSI",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
           "prompt": "KAP 150 Mode",
-          "expectation": "SELECT APR (VERIFY ARM/CAPTURE)",
+          "expectation": "APR, ARM/CAPTURE",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
-          "prompt": "Glideslope / Glidepath",
-          "expectation": "VERIFY GS/GP CAPTURE AT INTERCEPT",
+          "prompt": "GS / GP",
+          "expectation": "CAPTURE AT INTERCEPT",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
@@ -1590,8 +1588,8 @@
           "type": "ITEM_TITLE"
         },
         {
-          "prompt": "AP Disconnect Switch (Yoke)",
-          "expectation": "PRESS TO DISENGAGE AP",
+          "prompt": "AP Disc (Yoke)",
+          "expectation": "PRESS",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
@@ -1605,8 +1603,8 @@
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
         {
-          "prompt": "GTN 650 Flight Plan",
-          "expectation": "PRESS UNSUSPEND / ACTIVATE MISSED APPROACH",
+          "prompt": "GTN 650 Missed Approach",
+          "expectation": "UNSUSPEND",
           "type": "ITEM_CHALLENGE_RESPONSE"
         }
       ]
@@ -1622,7 +1620,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "REDUCE TO 132 KIAS OR LESS",
+              "expectation": "132 KIAS OR LESS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1636,8 +1634,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Manual Gear Extension Mechanism",
-              "expectation": "LATCH FORWARD/LEVER BACK",
+              "prompt": "Manual Ext",
+              "expectation": "LATCH FWD, LEVER BACK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1645,27 +1643,31 @@
               "type": "ITEM_WARNING"
             },
             {
-              "prompt": "Slowly pull T-Handle 1-2 inches to rotate clutch mechanism and allow it to engage drive shaft",
+              "prompt": "Pull T-Handle 1-2 in slowly to engage the drive shaft.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Pull Extension T-Handle",
-              "expectation": "PULL 12-20 INCHES & RETURN, REPEAT UNTIL GEAR DOWN & LOCKED (STOP WHEN RESISTANCE IS FELT)",
+              "prompt": "T-Handle",
+              "expectation": "PULL 12-20 IN, REPEAT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Gear Down Lights",
-              "expectation": "VERIFY GEAR DOWN LIGHT ON",
+              "prompt": "Repeat until gear down and locked. Stop when resistance is felt.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Gear Down Light",
+              "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Floor Indicator",
-              "expectation": "VERIFY VISUAL ALIGNMENT",
+              "expectation": "ALIGNED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Manual Extension Lever",
-              "expectation": "RETURN TO NORMAL POSITION & SECURE WITH LATCH",
+              "prompt": "Manual Ext Lever",
+              "expectation": "NORMAL, LATCHED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1674,7 +1676,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Malfunction of the landing gear requires maintenance inspection and repair before the electrical system is used.",
+              "prompt": "Needs maintenance before electrical gear use.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -1683,27 +1685,27 @@
           "title": "Failure to Retract Landing Gear Electrically",
           "items": [
             {
-              "prompt": "Indication: GR SAFETY BY PASS annunciator, both gear annunciator lights illuminated and gear warning horn sounding.",
+              "prompt": "Indication: GR SAFETY BY PASS light, both gear lights, horn.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "GR SAFETY BY PASS Switch",
-              "expectation": "DEPRESS UNTIL GEAR FULLY RETRACTED",
+              "prompt": "GR SAFETY BYPASS",
+              "expectation": "HOLD UNTIL UP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "GEAR UNSAFE and GEAR DOWN lights",
+              "prompt": "Gear Unsafe / Down Lights",
               "expectation": "OUT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "GEAR RELAYS circuit breaker",
-              "expectation": "PULL (WARNING HORN OFF)",
+              "prompt": "GR RELAYS CCTBKR",
+              "expectation": "PULL, HORN OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Gear Extension",
-              "expectation": "RESET 'GEAR RELAYS' CIRCUIT BREAKER",
+              "expectation": "RESET RELAYS CCTBKR",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1712,12 +1714,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Check AIRSPEED safety switch as soon as practicable",
-              "expectation": "CHECK",
+              "prompt": "Airspeed Safety Switch",
+              "expectation": "CHECK ASAP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "If above procedures do not initiate retraction process, check emergency manual extension lever on floor for proper position.",
+              "prompt": "If no retraction, check floor manual extension lever position.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -1745,27 +1747,31 @@
             },
             {
               "prompt": "Mixture",
-              "expectation": "READJUST TO POWER SETTING IN USE",
+              "expectation": "READJUST FOR POWER",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Ignition",
-              "expectation": "CHECK IF MIXTURE READJUSTMENT IS INEFFECTIVE",
+              "prompt": "If Mixture Ineffective",
+              "expectation": "CHECK IGNITION",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Throttle",
-              "expectation": "RETARD UNTIL ROUGHNESS IS MINIMAL",
+              "expectation": "RETARD TO SMOOTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Ignition Switch",
-              "expectation": "R, THEN L, THEN BOTH (IF ROUGHNESS CLEARS ON ONE MAGNETO: ADJUST POWER & CONTINUE)",
+              "expectation": "R, L, BOTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "If Severe Roughness Cannot Be Eliminated",
-              "expectation": "LAND AS SOON AS PRACTICABLE",
+              "prompt": "If smooth on one mag, adjust power and continue.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Severe, Not Cured",
+              "expectation": "LAND ASAP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1775,7 +1781,7 @@
           "items": [
             {
               "prompt": "Mixture",
-              "expectation": "READJUST TO PROPER FUEL FLOW FOR POWER IN USE",
+              "expectation": "READJUST FUEL FLOW",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1790,7 +1796,7 @@
             },
             {
               "prompt": "Power",
-              "expectation": "REDUCE IF TEMPERATURE CANNOT BE MAINTAINED WITHIN LIMITS",
+              "expectation": "REDUCE IF CHT STILL HIGH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1799,7 +1805,7 @@
           "title": "High Oil Temperature",
           "items": [
             {
-              "prompt": "Prolonged high oil temperature is usually accompanied by a drop in oil pressure. If oil pressure remains normal, a high temperature indication may be caused by a faulty gauge or thermocouple.",
+              "prompt": "High temp with normal pressure may be a faulty gauge or thermocouple.",
               "type": "ITEM_NOTE"
             },
             {
@@ -1819,7 +1825,7 @@
             },
             {
               "prompt": "Engine",
-              "expectation": "PREPARE FOR POSSIBLE ENGINE FAILURE IF TEMPERATURE CONTINUES HIGH",
+              "expectation": "EXPECT FAILURE IF HIGH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1833,8 +1839,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Oil Pressure Below 25 PSI",
-              "expectation": "EXPECT ENGINE FAILURE - PROCEED TO FORCED LANDING WITHOUT POWER",
+              "prompt": "Oil Press < 25 PSI",
+              "expectation": "EXPECT FAILURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1843,7 +1849,7 @@
           "title": "Engine Driven Fuel Pump Failure",
           "items": [
             {
-              "prompt": "Probable when the engine only operates with the boost pump ON. Operate the engine controls smoothly: lean the mixture when retarding the throttle or reducing engine speed, enrich it when opening the throttle or increasing engine speed. Always lean to obtain a smooth running engine.",
+              "prompt": "Likely if engine runs only with boost pump ON. Move controls smoothly: lean when reducing power, enrich when adding.",
               "type": "ITEM_NOTE"
             },
             {
@@ -1863,7 +1869,7 @@
             },
             {
               "prompt": "Mixture",
-              "expectation": "INCREASE UNTIL ENGINE STARTS, ADJUST FOR SMOOTH OPERATION",
+              "expectation": "ENRICH, SMOOTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1888,7 +1894,7 @@
             },
             {
               "prompt": "Propeller",
-              "expectation": "DECREASE (SET IF ANY CONTROL AVAILABLE)",
+              "expectation": "DECREASE IF ABLE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1898,7 +1904,7 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "AS REQUIRED TO MAINTAIN RPM BELOW 2700",
+              "expectation": "KEEP RPM < 2700",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1922,8 +1928,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Landing",
-              "expectation": "AS SOON AS PRACTICABLE IF CONDITION PERSISTS",
+              "prompt": "If It Persists",
+              "expectation": "LAND ASAP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1932,17 +1938,17 @@
           "title": "Alternate Static Source",
           "items": [
             {
-              "prompt": "Use whenever the normal static sources are suspected to be blocked. The airspeed indicator, altimeter and rate-of-climb then sense cabin interior pressure.",
+              "prompt": "Use if normal static is blocked. Airspeed, altimeter and VSI then read cabin pressure.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Alternate Static Source",
-              "expectation": "PULL ON (VALVE LOWER LEFT OF PILOT'S PANEL, ABOVE LEFT KNEE)",
+              "prompt": "Alternate Static",
+              "expectation": "PULL ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Airspeed & Altimeter Readings",
-              "expectation": "CHECK CALIBRATION TABLES (POH SECTION V)",
+              "prompt": "Airspeed, Altimeter",
+              "expectation": "SEE POH SECTION V",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1955,11 +1961,11 @@
               "type": "ITEM_WARNING"
             },
             {
-              "prompt": "If practicable, have a passenger hold the door during the landing flare.",
+              "prompt": "Have a passenger hold the door in the flare if practicable.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Only If Return Is Impractical: Close Door At Safe Altitude",
+              "prompt": "Only If No Return: Close At Safe Alt",
               "type": "ITEM_TITLE"
             },
             {
@@ -1974,7 +1980,7 @@
             },
             {
               "prompt": "Aircraft",
-              "expectation": "RIGHT SIDESLIP (RIGHT BANK WITH LEFT RUDDER)",
+              "expectation": "R SIDESLIP (R BANK, L RUD)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1993,7 +1999,7 @@
             },
             {
               "prompt": "Ram Air",
-              "expectation": "OFF (DO NOT TURN ON AGAIN IN CLEAR AIR UNTIL ALL ICE & SNOW HAS MELTED)",
+              "expectation": "OFF UNTIL ICE MELTED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2008,7 +2014,7 @@
             },
             {
               "prompt": "Cabin Heat",
-              "expectation": "OFF UNTIL ENGINE OPERATION IS NORMAL",
+              "expectation": "OFF UNTIL ENGINE NORMAL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2068,7 +2074,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "LOWER NOSE, 91 KIAS (BEST GLIDE, MAX GROSS)",
+              "expectation": "NOSE DOWN, 91 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2102,16 +2108,16 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "If Engine Does Not Restart - Power Off Landing:",
+              "prompt": "No Restart: Power-Off Landing:",
               "type": "ITEM_TITLE"
             },
             {
               "prompt": "Landing Gear",
-              "expectation": "UP OR DOWN (BASED ON TERRAIN)",
+              "expectation": "PER TERRAIN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Gear DOWN for paved runway or smooth surface; Gear UP for rough fields, soft ground, or trees",
+              "prompt": "Gear DOWN: paved or smooth. UP: rough, soft, trees.",
               "type": "ITEM_NOTE"
             },
             {
@@ -2161,7 +2167,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "91 KIAS (BEST GLIDE, MAX GROSS)",
+              "expectation": "91 KIAS (BEST GLIDE)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2190,8 +2196,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Ignition Switch",
-              "expectation": "CHECK ON BOTH (START IF PROPELLER STOPPED)",
+              "prompt": "Ignition",
+              "expectation": "BOTH (START IF STOPPED)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2206,7 +2212,7 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "RETARD TO DESIRED POWER (WHEN ENGINE STARTS)",
+              "expectation": "RETARD TO DESIRED POWER (ON RESTART)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2216,16 +2222,16 @@
             },
             {
               "prompt": "Engine Gauges",
-              "expectation": "CHECK FOR POWER RESTORATION",
+              "expectation": "POWER RESTORED?",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Cruise Power & RPM",
-              "expectation": "RE-ESTABLISH, THEN LEAN MIXTURE AS REQUIRED",
+              "prompt": "Cruise Power / RPM",
+              "expectation": "SET, THEN LEAN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "If the engine does not restart, establish best glide speed and proceed to Forced Landing Without Power.",
+              "prompt": "No restart: best glide, then Forced Landing Without Power.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -2235,7 +2241,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "91 KIAS (BEST GLIDE, MAX GROSS)",
+              "expectation": "91 KIAS (BEST GLIDE)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2275,11 +2281,11 @@
             },
             {
               "prompt": "Landing Gear",
-              "expectation": "UP OR DOWN (BASED ON TERRAIN)",
+              "expectation": "PER TERRAIN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Gear DOWN for paved runway or smooth surface; Gear UP for rough fields, soft ground, or trees",
+              "prompt": "Gear DOWN: paved or smooth. UP: rough, soft, trees.",
               "type": "ITEM_NOTE"
             },
             {
@@ -2299,7 +2305,7 @@
             },
             {
               "prompt": "Cabin Door",
-              "expectation": "UNLATCH PRIOR TO TOUCHDOWN",
+              "expectation": "UNLATCH BEFORE TD",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -2329,12 +2335,12 @@
             },
             {
               "prompt": "Cabin Vents & Heat",
-              "expectation": "CLOSED (CONTROLS FORWARD)",
+              "expectation": "CLOSED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Landing Gear",
-              "expectation": "DOWN OR UP, DEPENDING ON TERRAIN",
+              "expectation": "PER TERRAIN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2343,7 +2349,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "If the fire is not extinguished, attempt to increase airflow over the engine by increasing glide speed and opening the cowl flaps. Plan a power-off landing. Do not attempt an engine restart.",
+              "prompt": "If fire persists: faster glide, cowl flaps open, power-off landing. No restart.",
               "type": "ITEM_NOTE"
             },
             {
@@ -2382,7 +2388,7 @@
             },
             {
               "prompt": "Heating Controls",
-              "expectation": "CLOSED (CONTROL FORWARD)",
+              "expectation": "CLOSED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2392,7 +2398,7 @@
             },
             {
               "prompt": "Circuit Breakers",
-              "expectation": "CHECK TO IDENTIFY FAULTY CIRCUIT (DO NOT RESET)",
+              "expectation": "FIND FAULT, NO RESET",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2416,7 +2422,7 @@
             },
             {
               "prompt": "Essential Switches",
-              "expectation": "ON ONE AT A TIME, SHORT PAUSE BETWEEN",
+              "expectation": "ON ONE AT A TIME",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -2426,7 +2432,7 @@
           "items": [
             {
               "prompt": "Volts Warning Light",
-              "expectation": "VERIFY STEADY (ILLUMINATED)",
+              "expectation": "STEADY ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2465,11 +2471,11 @@
           "items": [
             {
               "prompt": "Volts Warning Light",
-              "expectation": "FLASHING (LOW VOLTAGE)",
+              "expectation": "FLASHING",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Alternator Field Circuit Breaker",
+              "prompt": "Alternator Field CB",
               "expectation": "RESET ONCE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -2493,7 +2499,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "A tripped main alternator circuit breaker can only be caused by a shorted alternator circuit and cannot be corrected by resetting the breaker. Verify by attempting to reset it no more than once. If that fails, pull the alternator field breaker, turn off all non-essential electrical equipment and terminate the flight as soon as practical.",
+              "prompt": "Tripped alternator breaker means a shorted circuit: reset once at most. If it fails, pull the field breaker, shed loads, land ASAP.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -2523,7 +2529,7 @@
             },
             {
               "prompt": "Fire",
-              "expectation": "EXTINGUISH WITH FIRE EXTINGUISHER",
+              "expectation": "EXTINGUISH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -2532,36 +2538,36 @@
           "title": "Autopilot / Electric Trim Malfunction",
           "items": [
             {
-              "prompt": "Autopilot Malfunction (Do Steps 1 & 2 Simultaneously):",
+              "prompt": "A/P Malfunction (Steps 1 & 2 Together):",
               "type": "ITEM_TITLE"
             },
             {
               "prompt": "Control Wheel",
-              "expectation": "GRASP FIRMLY & REGAIN AIRCRAFT CONTROL",
+              "expectation": "GRASP, REGAIN CONTROL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "A/P DISC / TRIM INTER Switch",
-              "expectation": "PRESS & HOLD",
+              "prompt": "A/P DISC/TRIM INTER",
+              "expectation": "PRESS, HOLD",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "A/P DISC / TRIM INTER Switch",
-              "expectation": "RELEASE WHILE OBSERVING PITCH TRIM WHEEL",
+              "prompt": "A/P DISC/TRIM INTER",
+              "expectation": "RELEASE, WATCH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Pitch Trim Wheel",
-              "expectation": "IF IN MOTION, FOLLOW ELECTRIC TRIM MALFUNCTION",
+              "expectation": "MOVING? DO ELEC TRIM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Electric Trim Malfunction (Manual Electric or Autotrim):",
+              "prompt": "Electric Trim Malfunction:",
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "A/P DISC / TRIM INTER Switch",
-              "expectation": "PRESS & HOLD THROUGHOUT RECOVERY",
+              "prompt": "A/P DISC/TRIM INTER",
+              "expectation": "KEEP HELD",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2579,7 +2585,7 @@
               "type": "ITEM_WARNING"
             },
             {
-              "prompt": "Maximum altitude loss from an autopilot malfunction: cruise, climb or descent 400 ft; maneuvering 90 ft; approach 90 ft.",
+              "prompt": "Max altitude loss: cruise/climb/descent 400 ft; maneuvering/approach 90 ft.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -2613,12 +2619,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Power During Descent",
-              "expectation": "AS REQUIRED TO MAINTAIN CHT 300°F (149°C) MINIMUM",
+              "prompt": "Power",
+              "expectation": "CHT 300°F MIN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "About 2,000 fpm or more is achievable either gear and flaps up at 195 KIAS or gear down at 132 KIAS. At 132 KIAS the descent angle is steeper (less distance covered), the ride is smoother and pilot workload is lower.",
+              "prompt": "2,000+ fpm at 195 KIAS (gear, flaps up) or 132 KIAS (gear down). 132 is steeper, smoother, lower workload.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -2642,7 +2648,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "When Sure Of Making The Landing Area (Firm Sod Or Foamed Runway Recommended):",
+              "prompt": "When Landing Area Is Assured:",
               "type": "ITEM_TITLE"
             },
             {
@@ -2696,12 +2702,12 @@
             },
             {
               "prompt": "Rudder",
-              "expectation": "FULL RUDDER OPPOSITE THE DIRECTION OF SPIN",
+              "expectation": "FULL OPPOSITE SPIN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Control Wheel",
-              "expectation": "FORWARD OF NEUTRAL, BRISKLY (MORE FORWARD IF ROTATION DOES NOT STOP)",
+              "expectation": "BRISKLY FWD OF NEUTRAL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2715,22 +2721,22 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Hold the anti-spin controls until rotation stops.",
+              "prompt": "Hold anti-spin controls until rotation stops.",
               "type": "ITEM_NOTE"
             },
             {
               "prompt": "Flaps",
-              "expectation": "IF EXTENDED, RETRACT AS SOON AS POSSIBLE",
+              "expectation": "RETRACT IF EXTENDED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Rudder",
-              "expectation": "NEUTRALIZE WHEN SPIN STOPS",
+              "expectation": "NEUTRAL, SPIN STOPS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Control Wheel",
-              "expectation": "SMOOTHLY AFT TO LEVEL FLIGHT ATTITUDE",
+              "expectation": "SMOOTHLY AFT TO LEVEL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -2758,7 +2764,7 @@
             },
             {
               "prompt": "Rear Seat Backs",
-              "expectation": "FOLD FORWARD, CLIMB OVER",
+              "expectation": "FOLD FWD, CLIMB OVER",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
