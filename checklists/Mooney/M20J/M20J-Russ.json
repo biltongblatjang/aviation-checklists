@@ -11,6 +11,38 @@
       "category": "normal",
       "checklists": [
         {
+          "title": "V Speeds",
+          "items": [
+            {"prompt": "LIMITS (KIAS)", "type": "ITEM_TITLE"},
+            {"prompt": "VNE 198: never exceed (red line)", "type": "ITEM_NOTE"},
+            {"prompt": "VNO 176: smooth air only above this (top of green arc)", "type": "ITEM_NOTE"},
+            {"prompt": "VA by weight: 116 at 2,740 lb, 110 at 2,470 lb, 105 at 2,250 lb, 97 at 1,941 lb", "type": "ITEM_NOTE"},
+            {"prompt": "VFE 115: flaps extended (top of white arc)", "type": "ITEM_NOTE"},
+            {"prompt": "VLE 132: gear extended", "type": "ITEM_NOTE"},
+            {"prompt": "VLO 132 gear extension, 107 gear retraction", "type": "ITEM_NOTE"},
+            {"prompt": "STALL, WINGS LEVEL, POWER IDLE (KIAS)", "type": "ITEM_TITLE"},
+            {"prompt": "Gear up, flaps 0: 61 at 2,740 lb, 56 at 2,300 lb", "type": "ITEM_NOTE"},
+            {"prompt": "Gear down, flaps 15: 60 at 2,740 lb, 55 at 2,300 lb", "type": "ITEM_NOTE"},
+            {"prompt": "Gear down, flaps 33: 54 at 2,740 lb, 49 at 2,300 lb", "type": "ITEM_NOTE"},
+            {"prompt": "About 11 KIAS higher at 45 degrees of bank", "type": "ITEM_NOTE"},
+            {"prompt": "TAKEOFF AND CLIMB (KIAS)", "type": "ITEM_TITLE"},
+            {"prompt": "Rotate (lift nose wheel): 63 normal, 62 maximum performance", "type": "ITEM_NOTE"},
+            {"prompt": "Initial climb: 71 normal. Maximum performance: 66 until clear of obstacle, then 91 to 100", "type": "ITEM_NOTE"},
+            {"prompt": "Gear up in climb before 106 (POH takeoff procedure)", "type": "ITEM_NOTE"},
+            {"prompt": "VX 69 at sea level, plus 1 for each 5,000 ft", "type": "ITEM_NOTE"},
+            {"prompt": "VY 88 at sea level, 82 at 10,000 ft", "type": "ITEM_NOTE"},
+            {"prompt": "Normal climb 91 to 100 (POH). FPI practice: 100 preferred", "type": "ITEM_NOTE"},
+            {"prompt": "GLIDE (GEAR UP, FLAPS 0, PROP WINDMILLING)", "type": "ITEM_TITLE"},
+            {"prompt": "Best glide: 91 at 2,740 lb, 88 at 2,500 lb, 85 at 2,300 lb", "type": "ITEM_NOTE"},
+            {"prompt": "APPROACH AND LANDING (KIAS)", "type": "ITEM_TITLE"},
+            {"prompt": "Normal approach: 71 at 2,740 lb, 65 at 2,300 lb", "type": "ITEM_NOTE"},
+            {"prompt": "Maximum performance approach: 65 at 2,740 lb, 59 at 2,300 lb", "type": "ITEM_NOTE"},
+            {"prompt": "Landing emergency, power off: 71", "type": "ITEM_NOTE"},
+            {"prompt": "Full flaps (33 degrees) below VFE 115", "type": "ITEM_NOTE"},
+            {"prompt": "Between listed weights, interpolate. Source: POH Manual 1231 Rev A, Sections II, III, IV, V", "type": "ITEM_NOTE"}
+          ]
+        },
+        {
           "title": "Preflight Inspection",
           "items": [
             {
