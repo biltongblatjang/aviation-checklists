@@ -10,7 +10,7 @@
       "title": "Normal Procedures",
       "checklists": [
         {
-          "title": "V Speeds (MPH IAS) MWG 2,950 lb",
+          "title": "V Speeds (MPH IAS) MGW 2,950 lb",
           "items": [
             {
               "prompt": "MPH, not knots (N1080M reads knots).",
