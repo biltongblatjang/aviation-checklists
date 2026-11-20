@@ -23,7 +23,7 @@
           ]
         },
         {
-          "title": "V Speeds (MPH) Max Gr. Wt. 2,950 lb #",
+          "title": "V Speeds (MPH IAS) MWG 2,950 lb #",
           "items": [
             {
               "prompt": "N100FP reads MPH, not knots (N1080M reads knots).",
@@ -1645,6 +1645,7 @@
     },
     {
       "title": "Abnormal Procedures",
+      "category": "abnormal",
       "checklists": [
         {
           "title": "Carburetor Icing",
@@ -1915,6 +1916,7 @@
     },
     {
       "title": "Emergency Procedures",
+      "category": "emergency",
       "checklists": [
         {
           "title": "Alternator and Main Battery Failure #",
