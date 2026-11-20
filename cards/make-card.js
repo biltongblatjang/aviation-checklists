@@ -106,20 +106,13 @@ else{
   by=maxY+2;
   const bw=(W-2*M-G)/2;
   const bx=side.boxes[0];
-  doc.rect(M,by,bw,H-M-by).lineWidth(.6).strokeColor(COL.yellow).stroke();
+  doc.rect(M,by,bw,H-M-by).lineWidth(.6).strokeColor(COL[bx.color]||'#333').stroke();
   fit(M+2,by+2,bw-4,bx,H-M,'box');
-  // power box
-  const pw={head:'POWER SETTINGS',color:'blue',lines:[
-    'Normal Takeoff|Power~1 => Takeoff: Full · 2600',
-    'Climb|Power => Climb: 23 In · 2450',
-    'Cruise|Power => Cruise: 15-23 In · 2200-2450',
-    'Descent|Power => Descent: Reduce in Steps',
-    'Go Around|Power => Go-Around: Full · 2600',
-    'Cruise|Engine Instruments => CHT <380°F'
-  ]};
+  // second box (e.g. power settings) comes from the sidecar
+  const pw=side.boxes[1];
   const px=M+bw+G;
-  doc.rect(px,by,bw,H-M-by).lineWidth(.6).strokeColor(COL.blue).stroke();
-  fit(px+2,by+2,bw-4,pw,H-M,'power');
+  doc.rect(px,by,bw,H-M-by).lineWidth(.6).strokeColor(COL[pw.color]||'#333').stroke();
+  fit(px+2,by+2,bw-4,pw,H-M,'box2');
 }
 // BACK
 doc.addPage();
