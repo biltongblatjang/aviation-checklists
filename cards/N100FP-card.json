@@ -253,6 +253,18 @@
         "Short Field Landing|Flaps => Land: Flaps – 40°",
         "Short Field Landing|Airspeed => Final – 69, Power Off"
       ]
+    },
+    {
+      "head": "POWER SETTINGS",
+      "color": "blue",
+      "lines": [
+        "Normal Takeoff|Power~1 => Takeoff: Full · 2600",
+        "Climb|Power => Climb: 23 In · 2450",
+        "Cruise|Power => Cruise: 15-23 In · 2200-2450",
+        "Descent|Power => Descent: Reduce in Steps",
+        "Go Around|Power => Go-Around: Full · 2600",
+        "Cruise|Engine Instruments => CHT <380°F"
+      ]
     }
   ],
   "back": [
