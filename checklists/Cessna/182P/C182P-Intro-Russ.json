@@ -13,19 +13,7 @@
           "title": "Read Me First (Checkout Marks)",
           "items": [
             {
-              "prompt": "A # mark means the item is covered on the FPI Cessna 182 Checkout Form (rev. 11/18/2026). Expect your checkout instructor to ask about it on the ground check or watch it on the flight check.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "# before an item: on the form",
-              "type": "ITEM_PLAINTEXT"
-            },
-            {
-              "prompt": "# after a name: whole list on form",
-              "type": "ITEM_PLAINTEXT"
-            },
-            {
-              "prompt": "Marked items cover speeds, performance, fuel and oil, constant-speed propeller power settings, cowl flaps, CHT, weight and balance, all systems and switches, flap, prop and cowl use, electrical and engine failures, short-field landing at KLVK and the go-around.",
+              "prompt": "# reflects an entry on the 182P checkout form rev 11/18/2026",
               "type": "ITEM_NOTE"
             },
             {
@@ -38,12 +26,8 @@
           "title": "V Speeds (MPH) Max Gr. Wt. 2,950 lb #",
           "items": [
             {
-              "prompt": "N100FP reads MPH, not knots (N1080M reads knots). VNE, VNO, VFE, VA and the arcs are CAS in the manual and close to indicated at these speeds.",
+              "prompt": "N100FP reads MPH, not knots (N1080M reads knots).",
               "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "LIMITS",
-              "type": "ITEM_TITLE"
             },
             {
               "prompt": "VNE 198 (red line)",
@@ -58,52 +42,28 @@
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VFE 160 with flaps to 10°",
+              "prompt": "VFE 160 (flaps to 10°)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VFE 110 with flaps 10° to 40°",
+              "prompt": "VFE 110 (flaps 10° to 40°)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "STALL, POWER OFF, 2,950 LB",
-              "type": "ITEM_TITLE"
-            },
-            {
-              "prompt": "VS flaps 0: 64 CAS (about 55)",
+              "prompt": "VS about 55 (flaps up)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VS0 flaps 40: 57 CAS (about 44)",
+              "prompt": "VS0 about 44 (flaps 40°)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "The needle reads well below CAS near the stall. Never use the bottom of the white or green arc as a stall reference. The stall horn sounds 5 to 10 MPH above the stall.",
+              "prompt": "The needle reads far below the arc at the stall. Do not use the arc bottom as the stall speed. The horn sounds 5 to 10 MPH above the stall.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "TAKEOFF",
-              "type": "ITEM_TITLE"
-            },
-            {
-              "prompt": "VR 60 (lift nose wheel)",
+              "prompt": "VR 60",
               "type": "ITEM_PLAINTEXT"
-            },
-            {
-              "prompt": "Initial climb 90",
-              "type": "ITEM_PLAINTEXT"
-            },
-            {
-              "prompt": "Obstacle clearance 60, flaps 20°",
-              "type": "ITEM_PLAINTEXT"
-            },
-            {
-              "prompt": "Flaps up after 80",
-              "type": "ITEM_PLAINTEXT"
-            },
-            {
-              "prompt": "CLIMB",
-              "type": "ITEM_TITLE"
             },
             {
               "prompt": "VX 70 (sea level)",
@@ -114,39 +74,19 @@
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "Normal climb 100 to 110",
+              "prompt": "VG 80 (flaps up)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "GLIDE",
-              "type": "ITEM_TITLE"
-            },
-            {
-              "prompt": "Best glide 80 (flaps up)",
+              "prompt": "VREF 80 to 90 (flaps up)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "Forced landing 75 (flaps down)",
+              "prompt": "VREF 70 to 80 (flaps down)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "APPROACH",
-              "type": "ITEM_TITLE"
-            },
-            {
-              "prompt": "Flaps up 80 to 90",
-              "type": "ITEM_PLAINTEXT"
-            },
-            {
-              "prompt": "Flaps down 70 to 80",
-              "type": "ITEM_PLAINTEXT"
-            },
-            {
-              "prompt": "Short field 69 (flaps 40°)",
-              "type": "ITEM_PLAINTEXT"
-            },
-            {
-              "prompt": "Go-around 80 (flaps 20°)",
+              "prompt": "VREF 69 (short field, flaps 40°)",
               "type": "ITEM_PLAINTEXT"
             },
             {
@@ -154,7 +94,7 @@
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VX 70, VA 104 at 2,000 lb and crosswind 17 come from the FPI checkout sheet (rev. 11/18/2026), not from the 1975 owner's manual. Stall figures in parentheses are worked from the manual's stall and airspeed correction tables.",
+              "prompt": "VX 70, VA 104 at 2,000 lb and crosswind 17 come from the FPI checkout sheet (rev. 11/18/2026), not from the 1975 owner's manual. Stall figures are indicated, worked from the manual's stall and airspeed correction tables.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -171,13 +111,9 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "# Wx, W&B, Performance",
+              "prompt": "Wx, W&B, Performance",
               "expectation": "REVIEW",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "A panel placard limits the aft CG to 46.0 in. aft of datum because the autopilot is installed. Check the loaded CG against it, not only the manual's envelope.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Documents (ARROW)",
@@ -200,12 +136,22 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Flaps",
+              "prompt": "AUX INST AIR",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "EMERG AVIONICS",
+              "expectation": "OFF, COVER DOWN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps",
               "expectation": "EXTEND",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Fuel Quantity",
+              "prompt": "Fuel Quantity",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -234,18 +180,14 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Fuel Selector",
+              "prompt": "Fuel Selector",
               "expectation": "BOTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Tach Logbook",
-              "expectation": "READ LAST ENTRY",
+              "prompt": "FPI Tach Logbook",
+              "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "The tach logbook in the plane has detachable pages with columns for start date, pilot (last name, first initial), final tach, oil level, oil added, fuel gallons, tach at fueling and credit card. Read the last line before you fly.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Alternate Static",
@@ -253,7 +195,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Baggage Door",
+              "prompt": "# Baggage Door",
               "expectation": "SECURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -276,11 +218,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Look for water and sediment. Check the sump on the first flight of the day and after every refuel. Club practice is to refuel a C182 after every flight.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "# Fuel Quantity",
+              "prompt": "Fuel Quantity",
               "expectation": "CHECK, CAP SECURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -362,7 +300,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Fuel Quantity",
+              "prompt": "Fuel Quantity",
               "expectation": "CHECK, CAP SECURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -386,7 +324,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Propeller, Spinner",
+              "prompt": "Propeller, Spinner",
               "expectation": "NICKS, OIL, SECURE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -411,7 +349,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Oil Level",
+              "prompt": "Oil Level",
               "expectation": "9 QT MIN, 12 FULL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -420,7 +358,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "# Fuel Strainer",
+              "prompt": "Fuel Strainer",
               "expectation": "DRAIN 4 SEC",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -483,12 +421,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Cowl Flaps",
+              "prompt": "Cowl Flaps",
               "expectation": "OPEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Fuel Selector",
+              "prompt": "Fuel Selector",
               "expectation": "BOTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -498,7 +436,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Propeller",
+              "prompt": "Propeller",
               "expectation": "HIGH RPM (FULL IN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -522,7 +460,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "N100FP club cold start: try with no prime, one or two pumps of the throttle, throttle open about ¼ in. If it will not start, prime one or two strokes. The owner's manual says 1 to 6 strokes by temperature, throttle ½ in. Lock the primer IN after priming.",
+              "prompt": "N100FP club cold start: try with no prime, one or two pumps of the throttle, throttle open about ¼ in. If it will not start, prime 2 or 3 strokes. The owner's manual says 1 to 6 strokes by temperature, throttle ½ in. Lock the primer IN after priming.",
               "type": "ITEM_NOTE"
             },
             {
@@ -531,7 +469,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Fuel Totalizer (FS-450)",
+              "prompt": "# Fuel Totalizer (FS-450)",
               "expectation": "ENTER FUEL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -545,7 +483,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Propeller Area",
+              "prompt": "Propeller Area",
               "expectation": "CLEAR",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -730,11 +668,6 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Taxi Clearance",
-              "expectation": "OBTAIN",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Brakes",
               "expectation": "RELEASE, TEST",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -743,25 +676,12 @@
               "prompt": "Flight Instruments",
               "expectation": "CHECK ON TAXI",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Taxi Speed",
-              "expectation": "SLOW, NO LONG RUNS",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "The engine is closely cowled. Avoid long ground runs and keep taxi power low (OM).",
-              "type": "ITEM_NOTE"
             }
           ]
         },
         {
           "title": "Runup",
           "items": [
-            {
-              "prompt": "Position into the wind, brakes set. Full-throttle ground checks are not recommended unless you suspect the engine is not turning up properly (OM).",
-              "type": "ITEM_NOTE"
-            },
             {
               "prompt": "Brakes",
               "expectation": "HOLD, SET",
@@ -778,12 +698,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Fuel Selector",
+              "prompt": "Fuel Selector",
               "expectation": "BOTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Cowl Flaps",
+              "prompt": "Cowl Flaps",
               "expectation": "OPEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -799,11 +719,11 @@
             },
             {
               "prompt": "# Engine Monitor",
-              "expectation": "HOLD LF 3S",
+              "expectation": "HOLD LF 5S",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Hold LF about 3 seconds (the JPI guide says 5) until Normalize shows. Tap STEP to stop the scan if needed. Hold LF again to return to percentage view before you change power.",
+              "prompt": "Hold LF about 5 seconds until Normalize shows. Tap STEP to stop the scan if needed. Hold LF again to return to percentage view before you change power.",
               "type": "ITEM_NOTE"
             },
             {
@@ -812,11 +732,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "On one magneto, all EGT columns should rise together (about 50°F). A column that drops points to a fouled plug. As of 11/11/26, a warm engine is needed to keep the mag check within spec.",
+              "prompt": "On one magneto, all EGT columns should rise together (about 50°F). A column that drops points to a fouled plug.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "# Propeller",
+              "prompt": "Propeller",
               "expectation": "CYCLE, RETURN FULL IN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -859,7 +779,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Doors, Window",
+              "prompt": "# Doors, Window",
               "expectation": "CLOSED, LOCKED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -922,12 +842,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "10° (20° SHORT)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Fuel Selector",
+              "prompt": "Fuel Selector",
               "expectation": "BOTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -936,7 +856,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "# Cowl Flaps",
+              "prompt": "Cowl Flaps",
               "expectation": "OPEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -949,10 +869,6 @@
               "prompt": "Mixture",
               "expectation": "BEST POWER",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Club flow sets best power for takeoff and landing. The 1975 manual lists RICH before landing, and at low elevations such as KLVK they are nearly the same.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Parking Brake",
@@ -980,7 +896,7 @@
           "title": "Normal Takeoff",
           "items": [
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "10° (0 TO 20°)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -990,22 +906,18 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Power",
+              "prompt": "Power",
               "expectation": "FULL, 2600 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Feed power in smoothly over about 3 seconds. Full throttle in N100FP is about 1 inch from the firewall, so do not stop short.",
+              "prompt": "Feed power in smoothly over about 3 seconds. Full throttle in N100FP is about 1 inch from the firewall.",
               "type": "ITEM_NOTE"
             },
             {
               "prompt": "Engine Instruments",
               "expectation": "CHECK, GREEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Check full-throttle operation early. Rough running or slow acceleration is reason to abort (OM). Turn the throttle friction lock clockwise to stop the throttle creeping back.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Airspeed Indicator",
@@ -1023,12 +935,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "UP ABOVE 80 MPH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Power",
+              "prompt": "Power",
               "expectation": "23 IN, 2450 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1037,7 +949,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "# Cowl Flaps",
+              "prompt": "Cowl Flaps",
               "expectation": "OPEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
@@ -1047,7 +959,7 @@
           "title": "Short / Soft Field Takeoff",
           "items": [
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "20°",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1062,7 +974,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Power",
+              "prompt": "Power",
               "expectation": "FULL, 2600 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1091,13 +1003,13 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "UP, SLOWLY, ABOVE 80 MPH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Climb",
-              "expectation": "89 MPH (VY) OR 90",
+              "expectation": "89 MPH (VY)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1115,12 +1027,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Power",
+              "prompt": "Power",
               "expectation": "23 IN, 2450 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Fuel Selector",
+              "prompt": "Fuel Selector",
               "expectation": "BOTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1134,7 +1046,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "# Cowl Flaps",
+              "prompt": "Cowl Flaps",
               "expectation": "OPEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1154,12 +1066,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Power",
+              "prompt": "Power",
               "expectation": "FULL, 2600 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Fuel Selector",
+              "prompt": "Fuel Selector",
               "expectation": "BOTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1169,7 +1081,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Cowl Flaps",
+              "prompt": "Cowl Flaps",
               "expectation": "FULL OPEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1179,7 +1091,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Rich unless the engine runs rough (OM). Watch CHT in a slow climb and lower the nose to 90 or more if it rises.",
+              "prompt": "Full rich. Lean below 65% power (club). Watch CHT in a slow climb and lower the nose to 90 or more if it rises.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -1188,7 +1100,7 @@
           "title": "Cruise",
           "items": [
             {
-              "prompt": "# Power",
+              "prompt": "Power",
               "expectation": "15-23 IN, 2200-2450",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1198,7 +1110,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Cowl Flaps",
+              "prompt": "Cowl Flaps",
               "expectation": "CLOSED, OPEN FOR CHT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1221,7 +1133,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "# Fuel Selector",
+              "prompt": "Fuel Selector",
               "expectation": "BOTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1341,7 +1253,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "# Cowl Flaps",
+              "prompt": "Cowl Flaps",
               "expectation": "CLOSED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1351,13 +1263,9 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Power",
+              "prompt": "Power",
               "expectation": "REDUCE IN STEPS",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Watch for the EDM-700 CLD alarm (cooling more than 60°F per minute). It is common at the start of a descent. Smaller power steps keep the cooling rate down.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Carb Heat",
@@ -1365,7 +1273,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "0-10° <160, 10-40° <110",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1399,12 +1307,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Cowl Flaps",
+              "prompt": "Cowl Flaps",
               "expectation": "CLOSED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Fuel Selector",
+              "prompt": "Fuel Selector",
               "expectation": "BOTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1414,7 +1322,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Propeller",
+              "prompt": "Propeller",
               "expectation": "HIGH RPM (FULL IN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1424,7 +1332,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "AS DESIRED (<110 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1453,7 +1361,7 @@
           "title": "Normal Landing",
           "items": [
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "AS REQD (<110 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1489,7 +1397,7 @@
           ]
         },
         {
-          "title": "Short Field Landing #",
+          "title": "Short Field Landing",
           "items": [
             {
               "prompt": "Flaps",
@@ -1522,13 +1430,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "After all three wheels are down, retract the flaps, hold full up elevator and brake as hard as possible without sliding the tires (OM). The KLVK short-field checkout needs a turn-off at the first exit (Checkout Form).",
+              "prompt": "After all three wheels are down, retract the flaps, hold full up elevator and brake as hard as possible without sliding the tires (OM).",
               "type": "ITEM_NOTE"
             }
           ]
         },
         {
-          "title": "Go Around #",
+          "title": "Go Around",
           "items": [
             {
               "prompt": "At landing trim and full flaps, go-around power pitches the nose up hard and yaws it left. Unchecked, this is the elevator trim stall. Feed power in smoothly, push, right rudder, trim at once.",
@@ -1580,7 +1488,7 @@
           "title": "After Landing",
           "items": [
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "UP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1590,7 +1498,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Cowl Flaps",
+              "prompt": "Cowl Flaps",
               "expectation": "OPEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1616,7 +1524,7 @@
             },
             {
               "prompt": "Transponder",
-              "expectation": "STBY",
+              "expectation": "VFR",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1655,6 +1563,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "EMERG AVIONICS",
+              "expectation": "OFF, COVER DOWN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "ELT",
               "expectation": "VERIFY SILENT",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1674,7 +1587,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Tach Logbook",
+              "prompt": "FPI Tach Logbook",
               "expectation": "COMPLETE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1688,7 +1601,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Fuel Selector (Refuel)",
+              "prompt": "Fuel Selector (Refuel)",
               "expectation": "LEFT OR RIGHT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1794,7 +1707,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Power",
+              "prompt": "Power",
               "expectation": "DIFFERENT SETTINGS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1823,7 +1736,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Power",
+              "prompt": "Power",
               "expectation": "REDUCE AT ONCE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1893,7 +1806,7 @@
           ]
         },
         {
-          "title": "Excessive Charge (High Voltage) #",
+          "title": "Excessive Charge (High Voltage)",
           "items": [
             {
               "prompt": "After 30 minutes of cruise the ammeter should show less than two needle widths of charge. The over-voltage sensor shuts the alternator down at about 16 volts and the red light comes on (labeled OVER VOLTAGE here, HIGH VOLTAGE in the manual).",
@@ -1923,44 +1836,6 @@
               "prompt": "Electrical Load",
               "expectation": "MINIMIZE",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            }
-          ]
-        },
-        {
-          "title": "Insufficient Charge (Discharge) #",
-          "items": [
-            {
-              "prompt": "N100FP also has a LOW VOLTAGE light that the 1975 manual does not describe. Treat it as a charging problem and check the ammeter.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Ammeter",
-              "expectation": "CONTINUOUS DISCHARGE",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Alternator (ALT)",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Nonessential Equipment",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "EMERG AVIONICS",
-              "expectation": "SEE EMERG BATTERY",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Flight",
-              "expectation": "TERMINATE ASAP",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "The battery can supply the system for a limited time only. At night, save power for the landing light and flaps (OM).",
-              "type": "ITEM_NOTE"
             }
           ]
         },
@@ -2035,18 +1910,37 @@
               "type": "ITEM_NOTE"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "title": "Emergency Procedures",
+      "checklists": [
         {
-          "title": "Emergency Avionics Battery #",
+          "title": "Alternator and Main Battery Failure #",
           "items": [
             {
-              "prompt": "N100FP has a second battery that powers the main bus for about 30 minutes of essential equipment (maintenance team briefing). The switch is labeled EMERGENCY AVIONICS, with a guard cover, on the center console next to the A/P and FAN breakers. Lift the cover to turn it on. Leave the normal battery switch ON.",
+              "prompt": "Signs: the ammeter shows a continuous discharge, or the LOW VOLTAGE light comes on (the 1975 manual does not describe that light). The battery can supply the system for a limited time only.",
               "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Ammeter",
+              "expectation": "CONTINUOUS DISCHARGE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Alternator (ALT)",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Nonessential Equipment",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "N100FP has a second battery that powers the main bus for about 30 minutes of essential equipment (maintenance team briefing). The switch is labeled EMERGENCY AVIONICS, with a guard cover, on the center console next to the A/P and FAN breakers. Leave the normal battery switch ON.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "EMERG AVIONICS Cover",
@@ -2069,7 +1963,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Plan on about 30 minutes. Keep the landing light and flaps power in reserve for the approach.",
+              "prompt": "Plan on about 30 minutes. Keep the landing light and flaps power in reserve for the approach, especially at night.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -2093,7 +1987,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Propeller RPM",
+              "prompt": "Propeller RPM",
               "expectation": "INCREASE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -2103,7 +1997,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "RETRACTED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -2122,14 +2016,9 @@
               "type": "ITEM_NOTE"
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "Emergency Procedures",
-      "checklists": [
+        },
         {
-          "title": "Engine Failure During Takeoff Roll #",
+          "title": "Engine Failure During Takeoff Roll",
           "items": [
             {
               "prompt": "Throttle",
@@ -2169,7 +2058,7 @@
           ]
         },
         {
-          "title": "Engine Failure After Takeoff #",
+          "title": "Engine Failure After Takeoff",
           "items": [
             {
               "prompt": "Lower the nose first and hold the glide. Plan straight ahead with small turns only. There is seldom enough altitude to return to the runway.",
@@ -2213,7 +2102,7 @@
           ]
         },
         {
-          "title": "Engine Failure In Flight - Restart #",
+          "title": "Engine Failure In Flight - Restart",
           "items": [
             {
               "prompt": "Airspeed",
@@ -2252,7 +2141,7 @@
           ]
         },
         {
-          "title": "Forced Landing Without Power #",
+          "title": "Forced Landing Without Power",
           "items": [
             {
               "prompt": "Airspeed",
@@ -2329,7 +2218,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "40° ON FINAL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -2374,7 +2263,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Fuel Selector",
+              "prompt": "Fuel Selector",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -2445,7 +2334,7 @@
           ]
         },
         {
-          "title": "Electrical Fire In Flight #",
+          "title": "Electrical Fire In Flight",
           "items": [
             {
               "prompt": "Master Switch",
