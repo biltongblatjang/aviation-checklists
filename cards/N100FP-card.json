@@ -1,8 +1,8 @@
 {
-  "title": "Cessna 182P  N100FP",
+  "title": "Flying Particles  Cessna 182P  N100FP",
   "subtitle": "Memory aid for proficient pilots. Not a substitute for the Owner's Manual or the full checklist. MPH.",
   "source": "../checklists/Cessna/182P/C182P-Russ.json",
-  "speedsChecklist": "V Speeds (MPH IAS) MWG 2,950 lb",
+  "speedsChecklist": "V Speeds",
   "front": [
     [
       {
@@ -455,5 +455,6 @@
       "!CHT: <380°F, redline 400°F",
       "!Red lines on EDM too high: use club limit"
     ]
-  }
+  },
+  "backTitle": "Flying Particles  N100FP  EMERGENCY AND ABNORMAL"
 }
