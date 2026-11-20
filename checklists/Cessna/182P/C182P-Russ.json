@@ -45,10 +45,6 @@
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "The needle reads far below the arc at the stall. The horn sounds 5 to 10 MPH above the stall.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "VR 60",
               "type": "ITEM_PLAINTEXT"
             },
@@ -202,10 +198,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Fuel caps can cause fuel loss and false high quantity readings (panel caution): seat them firmly. 75 gal usable, 80 total.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Fuel Tank Vent",
               "expectation": "CLEAR",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -347,10 +339,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Extra drain: 2 to 3 inches behind the rear of the fairing aft of the nose wheel opening.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Nose Tie-Down",
               "expectation": "REMOVE",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -468,10 +456,6 @@
               "prompt": "Oil Pressure",
               "expectation": "GREEN IN 30 SEC",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "No oil pressure in 30 seconds (60 in very cold weather): shut down.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Overprimed or flooded: see Flooded Engine Clearing.",
@@ -679,10 +663,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "On one mag all EGT columns should rise together. A column that drops is a fouled plug.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Propeller",
               "expectation": "CYCLE, RETURN FULL IN",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -708,10 +688,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Night or IFR: landing light on for 3 to 5 seconds at 1700 RPM. Ammeter within a needle width of zero.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Engine Monitor",
               "expectation": "HOLD LF, EXIT",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -725,10 +701,6 @@
               "prompt": "Doors, Window",
               "expectation": "CLOSED, LOCKED",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "The right door is hard to close. Check both latches.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Throttle Friction",
@@ -846,10 +818,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Full throttle is about 1 inch from the firewall.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Engine Instruments",
               "expectation": "CHECK, GREEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -928,10 +896,6 @@
               "prompt": "Climb",
               "expectation": "60 MPH, OBSTACLE",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Soft field: lift off as soon as practical, tail low, then level off. No flaps above 20° for takeoff.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Flaps",
@@ -1327,20 +1291,12 @@
               "prompt": "Flaps",
               "expectation": "UP, FULL BACK ELEVATOR",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Wheels down, flaps up, full up elevator, brake hard without skidding.",
-              "type": "ITEM_NOTE"
             }
           ]
         },
         {
           "title": "Go Around",
           "items": [
-            {
-              "prompt": "At landing trim, go-around power can pitch the nose up (elevator trim stall). Push, right rudder, trim at once.",
-              "type": "ITEM_NOTE"
-            },
             {
               "prompt": "Power",
               "expectation": "FULL, 2600 RPM",
@@ -1472,10 +1428,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "ELT remote switch (right panel): leave in ARM.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Control Lock",
               "expectation": "INSTALL",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1491,10 +1443,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Logbook: name, refueling tach, final tach, oil level and oil added. Split flights: bracket both names.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Refuel",
               "expectation": "AFTER EVERY FLIGHT",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1503,10 +1451,6 @@
               "prompt": "Fuel Selector (Refuel)",
               "expectation": "LEFT OR RIGHT",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Refuel after every flight with the selector on L or R, and return it to BOTH at preflight. Use self-service fuel when available. Cards: one for Five Rivers at KLVK, one away.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Chocks, Tie-Downs",
