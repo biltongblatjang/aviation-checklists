@@ -1,0 +1,430 @@
+{
+  "title": "Flying Particles  Piper PA-28-161  N2933A",
+  "subtitle": "Memory aid for proficient pilots. Not a substitute for the POH or the full checklist. KIAS. STC SA00397NY: 2,440 lb, POH VB-1180.",
+  "source": "../checklists/Piper/PA28/PA28-161-Russ.json",
+  "speedsChecklist": "V Speeds",
+  "bandHeight": 150,
+  "front": [
+    [
+      {
+        "head": "COCKPIT",
+        "color": "blue",
+        "lines": [
+          "Preflight Inspection|Wx, W&B, Performance => Wx · W&B · Performance",
+          "Preflight Inspection|Control Wheel => Control Wheel – Belts Off",
+          "Preflight Inspection|Mixture => Mixture – Idle Cutoff",
+          "Preflight Inspection|Fuel Quantity => Fuel Qty – Check",
+          "Preflight Inspection|Annunciator Panel => Annunciator Panel – Check",
+          "Preflight Inspection|Flaps, Trim => Flaps · Trim – Check",
+          "Preflight Inspection|Pitot, Static Drains => Pitot · Static Drains",
+          "Preflight Inspection|Spare Oil (2 qt) => Spare Oil – 2 Qt",
+          "Preflight Inspection|FPI Tach Logbook => FPI Tach Log – Check"
+        ]
+      },
+      {
+        "head": "RIGHT WING",
+        "color": "blue",
+        "lines": [
+          "Preflight Inspection|Wing, Control Surfaces~1 => Wing · Controls – Clear",
+          "Preflight Inspection|Hinges, Static Wicks~1 => Hinges · Wicks",
+          "Preflight Inspection|Fuel Tank~1 => Fuel Tank – Cap Secure",
+          "Preflight Inspection|Fuel Sump~1 => Fuel Sumps – Drain",
+          "Preflight Inspection|Main Gear Strut~1 => Main Strut – 4.5 In",
+          "Preflight Inspection|Tire, Brakes~1 => Tires · Brakes"
+        ]
+      },
+      {
+        "head": "TAIL / LIGHTS",
+        "color": "blue",
+        "lines": [
+          "Preflight Inspection|Stabilator, Trim Tab => Stabilator · Trim Tab",
+          "Preflight Inspection|Lights, Pitot Heat => Lights · Pitot – Test",
+          "Preflight Inspection|Stall Warning => Stall Warning – Check",
+          "Preflight Inspection|Belts, Harness => Belts – Fasten"
+        ]
+      }
+    ],
+    [
+      {
+        "head": "NOSE",
+        "color": "blue",
+        "lines": [
+          "Preflight Inspection|Fuel, Oil Leaks => Fuel · Oil Leaks",
+          "Preflight Inspection|Propeller, Spinner => Prop · Spinner",
+          "Preflight Inspection|Air Inlets, Alternator Belt => Inlets · Alt Belt",
+          "Preflight Inspection|Landing Light => Landing Light – Check",
+          "Preflight Inspection|Nose Gear Strut, Tire => Nose Strut – 3.25 In",
+          "Preflight Inspection|Oil Level => Oil – Add 1 Qt at 5",
+          "Preflight Inspection|Fuel Strainer => Strainer – Drain"
+        ]
+      },
+      {
+        "head": "LEFT WING",
+        "color": "blue",
+        "lines": [
+          "Preflight Inspection|Wing, Control Surfaces~1 => Wing · Controls – Clear",
+          "Preflight Inspection|Main Gear Strut~1 => Main Strut – 4.5 In",
+          "Preflight Inspection|Tire, Brakes~1 => Tires · Brakes",
+          "Preflight Inspection|Fuel Tank~1 => Fuel Tank – Cap Secure",
+          "Preflight Inspection|Fuel Sump~1 => Fuel Sumps – Drain",
+          "Preflight Inspection|Pitot Head => Pitot Head – Holes Clear",
+          "Preflight Inspection|Hinges, Static Wicks~1 => Hinges · Wicks"
+        ]
+      },
+      {
+        "head": "START",
+        "color": "green",
+        "lines": [
+          "Cold Start|Primer => Primer – 3 Strokes, Lock",
+          "Cold Start|Throttle~1 => Throttle – Open 1/4 Inch",
+          "Cold Start|Master Switch => Master Switch – On",
+          "Cold Start|Electric Fuel Pump~1 => Electric Fuel Pump – On",
+          "Cold Start|Mixture => Mixture – Full Rich",
+          "Cold Start|Propeller Area => Propeller Area – Clear",
+          "Cold Start|Starter => Starter – Engage",
+          "Cold Start|Throttle~2 => Throttle – Adjust, 800 RPM",
+          "Cold Start|Oil Pressure => Oil Pressure – Check in 30 Sec",
+          "Cold Start|Electric Fuel Pump~2 => Electric Fuel Pump – Off",
+          "Cold Start|Fuel Pressure => Fuel Pressure – Check",
+          "Cold Start|Avionics => Avionics – On, Set"
+        ]
+      }
+    ],
+    [
+      {
+        "head": "BEFORE TAXI",
+        "color": "green",
+        "lines": [
+          "Before Taxi|Warm-Up => Warm-Up – 800 to 1200 RPM",
+          "Before Taxi|Brakes => Brakes – Check",
+          "Before Taxi|Steering => Steering – Check",
+          "Before Taxi|Flight Instruments => Flight Instruments – Check"
+        ]
+      },
+      {
+        "head": "RUN-UP",
+        "color": "green",
+        "lines": [
+          "Runup|Parking Brake => Parking Brake – Set",
+          "Runup|Throttle~1 => Throttle – 2000 RPM",
+          "Runup|Magnetos => Magnetos – Check, 175 Max Drop",
+          "Runup|Vacuum => Vacuum – 4.8 to 5.1 in Hg",
+          "Runup|Oil Temperature, Pressure => Oil Temperature, Pressure – Green",
+          "Runup|Annunciator Panel => Annunciator Panel – Press to Test",
+          "Runup|Carburetor Heat => Carburetor Heat – Check",
+          "Runup|Electric Fuel Pump => Electric Fuel Pump – Off, Then on",
+          "Runup|Fuel Pressure => Fuel Pressure – Check",
+          "Runup|Throttle~2 => Throttle – Retard"
+        ]
+      },
+      {
+        "head": "PRE-TAKEOFF",
+        "color": "orange",
+        "lines": [
+          "Pre Takeoff|Master Switch => Master Switch – On",
+          "Pre Takeoff|Flight Instruments => Flight Instruments – Set",
+          "Pre Takeoff|Fuel Selector => Fuel Selector – Fullest Tank",
+          "Pre Takeoff|Electric Fuel Pump => Electric Fuel Pump – On",
+          "Pre Takeoff|Engine Gauges => Engine Gauges – Check",
+          "Pre Takeoff|Carburetor Heat => Carburetor Heat – Off",
+          "Pre Takeoff|Seat Backs => Seat Backs – Erect",
+          "Pre Takeoff|Mixture => Mixture – Full Rich",
+          "Pre Takeoff|Primer => Primer – Locked",
+          "Pre Takeoff|Belts (Empty Seats Too) => Belts (Empty Seats Too) – Fastened",
+          "Pre Takeoff|Flaps => Flaps – Set",
+          "Pre Takeoff|Trim => Trim – Set",
+          "Pre Takeoff|Controls => Controls – Free",
+          "Pre Takeoff|Doors => Doors – Latched",
+          "Pre Takeoff|Departure Briefing => Departure Briefing – Done"
+        ]
+      },
+      {
+        "head": "TAKEOFF",
+        "color": "orange",
+        "lines": [
+          "Normal Takeoff|Flaps => Flaps – Up",
+          "Normal Takeoff|Throttle => Throttle – Full Open",
+          "Normal Takeoff|Engine Instruments => Engine Instruments – Check",
+          "Normal Takeoff|Rotate => Rotate – 45 to 55 KIAS",
+          "Normal Takeoff|Climb => Climb – 79 KIAS"
+        ]
+      }
+    ],
+    [
+      {
+        "head": "CLIMB",
+        "color": "orange",
+        "lines": [
+          "Climb|Best Rate (Vy) => Best Rate (Vy) – 79 KIAS",
+          "Climb|Best Angle (Vx) => Best Angle (Vx) – 63 KIAS",
+          "Climb|Electric Fuel Pump => Electric Fuel Pump – Off at Altitude",
+          "Climb|Engine Instruments => Engine Instruments – Check"
+        ]
+      },
+      {
+        "head": "CRUISE",
+        "color": "purple",
+        "lines": [
+          "Cruise|Power => Power – Set Per Table",
+          "Cruise|Mixture~1 => Mixture – Full Rich Above 75%",
+          "Cruise|Best Power Throttle => Best Power Throttle – 35 RPM Below",
+          "Cruise|Mixture~2 => Mixture – Lean to Peak RPM",
+          "Cruise|Throttle => Throttle – Adjust to Final RPM",
+          "Cruise|Fuel Pump => Fuel Pump – On Before Switching",
+          "Cruise|Fuel Selector => Fuel Selector – Alternate Tanks",
+          "Cruise|Engine Instruments => Engine Instruments – Check"
+        ]
+      },
+      {
+        "head": "DESCENT",
+        "color": "purple",
+        "lines": [
+          "Descent|Throttle => Throttle – 2500 RPM",
+          "Descent|Airspeed => Airspeed – 126 KIAS Max",
+          "Descent|Mixture => Mixture – Rich",
+          "Descent|Carburetor Heat => Carburetor Heat – On If Required",
+          "Descent|Power Off => Power Off – Heat on, Close",
+          "Descent|Power Check => Power Check – Every 30 Seconds"
+        ]
+      },
+      {
+        "head": "BEFORE LANDING",
+        "color": "red",
+        "lines": [
+          "Before Landing|Fuel Selector => Fuel Selector – Fullest Tank",
+          "Before Landing|Seat Backs => Seat Backs – Erect",
+          "Before Landing|Belts, Harness => Belts, Harness – Fasten, Adjust",
+          "Before Landing|Electric Fuel Pump => Electric Fuel Pump – On",
+          "Before Landing|Mixture => Mixture – Full Rich",
+          "Before Landing|Carburetor Heat => Carburetor Heat – Only If Icing"
+        ]
+      },
+      {
+        "head": "LANDING",
+        "color": "red",
+        "lines": [
+          "Normal Landing|Flaps => Flaps – Set (103 KIAS Max)",
+          "Normal Landing|Trim => Trim – 70 KIAS",
+          "Normal Landing|Final Approach => Final Approach – 63 KIAS, Flaps 40°",
+          "Normal Landing|Touchdown => Touchdown – Mains First"
+        ]
+      }
+    ]
+  ],
+  "boxes": [
+    {
+      "head": "SHORT / SOFT FIELD",
+      "color": "yellow",
+      "lines": [
+        "Short Field Takeoff|Flaps~1 => Flaps – 25°",
+        "Short Field Takeoff|Brakes => Brakes – Hold",
+        "Short Field Takeoff|Throttle => Throttle – Full Before Release",
+        "Short Field Takeoff|Rotate => Rotate – 52 KIAS",
+        "Short Field Takeoff|Obstacle Speed => Climb – 57 to Clear",
+        "Soft Field Takeoff|Nose Gear => Soft: Nose Up ASAP",
+        "Short Field Landing|Flaps => Land: Flaps – 40°",
+        "Short Field Landing|Final Approach => Final – 63 KIAS"
+      ]
+    },
+    {
+      "head": "POWER SETTINGS",
+      "color": "blue",
+      "lines": [
+        "Normal Takeoff|Throttle => Takeoff: Full Open",
+        "Runup|Throttle => Run-Up: 2000 RPM",
+        "Descent|Throttle => Descent: 2500 RPM",
+        "Go Around|Throttle => Go-Around: Full Open",
+        "!Redline 2700 RPM"
+      ]
+    }
+  ],
+  "back": [
+    [
+      {
+        "head": "ENGINE FAILURE: TAKEOFF",
+        "color": "red",
+        "lines": [
+          "Engine Power Loss During Takeoff|Runway Left => Runway Left – Land Ahead",
+          "Engine Power Loss During Takeoff|Airspeed => Airspeed – Maintain Safe Speed",
+          "Engine Power Loss During Takeoff|Turns => Turns – Shallow Only",
+          "Engine Power Loss During Takeoff|Flaps => Flaps – As Situation Requires",
+          "Engine Power Loss During Takeoff|Restart: Fuel => Restart: Fuel – Switch Tanks",
+          "Engine Power Loss During Takeoff|Electric Fuel Pump => Electric Fuel Pump – On",
+          "Engine Power Loss During Takeoff|Mixture => Mixture – Rich",
+          "Engine Power Loss During Takeoff|Carburetor Heat => Carburetor Heat – On",
+          "Engine Power Loss During Takeoff|Primer => Primer – Locked",
+          "Engine Power Loss During Takeoff|No Power => No Power – Power Off Landing"
+        ]
+      },
+      {
+        "head": "ENGINE FAILURE: RESTART",
+        "color": "red",
+        "lines": [
+          "Engine Power Loss In Flight|Airspeed => Airspeed – 73 KIAS (Best Glide)",
+          "Engine Power Loss In Flight|Fuel Selector => Fuel Selector – Switch Tanks",
+          "Engine Power Loss In Flight|Electric Fuel Pump => Electric Fuel Pump – On",
+          "Engine Power Loss In Flight|Mixture => Mixture – Rich",
+          "Engine Power Loss In Flight|Carburetor Heat => Carburetor Heat – On",
+          "Engine Power Loss In Flight|Engine Gauges => Engine Gauges – Check Cause",
+          "Engine Power Loss In Flight|Primer => Primer – Locked",
+          "Engine Power Loss In Flight|Magnetos => Magnetos – L, R, Then Both",
+          "Engine Power Loss In Flight|Power Restored => Power Restored – Heat Off, Pump Off",
+          "Engine Power Loss In Flight|No Power => No Power – Power Off Landing"
+        ]
+      },
+      {
+        "head": "POWER OFF LANDING",
+        "color": "red",
+        "lines": [
+          "Power Off Landing|Trim => Trim – 73 KIAS",
+          "Power Off Landing|Field => Field – Locate, Spiral Pattern",
+          "Power Off Landing|Downwind => Downwind – 1000 Ft Above Field",
+          "Power Off Landing|Field Made => Field Made – 63 KIAS, Full Flaps",
+          "Power Off Landing|Radio => Radio – Mayday, 7700",
+          "Power Off Landing|Ignition => Ignition – Off",
+          "Power Off Landing|Master Switch => Master Switch – Off",
+          "Power Off Landing|Fuel Selector => Fuel Selector – Off",
+          "Power Off Landing|Mixture => Mixture – Idle Cutoff",
+          "Power Off Landing|Seat Belts, Harness => Seat Belts, Harness – Tight",
+          "Power Off Landing|Doors => Doors – Unlatch"
+        ]
+      }
+    ],
+    [
+      {
+        "head": "ENGINE FIRE: START",
+        "color": "red",
+        "lines": [
+          "Engine Fire During Start|Starter => Starter – Crank Engine",
+          "Engine Fire During Start|Mixture => Mixture – Idle Cutoff",
+          "Engine Fire During Start|Throttle => Throttle – Open",
+          "Engine Fire During Start|Electric Fuel Pump => Electric Fuel Pump – Off",
+          "Engine Fire During Start|Fuel Selector => Fuel Selector – Off",
+          "Engine Fire During Start|If Fire Continues => If Fire Continues – Abandon, Extinguish"
+        ]
+      },
+      {
+        "head": "FIRE IN FLIGHT",
+        "color": "red",
+        "lines": [
+          "Fire In Flight|Source Of Fire => Source Of Fire – Check",
+          "Fire In Flight|Electrical (Smoke): Master => Electrical (Smoke): Master – Off",
+          "Fire In Flight|Vents => Vents – Open",
+          "Fire In Flight|Cabin Heat => Cabin Heat – Off",
+          "Fire In Flight|Landing~1 => Landing – ASAP",
+          "Fire In Flight|Engine: Fuel Selector => Engine: Fuel Selector – Off",
+          "Fire In Flight|Throttle => Throttle – Closed",
+          "Fire In Flight|Mixture => Mixture – Idle Cutoff",
+          "Fire In Flight|Electric Fuel Pump => Electric Fuel Pump – Off",
+          "Fire In Flight|Heater, Defroster => Heater, Defroster – Off",
+          "Fire In Flight|Master Switch => Master Switch – Off",
+          "Fire In Flight|Landing~2 => Landing – Power Off Landing"
+        ]
+      },
+      {
+        "head": "SPIN",
+        "color": "orange",
+        "lines": [
+          "Spin Recovery|Throttle => Throttle – Idle",
+          "Spin Recovery|Ailerons => Ailerons – Neutral",
+          "Spin Recovery|Rudder~1 => Rudder – Full Opposite",
+          "Spin Recovery|Control Wheel~1 => Control Wheel – Full Forward",
+          "Spin Recovery|Rudder~2 => Rudder – Neutral When Stopped",
+          "Spin Recovery|Control Wheel~2 => Control Wheel – Ease Back to Level"
+        ]
+      },
+      {
+        "head": "GO AROUND",
+        "color": "red",
+        "lines": [
+          "Go Around|Throttle => Throttle – Full Open",
+          "Go Around|Carburetor Heat => Carburetor Heat – Off",
+          "Go Around|Climb => Climb – Positive Rate",
+          "Go Around|Flaps => Flaps – Retract Slowly",
+          "Go Around|Airspeed => Airspeed – 79 KIAS"
+        ]
+      }
+    ],
+    [
+      {
+        "head": "AFTER LANDING",
+        "color": "green",
+        "lines": [
+          "After Landing|Flaps => Flaps – Up",
+          "After Landing|Electric Fuel Pump => Electric Fuel Pump – Off",
+          "After Landing|Carburetor Heat => Carburetor Heat – Off",
+          "After Landing|Lights, Transponder => Lights, Transponder – Off, STBY",
+          "After Landing|Mixture => Mixture – As Required"
+        ]
+      },
+      {
+        "head": "SECURING",
+        "color": "green",
+        "lines": [
+          "Securing Airplane|Electric Fuel Pump => Electric Fuel Pump – Off",
+          "Securing Airplane|Mixture => Mixture – Idle Cutoff",
+          "Securing Airplane|Magnetos => Magnetos – Off, Key Out",
+          "Securing Airplane|Master Switch => Master Switch – Off",
+          "Securing Airplane|Oil Level => Oil Level – Check, 2 Qt Spare"
+        ]
+      },
+      {
+        "head": "CARB ICE",
+        "color": "orange",
+        "lines": [
+          "Carburetor Icing|Carburetor Heat => Carburetor Heat – Full on",
+          "Carburetor Icing|Mixture => Mixture – Adjust for Smooth"
+        ]
+      },
+      {
+        "head": "FLOODED START",
+        "color": "orange",
+        "lines": [
+          "Flooded Engine Clearing|Throttle~1 => Throttle – Full Open",
+          "Flooded Engine Clearing|Master Switch => Master Switch – On",
+          "Flooded Engine Clearing|Electric Fuel Pump => Electric Fuel Pump – Off",
+          "Flooded Engine Clearing|Mixture => Mixture – Idle Cutoff",
+          "Flooded Engine Clearing|Starter => Starter – Engage",
+          "Flooded Engine Clearing|When It Fires => When It Fires – Mixture Advance",
+          "Flooded Engine Clearing|Throttle~2 => Throttle – Retard",
+          "Flooded Engine Clearing|Oil Pressure => Oil Pressure – Check"
+        ]
+      },
+      {
+        "head": "ALT FAILURE",
+        "color": "orange",
+        "lines": [
+          "Alternator Failure (ALT Light)|Ammeter => Ammeter – Verify Zero",
+          "Alternator Failure (ALT Light)|Electrical Load => Electrical Load – Reduce",
+          "Alternator Failure (ALT Light)|ALT Circuit Breaker => ALT Circuit Breaker – Check, Reset",
+          "Alternator Failure (ALT Light)|ALT Switch => ALT Switch – Off 1 Sec, Then on",
+          "Alternator Failure (ALT Light)|If Not Restored => If Not Restored – Alt Switch Off",
+          "Alternator Failure (ALT Light)|Landing => Landing – ASAP"
+        ]
+      },
+      {
+        "head": "ELECTRICAL OVERLOAD",
+        "color": "orange",
+        "lines": [
+          "Electrical Overload|ALT Switch => ALT Switch – On",
+          "Electrical Overload|BATT Switch~1 => BATT Switch – Off",
+          "Electrical Overload|If Load Reduced => If Load Reduced – Reduce to Minimum",
+          "Electrical Overload|Landing~1 => Landing – As Soon as Practical",
+          "Electrical Overload|If Not Reduced: ALT => If Not Reduced: ALT – Off",
+          "Electrical Overload|BATT Switch~2 => BATT Switch – As Required",
+          "Electrical Overload|Landing~2 => Landing – ASAP"
+        ]
+      }
+    ]
+  ],
+  "backTitle": "Flying Particles  N2933A  EMERGENCY AND ABNORMAL",
+  "backData": {
+    "head": "N2933A DATA",
+    "lines": [
+      "!Fuel: 48 gal usable (50 total), alternate tanks",
+      "!Oil: add 1 qt at 5, 2 qt in baggage",
+      "!Max gross 2,440 lb (STC). Baggage 200 lb max",
+      "!Limits: 2700 RPM, oil 25-100 psi, oil temp 245°F"
+    ]
+  }
+}
