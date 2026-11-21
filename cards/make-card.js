@@ -20,7 +20,7 @@ function resolve(spec){
   const m=ref.match(/^(.*?)\|(.*?)(?:~(\d+))?$/);
   if(!m){problems.push('bad spec '+spec);return spec;}
   const [,cl,prompt,nStr]=m;const n=nStr?+nStr:1;
-  const items=lists[cl];
+  const items=lists[cl]||lists[Object.keys(lists).find(k=>k.startsWith(cl))];
   if(!items){problems.push(`NO CHECKLIST "${cl}" for ${spec}`);return short||prompt;}
   const hits=items.filter(i=>norm(i.prompt)===prompt);
   if(hits.length<n){problems.push(`NO ITEM "${cl}|${prompt}" occurrence ${n}`);return short||prompt;}
@@ -66,7 +66,7 @@ function header(t,sub){
 // FRONT
 doc.addPage();
 header(side.title,side.subtitle);
-const BAND=175,colTop=32,colLimit=H-M-BAND;
+const BAND=side.bandHeight||175,colTop=32,colLimit=H-M-BAND;
 cols(side.front,colTop,colLimit,4,'front');
 // bottom band: speeds (auto from V Speeds checklist), boxes
 let by=colLimit+4;
@@ -81,9 +81,13 @@ else{
     if(it.type==='ITEM_TITLE'){cur={head:it.prompt,lines:[]};groups.push(cur);}
     else if(it.type==='ITEM_PLAINTEXT'){if(!cur){cur={head:'',lines:[]};groups.push(cur);}cur.lines.push(it.prompt);}
   }
+  // side.speeds (optional): curated, linked speed lines. Otherwise: auto from the V Speeds list.
   // flat list (no section titles): split evenly across the 3 columns
   let colsG;
-  if(groups.length===1&&!groups[0].head){
+  if(side.speeds){
+    const L=side.speeds.map(resolve),k=Math.ceil(L.length/3);
+    colsG=[0,1,2].map(i=>[{head:'',lines:L.slice(i*k,(i+1)*k)}]);
+  }else if(groups.length===1&&!groups[0].head){
     const L=groups[0].lines,k=Math.ceil(L.length/3);
     colsG=[0,1,2].map(i=>[{head:'',lines:L.slice(i*k,(i+1)*k)}]);
   }else{
