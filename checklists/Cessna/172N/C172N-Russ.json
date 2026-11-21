@@ -687,7 +687,7 @@
             },
             {
               "prompt": "Obstacle Speed",
-              "expectation": "55 KIAS",
+              "expectation": "57 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
