@@ -87,7 +87,7 @@
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "Speeds per POH VB-1180. Checkout form shows VA 111 at 2,325 lb: VB-1180 gives 111 at 2,440 lb.",
+              "prompt": "Speeds per POH VB-1180.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -497,7 +497,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Oil Pressure",
+              "prompt": "Oil Pressure",
               "expectation": "CHECK IN 30 SEC",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -561,7 +561,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Oil Pressure",
+              "prompt": "Oil Pressure",
               "expectation": "CHECK IN 30 SEC",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
@@ -866,12 +866,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Rotate",
+              "prompt": "Rotate",
               "expectation": "52 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Obstacle Speed",
+              "prompt": "Obstacle Speed",
               "expectation": "57 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
