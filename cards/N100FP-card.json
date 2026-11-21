@@ -1,0 +1,472 @@
+{
+  "title": "Flying Particles  Cessna 182P  N100FP",
+  "subtitle": "Memory aid for proficient pilots. Not a substitute for the Owner's Manual or the full checklist. MPH.",
+  "source": "../checklists/Cessna/182P/C182P-Russ.json",
+  "speedsChecklist": "V Speeds",
+  "front": [
+    [
+      {
+        "head": "INITIAL",
+        "color": "blue",
+        "lines": [
+          "Preflight Inspection|Wx, W&B, Performance => Wx · W&B · Performance",
+          "Preflight Inspection|Documents (ARROW) => Papers – ARROW",
+          "Preflight Inspection|Control Lock => Control Lock – Remove",
+          "Preflight Inspection|Master Switch~1 => Master – On",
+          "Preflight Inspection|AUX INST AIR => AUX INST AIR – Off",
+          "Preflight Inspection|EMERG AVIONICS => EMERG AVIONICS – Off",
+          "Preflight Inspection|Flaps => Flaps – Extend",
+          "Preflight Inspection|Lights, Pitot Heat => Lights · Pitot – Test",
+          "Preflight Inspection|Stall Warning => Stall Warning – Test",
+          "Preflight Inspection|Annunciators => Annunciators – Test",
+          "Preflight Inspection|Fuel Quantity~1 => Fuel Gauges – Check",
+          "Preflight Inspection|Master Switch~2 => Master – Off",
+          "Preflight Inspection|Alternate Static => Alt Static – Check",
+          "Preflight Inspection|FPI Tach Logbook => FPI Tach Logbook – Check"
+        ]
+      },
+      {
+        "head": "EXTERIOR",
+        "color": "blue",
+        "lines": [
+          "Preflight Inspection|Fuel Sump Drain~1 => Sumps – Sample (both)",
+          "Preflight Inspection|Fuel Quantity~2 => Fuel Qty · Caps – Secure",
+          "Preflight Inspection|Fuel Tank Vent~1 => Tank Vents – Clear",
+          "Preflight Inspection|Pitot Tube => Pitot Tube – Clear",
+          "Preflight Inspection|Static Ports (both) => Static Ports – Clear",
+          "Preflight Inspection|Aileron, Flap~1 => Ailerons · Flaps",
+          "Preflight Inspection|Elevator, Rudder, Trim => Elevator · Rudder · Trim",
+          "Preflight Inspection|Main Wheel, Brake, Tire~1 => Gear · Tires · Brakes",
+          "Preflight Inspection|Propeller, Spinner => Prop · Spinner",
+          "Preflight Inspection|Exhaust System => Exhaust System",
+          "Preflight Inspection|Carb Air Filter => Carb Air Filter",
+          "Preflight Inspection|Oil Level => Oil – 9 Qt Min, 12 Full",
+          "Preflight Inspection|Fuel Strainer => Strainer – Drain 4 sec",
+          "Preflight Inspection|Extra Drain (nose gear) => Extra Drain – Check",
+          "Preflight Inspection|Tie-Down, Chocks~1 => Chocks · Ties – Remove",
+          "Preflight Inspection|Final Walkaround => Final Walk Around"
+        ]
+      }
+    ],
+    [
+      {
+        "head": "START",
+        "color": "green",
+        "lines": [
+          "Cold Start|Seats, Belts, Harness => Seats · Belts – Set",
+          "Cold Start|Radio Master => Radio Master – Off",
+          "Cold Start|Radios, Autopilot, Elect. => Radios · A/P · Elect – Off",
+          "Cold Start|Brakes => Brakes – Test, Hold",
+          "Cold Start|Cowl Flaps => Cowl Flaps – Open",
+          "Cold Start|Fuel Selector => Fuel – Both",
+          "Cold Start|Mixture => Mixture – Rich",
+          "Cold Start|Propeller => Prop – High RPM",
+          "Cold Start|Carb Heat => Carb Heat – Cold",
+          "Cold Start|Throttle~1 => Throttle – ¼ In",
+          "Cold Start|Throttle Pumps => Pumps – 1-2, No Prime",
+          "Cold Start|Master Switch => Master – On",
+          "Cold Start|Fuel Totalizer (FS-450) => FS-450 – Enter Fuel",
+          "Cold Start|Beacon => Beacon – On",
+          "Cold Start|Propeller Area => Prop – Clear",
+          "Cold Start|Ignition => Ignition – Start",
+          "Cold Start|Throttle~2 => Throttle – 1000 RPM",
+          "Cold Start|Oil Pressure => Oil Pressure – 30 sec"
+        ]
+      },
+      {
+        "head": "BEFORE TAXI",
+        "color": "green",
+        "lines": [
+          "Before Taxi|Radio Master => Radio Master – On",
+          "Before Taxi|ATIS, Radios => ATIS · Radios – Set",
+          "Before Taxi|Altimeter => Altimeter – Set",
+          "Before Taxi|Transponder => XPDR – Alt, VFR",
+          "Before Taxi|Carb Heat => Carb Heat – Cold",
+          "Before Taxi|Brakes => Brakes – Test",
+          "Before Taxi|Flight Instruments => Instruments – Check"
+        ]
+      },
+      {
+        "head": "RUN-UP",
+        "color": "orange",
+        "lines": [
+          "Runup|Brakes => Brakes – Hold",
+          "Runup|Flight Controls => Flight Controls",
+          "Runup|Elevator, Rudder Trim => Trim – Takeoff",
+          "Runup|Fuel Selector => Fuel – Both",
+          "Runup|Cowl Flaps => Cowl Flaps – Open",
+          "Runup|Mixture => Mixture – Best Power",
+          "Runup|Throttle => Throttle – 1700 RPM",
+          "Runup|Engine Monitor~1 => EDM – Hold LF 5s",
+          "Runup|Magnetos => Mags – R/L 150 Max, 50 Diff",
+          "Runup|Propeller => Prop – Cycle",
+          "Runup|Carb Heat => Carb Heat – Test",
+          "Runup|Suction => Suction – 4.6-5.4",
+          "Runup|Ammeter => Ammeter",
+          "Runup|Engine Monitor~2 => EDM – Exit Normalize",
+          "Runup|Doors, Window => Doors · Window – Locked",
+          "Runup|Throttle Friction => Throttle Friction"
+        ]
+      }
+    ],
+    [
+      {
+        "head": "PRE-TAKEOFF",
+        "color": "orange",
+        "lines": [
+          "Pre Takeoff|Departure Briefing => Departure Brief",
+          "Pre Takeoff|Emergency Briefing => Emergency Brief",
+          "Pre Takeoff|Landing Light, Strobes => Landing Light · Strobes – On",
+          "Pre Takeoff|Pitot Heat => Pitot Heat – As Req",
+          "Pre Takeoff|Transponder => XPDR – Set",
+          "Pre Takeoff|Autopilot => Autopilot – Off",
+          "Pre Takeoff|Trim (Elevator, Rudder) => Trim – Takeoff",
+          "Pre Takeoff|Flaps => Flaps – 10° (20° Short)",
+          "Pre Takeoff|Fuel Selector => Fuel – Both",
+          "Pre Takeoff|Mixture => Mixture – Best Power",
+          "Pre Takeoff|Doors, Windows => Doors · Windows – Latched",
+          "Pre Takeoff|Abort Plan => Abort Plan – READY!"
+        ]
+      },
+      {
+        "head": "TAKEOFF",
+        "color": "red",
+        "lines": [
+          "Normal Takeoff|Power~1 => Full Throttle · 2600 RPM",
+          "Normal Takeoff|Engine Instruments => Engine Instruments",
+          "Normal Takeoff|Rotate (VR) => Rotate – 60",
+          "Normal Takeoff|Climb => Climb – 90",
+          "Normal Takeoff|Flaps~2 => Flaps – Up (>80)"
+        ]
+      },
+      {
+        "head": "CLIMB",
+        "color": "red",
+        "lines": [
+          "Climb|Airspeed => Airspeed – 100-110",
+          "Climb|Power => Power – 23 In · 2450",
+          "Climb|Mixture => Mixture – As Req",
+          "Climb|Cowl Flaps => Cowl Flaps – Open",
+          "Climb|Engine Instruments => Engine Instruments"
+        ]
+      },
+      {
+        "head": "CRUISE",
+        "color": "red",
+        "lines": [
+          "Cruise|Power => Power – 15-23 In · 2200-2450",
+          "Cruise|Elevator, Rudder Trim => Trim – Set",
+          "Cruise|Cowl Flaps => Cowl Flaps – Closed",
+          "Cruise|Mixture => Mixture – Lean",
+          "Cruise|Engine Instruments => CHT <380°F",
+          "Cruise|Fuel Selector => Fuel – Both"
+        ]
+      },
+      {
+        "head": "DESCENT",
+        "color": "purple",
+        "lines": [
+          "Descent|Cowl Flaps => Cowl Flaps – Close",
+          "Descent|Mixture => Mixture – Richen",
+          "Descent|Power => Power – Reduce in Steps",
+          "Descent|Carb Heat => Carb Heat – As Req",
+          "Descent|Flaps => Flaps 0-10° <160, 10-40° <110"
+        ]
+      }
+    ],
+    [
+      {
+        "head": "BEFORE LANDING",
+        "color": "purple",
+        "lines": [
+          "Before Landing|Landing Light => Landing Light – On",
+          "Before Landing|Seat Backs, Belts => Belts – Secure",
+          "Before Landing|Carb Heat => Carb Heat – On",
+          "Before Landing|Cowl Flaps => Cowl Flaps – Closed",
+          "Before Landing|Fuel Selector => Fuel – Both",
+          "Before Landing|Mixture => Mixture – Best Power",
+          "Before Landing|Propeller => Prop – High RPM",
+          "Before Landing|Airspeed~1 => 80-90 Flaps Up",
+          "Before Landing|Airspeed~2 => 70-80 Flaps Down",
+          "Before Landing|Autopilot => Autopilot – Off"
+        ]
+      },
+      {
+        "head": "GO AROUND",
+        "color": "yellow",
+        "lines": [
+          "Go Around|Power => Full Power · 2600 RPM",
+          "Go Around|Pitch => Pitch – Push",
+          "Go Around|Carb Heat => Carb Heat – Cold",
+          "Go Around|Flaps~1 => Flaps – 20°",
+          "Go Around|Airspeed => Airspeed – 80",
+          "Go Around|Trim => Trim – Now",
+          "Go Around|Flaps~2 => Flaps – Up Slowly"
+        ]
+      },
+      {
+        "head": "AFTER LANDING",
+        "color": "blue",
+        "lines": [
+          "After Landing|Flaps => Flaps – Up",
+          "After Landing|Carb Heat => Carb Heat – Cold",
+          "After Landing|Cowl Flaps => Cowl Flaps – Open",
+          "After Landing|Mixture => Mixture – Lean for Taxi",
+          "After Landing|Strobes, Landing Light => Strobes · Lights – Off",
+          "After Landing|Pitot Heat => Pitot Heat – Off",
+          "After Landing|Trim => Trim – Takeoff",
+          "After Landing|Transponder => XPDR – VFR"
+        ]
+      },
+      {
+        "head": "SECURING",
+        "color": "blue",
+        "lines": [
+          "Securing Airplane|Avionics, Electrical => Avionics – Off",
+          "Securing Airplane|Mixture => Mixture – Idle Cutoff",
+          "Securing Airplane|Ignition => Mags – Off, Key Out",
+          "Securing Airplane|Master Switch => Master – Off",
+          "Securing Airplane|EMERG AVIONICS => EMERG AVIONICS – Off",
+          "Securing Airplane|ELT => ELT – Verify Silent",
+          "Securing Airplane|Control Lock => Control Lock",
+          "Securing Airplane|FPI Tach Logbook => FPI Logbook – Complete",
+          "Securing Airplane|Fuel Selector (Refuel) => Refuel – Selector L or R",
+          "Securing Airplane|Chocks, Tie-Downs => Chocks · Ties",
+          "Securing Airplane|Pitot Cover => Pitot Cover",
+          "Securing Airplane|Squawks => Squawks – ScheduleMaster",
+          "Securing Airplane|Flight Plan => Close Flight Plan"
+        ]
+      }
+    ]
+  ],
+  "boxes": [
+    {
+      "head": "SHORT / SOFT FIELD",
+      "color": "yellow",
+      "lines": [
+        "Short / Soft Field Takeoff|Flaps~1 => Flaps – 20°",
+        "Short / Soft Field Takeoff|Brakes~1 => Brakes – Hold (Short)",
+        "Short / Soft Field Takeoff|Power => Full · 2600 RPM",
+        "Short / Soft Field Takeoff|Elevator => Slightly Tail Low",
+        "Short / Soft Field Takeoff|Climb~1 => Climb – 60 to Clear",
+        "Short / Soft Field Takeoff|Flaps~2 => Flaps – Up Slowly (>80)",
+        "Short Field Landing|Flaps => Land: Flaps – 40°",
+        "Short Field Landing|Airspeed => Final – 69, Power Off"
+      ]
+    },
+    {
+      "head": "POWER SETTINGS",
+      "color": "blue",
+      "lines": [
+        "Normal Takeoff|Power~1 => Takeoff: Full · 2600",
+        "Climb|Power => Climb: 23 In · 2450",
+        "Cruise|Power => Cruise: 15-23 In · 2200-2450",
+        "Descent|Power => Descent: Reduce in Steps",
+        "Go Around|Power => Go-Around: Full · 2600",
+        "Cruise|Engine Instruments => CHT <380°F"
+      ]
+    }
+  ],
+  "back": [
+    [
+      {
+        "head": "ENGINE FAILURE: TAKEOFF ROLL",
+        "color": "red",
+        "lines": [
+          "Engine Failure During Takeoff Roll|Throttle => Throttle – Idle",
+          "Engine Failure During Takeoff Roll|Brakes => Brakes – Apply",
+          "Engine Failure During Takeoff Roll|Flaps => Flaps – Retract",
+          "Engine Failure During Takeoff Roll|Mixture => Mixture – Idle Cutoff",
+          "Engine Failure During Takeoff Roll|Ignition => Mags – Off",
+          "Engine Failure During Takeoff Roll|Master Switch => Master – Off"
+        ]
+      },
+      {
+        "head": "ENGINE FAILURE: AFTER TAKEOFF",
+        "color": "red",
+        "lines": [
+          "!FLY THE PLANE",
+          "Engine Failure After Takeoff|Airspeed => Airspeed – 80",
+          "Engine Failure After Takeoff|Mixture => Mixture – Idle Cutoff",
+          "Engine Failure After Takeoff|Fuel Selector => Fuel – Off",
+          "Engine Failure After Takeoff|Ignition => Mags – Off",
+          "Engine Failure After Takeoff|Flaps => Flaps – As Req (40°)",
+          "Engine Failure After Takeoff|Master Switch => Master – Off",
+          "Engine Failure After Takeoff|Doors => Unlatch Doors"
+        ]
+      },
+      {
+        "head": "ENGINE FAILURE: RESTART",
+        "color": "red",
+        "lines": [
+          "!FLY THE PLANE",
+          "Engine Failure In Flight - Restart|Airspeed => Airspeed – 80",
+          "Engine Failure In Flight - Restart|Carb Heat => Carb Heat – On",
+          "Engine Failure In Flight - Restart|Fuel Selector => Fuel – Both",
+          "Engine Failure In Flight - Restart|Mixture => Mixture – Rich",
+          "Engine Failure In Flight - Restart|Ignition => Mags – Both (Start)",
+          "Engine Failure In Flight - Restart|Primer => Primer – In & Locked"
+        ]
+      },
+      {
+        "head": "PRECAUTIONARY LANDING",
+        "color": "red",
+        "lines": [
+          "Precautionary Landing With Power|Drag Field => Drag Field – 20° · 75",
+          "Precautionary Landing With Power|Flaps => Flaps – 40° on Final",
+          "Precautionary Landing With Power|Master Switch => Master – Off",
+          "Precautionary Landing With Power|Doors => Unlatch Doors"
+        ]
+      }
+    ],
+    [
+      {
+        "head": "FORCED LANDING (NO POWER)",
+        "color": "red",
+        "lines": [
+          "Forced Landing Without Power|Airspeed => 80 Up · 75 Down",
+          "Forced Landing Without Power|Mixture => Mixture – Idle Cutoff",
+          "Forced Landing Without Power|Fuel Selector => Fuel – Off",
+          "Forced Landing Without Power|Ignition => Mags – Off",
+          "Forced Landing Without Power|Flaps => Flaps – As Req (40°)",
+          "Forced Landing Without Power|Transponder => XPDR – 7700",
+          "Forced Landing Without Power|Mayday => Mayday – 121.5 or ATC",
+          "Forced Landing Without Power|Master Switch => Master – Off",
+          "Forced Landing Without Power|Doors => Unlatch Doors",
+          "Forced Landing Without Power|Touchdown => Touchdown – Tail Low"
+        ]
+      },
+      {
+        "head": "ENGINE FIRE IN FLIGHT",
+        "color": "red",
+        "lines": [
+          "Engine Fire In Flight|Mixture => Mixture – Idle Cutoff",
+          "Engine Fire In Flight|Fuel Selector => Fuel – Off",
+          "Engine Fire In Flight|Master Switch => Master – Off",
+          "Engine Fire In Flight|Cabin Heat, Air => Cabin Heat · Air – Off",
+          "Engine Fire In Flight|Airspeed => Airspeed – 100",
+          "Engine Fire In Flight|Forced Landing => Forced Landing"
+        ]
+      },
+      {
+        "head": "ELECTRICAL FIRE",
+        "color": "red",
+        "lines": [
+          "Electrical Fire In Flight|Master Switch => Master – Off",
+          "Electrical Fire In Flight|All Other Switches => All Switches – Off",
+          "Electrical Fire In Flight|Vents, Cabin Air, Heat => Vents · Heat – Closed",
+          "Electrical Fire In Flight|Fire Extinguisher => Fire Extinguisher"
+        ]
+      },
+      {
+        "head": "FIRE DURING START",
+        "color": "red",
+        "lines": [
+          "Engine Fire During Start|Cranking => Keep Cranking",
+          "Engine Fire During Start|Master, Ignition, Fuel => Master · Mags · Fuel – Off",
+          "Engine Fire During Start|Flames => Extinguish"
+        ]
+      },
+      {
+        "head": "SPIN RECOVERY",
+        "color": "red",
+        "lines": [
+          "Spin Recovery|Throttle => Throttle – Idle",
+          "Spin Recovery|Rudder~1 => Rudder – Full Opposite",
+          "Spin Recovery|Control Wheel => Wheel – Briskly Forward",
+          "Spin Recovery|Rudder~2 => Rudder – Neutral"
+        ]
+      }
+    ],
+    [
+      {
+        "head": "CARB ICE",
+        "color": "blue",
+        "lines": [
+          "Carburetor Icing|Carb Heat => Carb Heat – Full On",
+          "Carburetor Icing|Throttle~1 => Throttle – Full",
+          "Carburetor Icing|Carb Heat~2 => Carb Heat – Off When Clear",
+          "Carburetor Icing|Throttle~2 => Throttle – Readjust"
+        ]
+      },
+      {
+        "head": "OVER VOLTAGE",
+        "color": "blue",
+        "lines": [
+          "Excessive Charge (High Voltage)|Master Switch (BAT, ALT) => Over V: Master Off, On",
+          "Excessive Charge (High Voltage)|Light Again => Light Again – Land ASAP"
+        ]
+      },
+      {
+        "head": "ALTERNATOR / MAIN BATT FAILURE",
+        "color": "blue",
+        "lines": [
+          "Alternator and Main Battery Failure|Alternator (ALT) => Discharge: ALT – Off",
+          "Alternator and Main Battery Failure|Nonessential Equipment => Nonessential – Off",
+          "Alternator and Main Battery Failure|EMERG AVIONICS Cover => Console Cover – Lift",
+          "Alternator and Main Battery Failure|EMERG AVIONICS Switch => EMERG AVIONICS – On",
+          "!Leave Master On (about 30 min)",
+          "Alternator and Main Battery Failure|Flight => Land ASAP"
+        ]
+      },
+      {
+        "head": "VACUUM FAILURE",
+        "color": "blue",
+        "lines": [
+          "Vacuum Failure|Suction Gauge => Suction Gauge – Low",
+          "Vacuum Failure|AUX INST AIR Switch => AUX INST AIR – On",
+          "Vacuum Failure|Attitude, Heading => Cross-Check Instruments"
+        ]
+      },
+      {
+        "head": "AUTOPILOT",
+        "color": "blue",
+        "lines": [
+          "Autopilot Malfunction|Control Wheel => Hold Wheel",
+          "Autopilot Malfunction|Controller => Controller – Off",
+          "Autopilot Malfunction|Panel AP Switch => Panel AP – Off",
+          "Autopilot Malfunction|If Still Engaged => A/P Breaker – Out"
+        ]
+      },
+      {
+        "head": "ICING",
+        "color": "blue",
+        "lines": [
+          "Inadvertent Icing|Pitot Heat => Pitot Heat – On",
+          "Inadvertent Icing|Cabin Heat, Defroster => Cabin Heat · Defrost – Max",
+          "Inadvertent Icing|Propeller RPM => More RPM",
+          "Inadvertent Icing|Flaps => Flaps – Retracted",
+          "Inadvertent Icing|Approach => Approach – 90-100"
+        ]
+      },
+      {
+        "head": "LOW OIL PRESSURE",
+        "color": "blue",
+        "lines": [
+          "Low Oil Pressure|Oil Temperature => Oil Temp – Check",
+          "Low Oil Pressure|Power => Power – Reduce",
+          "Low Oil Pressure|Forced Landing Field => Select Field"
+        ]
+      },
+      {
+        "head": "ENGINE ROUGH",
+        "color": "blue",
+        "lines": [
+          "Engine Roughness / Plug Fouling|Mixture => Mixture – Normal Lean",
+          "Engine Roughness / Plug Fouling|Ignition => Mags – L, R, Both",
+          "Engine Roughness / Plug Fouling|Nearest Airport => Land for Repair"
+        ]
+      }
+    ]
+  ],
+  "backData": {
+    "head": "N100FP DATA",
+    "lines": [
+      "!Fuel: 75 gal usable (80 total)",
+      "!Oil: add 1 qt at 9, full 12",
+      "!CHT: <380°F, redline 400°F",
+      "!Red lines on EDM too high: use club limit"
+    ]
+  },
+  "backTitle": "Flying Particles  N100FP  EMERGENCY AND ABNORMAL"
+}

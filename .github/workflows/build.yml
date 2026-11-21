@@ -33,6 +33,20 @@ jobs:
           create_release: false
           formats: 4col,csv,ace,gplt,fmd
 
+      - name: Build half-letter checklist cards (PDF)
+        run: |
+          npm install --no-save pdfkit@0.20.2
+          mkdir -p output-release
+          for s in cards/*-card.json; do
+            node cards/make-card.js "$s" "output-release/$(basename "$s" .json).pdf"
+          done
+
+      - name: Upload cards as build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cards
+          path: output-release/*-card.pdf
+
       - name: Remove the old rolling release (new build gets a fresh date, old files go)
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         env:

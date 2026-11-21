@@ -352,6 +352,10 @@
           "title": "Cold Start",
           "items": [
             {
+              "prompt": "FLOW BY ZONE: the items are grouped by where your hand goes, so the checklist can become a flow you learn. Cabin and seats, then left panel switches (ignition, lights, avionics, breakers, ELT), then the floor (fuel selector), then the center console (flap switch, cowl flaps, ram air, gear, brakes), then the power quadrant (prop, boost pump, throttle, mixture). Do the flow, then use the checklist to confirm.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Preflight Inspection",
               "expectation": "COMPLETE",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -367,21 +371,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Ignition Switch",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Lights & Pitot Heat",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Flap Switch",
-              "expectation": "CENTERED (FLAPS UP)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Cabin Heat & Defrost",
               "expectation": "PUSH OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -392,8 +381,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "ELT",
-              "expectation": "ARM",
+              "prompt": "Ignition Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Lights & Pitot Heat",
+              "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -407,8 +401,18 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "ELT",
+              "expectation": "ARM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Fuel Selector",
               "expectation": "L OR R (FULLER TANK)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flap Switch",
+              "expectation": "CENTERED (FLAPS UP)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -534,24 +538,10 @@
         {
           "title": "Warm Start",
           "items": [
+            {"prompt": "FLOW BY ZONE: same zone order as the Cold Start: cabin and seats, left panel switches, the floor (fuel selector), the center console, then the power quadrant.", "type": "ITEM_NOTE"},
             {"prompt": "Preflight Inspection", "expectation": "COMPLETE", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Passenger Briefing (SAFETY)", "expectation": "COMPLETE", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Seats & Seat Belts/Harnesses", "expectation": "ADJUST & LOCKED", "type": "ITEM_CHALLENGE_RESPONSE"},
-            {
-              "prompt": "Ignition Switch",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Lights & Pitot Heat",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Flap Switch",
-              "expectation": "CENTERED (FLAPS UP)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
             {
               "prompt": "Cabin Heat & Defrost",
               "expectation": "PUSH OFF",
@@ -563,13 +553,28 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "ELT",
-              "expectation": "ARM",
+              "prompt": "Ignition Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Lights & Pitot Heat",
+              "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {"prompt": "Avionics Master Switch", "expectation": "OFF", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Circuit Breakers", "expectation": "CHECK IN", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {
+              "prompt": "ELT",
+              "expectation": "ARM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
             {"prompt": "Fuel Selector", "expectation": "L OR R (FULLER TANK)", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {
+              "prompt": "Flap Switch",
+              "expectation": "CENTERED (FLAPS UP)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
             {"prompt": "Cowl Flaps", "expectation": "OPEN", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Ram Air", "expectation": "OFF", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Landing Gear Switch", "expectation": "DOWN", "type": "ITEM_CHALLENGE_RESPONSE"},
@@ -944,6 +949,10 @@
           "title": "Pre Takeoff",
           "items": [
             {
+              "prompt": "FLOW BY ZONE: briefings first, then panel switches (lights, pitot heat, autopilot), then fuel and console (boost pump, fuel selector, flaps), then doors and the red emergency gear handle.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Departure Briefing",
               "expectation": "REVIEW",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -959,16 +968,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Boost Pump",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Flaps (15° Takeoff)",
-              "expectation": "SET BY COUNTING 3 SECONDS",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Pitot Heat",
               "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -976,6 +975,25 @@
             {
               "prompt": "Autopilot",
               "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Boost Pump",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Selector",
+              "expectation": "CONFIRM TANK, NO SWITCHING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "FPI procedure: no tank switching just before takeoff. Confirm the selector is on the fuller tank chosen earlier (see the Runup note).",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Flaps (15° Takeoff)",
+              "expectation": "SET BY COUNTING 3 SECONDS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1249,28 +1267,12 @@
           "title": "Before Landing",
           "items": [
             {
-              "prompt": "Seat Backs / Belts",
-              "expectation": "UPRIGHT / SECURE",
-              "type": "ITEM_CHALLENGE_RESPONSE"
+              "prompt": "FLOW BY GUMPS: Gas (boost pump), Undercarriage (gear down, then check the indicators), Mixture, Prop, Seat belts and switches, then flaps. Gear is second on purpose, so a distraction cannot push it to the end of the list.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Boost Pump",
               "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Mixture",
-              "expectation": "FULL RICH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Propeller",
-              "expectation": "FULL FORWARD (HIGH RPM)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Ram Air",
-              "expectation": "OFF (IN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1290,6 +1292,26 @@
             {
               "prompt": "The floor-mounted visual gear indicator (mechanical alignment marks, independent of the electrical gear-down lights) is a Mooney-specific backup. Teach students to actually check it, not just glance past it — it's there specifically because it can't fail the same way an electrical indication can.",
               "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "FULL FORWARD (HIGH RPM)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Ram Air",
+              "expectation": "OFF (IN)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Seat Backs / Belts",
+              "expectation": "UPRIGHT / SECURE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Flaps",
