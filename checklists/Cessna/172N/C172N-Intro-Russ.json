@@ -18,11 +18,11 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "STC SA1945CE (Powerflow exhaust) raises max weight to 2,400 lb. Flaps 30° max (not 40°), takeoff flaps 0° to 10°. Knots.",
+              "prompt": "STC SA1945CE (Powerflow exhaust) raises max weight to 2,400 lb. Flaps 30° max (not 40°).",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Autopilot is inoperative. The engine has no manifold pressure gauge: set power by RPM.",
+              "prompt": "Autopilot and Dynon are inoperative. The engine has no manifold pressure gauge: set power by RPM.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -91,7 +91,7 @@
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "Sea level speeds: checkout form. 10,000 ft and approach speeds: POH. POH 40° flap figures are void.",
+              "prompt": "STC speeds override the POH. Sea level speeds: checkout form. 10,000 ft and approach: POH.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -553,12 +553,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Throttle",
+              "prompt": "Throttle",
               "expectation": "1700 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Magnetos",
+              "prompt": "Magnetos",
               "expectation": "CHECK, 125 MAX DROP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -576,7 +576,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "# Engine Instruments",
+              "prompt": "Engine Instruments",
               "expectation": "GREEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -693,7 +693,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Rotate",
+              "prompt": "Rotate",
               "expectation": "55 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -709,7 +709,7 @@
           "items": [
             {
               "prompt": "Flaps",
-              "expectation": "UP (SOFT: 10°)",
+              "expectation": "10°",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -743,8 +743,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Obstacle Speed",
-              "expectation": "59 KIAS (10° FLAPS: 55)",
+              "prompt": "Obstacle Speed",
+              "expectation": "55 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -753,7 +753,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "With 10° flaps on a soft field, leave them out until the obstacle is cleared, then retract as you accelerate.",
+              "prompt": "Use 10° flaps for short and soft fields. Leave them out until the obstacle is cleared, then retract as you accelerate.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -777,12 +777,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Airspeed",
+              "prompt": "Airspeed",
               "expectation": "70 TO 85 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Engine Instruments",
+              "prompt": "Engine Instruments",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -811,17 +811,17 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Vx",
+              "prompt": "Vx",
               "expectation": "59 KIAS (SL)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Vy",
+              "prompt": "Vy",
               "expectation": "76 KIAS (SL)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Engine Instruments",
+              "prompt": "Engine Instruments",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
@@ -831,7 +831,7 @@
           "title": "Cruise",
           "items": [
             {
-              "prompt": "# Power",
+              "prompt": "Power",
               "expectation": "2200 TO 2700 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -845,7 +845,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Mixture",
+              "prompt": "Mixture",
               "expectation": "LEAN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -864,7 +864,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Engine Instruments",
+              "prompt": "Engine Instruments",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -937,12 +937,12 @@
           "title": "Normal Landing",
           "items": [
             {
-              "prompt": "# Airspeed",
+              "prompt": "Airspeed",
               "expectation": "60 TO 70 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "AS DESIRED (30° MAX)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -990,7 +990,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Approach",
+              "prompt": "Approach",
               "expectation": "61 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1034,7 +1034,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# Flaps",
+              "prompt": "Flaps",
               "expectation": "20° IMMEDIATELY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1127,7 +1127,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Oil Level",
+              "prompt": "# Oil Level",
               "expectation": "CHECK, 2 QT SPARE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
