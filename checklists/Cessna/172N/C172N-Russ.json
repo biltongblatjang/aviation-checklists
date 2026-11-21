@@ -652,7 +652,7 @@
           "items": [
             {
               "prompt": "Flaps",
-              "expectation": "UP (SOFT: 10°)",
+              "expectation": "10°",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -687,7 +687,7 @@
             },
             {
               "prompt": "Obstacle Speed",
-              "expectation": "59 KIAS (10° FLAPS: 55)",
+              "expectation": "55 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
