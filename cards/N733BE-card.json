@@ -258,7 +258,7 @@
         "Short / Soft Field Takeoff|Mixture => Mixture – Rich (Lean >3000)",
         "Short / Soft Field Takeoff|Brakes~2 => Brakes – Release",
         "Short / Soft Field Takeoff|Elevator => Elevator – Slightly Tail Low",
-        "Short / Soft Field Takeoff|Obstacle Speed => Climb – 55 to Clear",
+        "Short / Soft Field Takeoff|Obstacle Speed => Climb – 57 to Clear",
         "Short Field Landing|Flaps => Land: Flaps – 30°",
         "Short Field Landing|Approach => Final – 61 KIAS, Idle"
       ]
