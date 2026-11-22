@@ -85,7 +85,7 @@
           "Cold Start|Propeller Area => Propeller Area – Clear",
           "Cold Start|Starter => Starter – Engage",
           "Cold Start|Throttle~2 => Throttle – Adjust, 800 RPM",
-          "Cold Start|Oil Pressure => Oil Pressure – Check in 30 Sec",
+          "Cold Start|Oil Pressure => Oil Press. – Check in 30s",
           "Cold Start|Electric Fuel Pump~2 => Electric Fuel Pump – Off",
           "Cold Start|Fuel Pressure => Fuel Pressure – Check",
           "Cold Start|Avionics => Avionics – On, Set"
@@ -110,12 +110,12 @@
         "lines": [
           "Runup|Parking Brake => Parking Brake – Set",
           "Runup|Throttle~1 => Throttle – 2000 RPM",
-          "Runup|Magnetos => Magnetos – Check, 175 Max Drop",
+          "Runup|Magnetos => Mags – 175 Max Drop",
           "Runup|Vacuum => Vacuum – 4.8 to 5.1 in Hg",
-          "Runup|Oil Temperature, Pressure => Oil Temperature, Pressure – Green",
-          "Runup|Annunciator Panel => Annunciator Panel – Press to Test",
+          "Runup|Oil Temperature, Pressure => Oil Temp., Press. – Green",
+          "Runup|Annunciator Panel => Annunciator Panel – Test",
           "Runup|Carburetor Heat => Carburetor Heat – Check",
-          "Runup|Electric Fuel Pump => Electric Fuel Pump – Off, Then on",
+          "Runup|Electric Fuel Pump => Elec. Pump – Off, Then On",
           "Runup|Fuel Pressure => Fuel Pressure – Check",
           "Runup|Idle => Idle – Check",
           "Runup|Throttle Friction => Throttle Friction – Set"
@@ -132,8 +132,8 @@
           "Pre Takeoff|Carburetor Heat => Carburetor Heat – Off",
           "Pre Takeoff|Mixture => Mixture – Full Rich",
           "Pre Takeoff|Primer => Primer – Locked",
-          "Pre Takeoff|Belts (Empty Seats Too) => Belts (Empty Seats Too) – Fastened",
-          "Pre Takeoff|Flaps => Flaps – Up or 25°",
+          "Pre Takeoff|Belts (Empty Seats Too) => Belts – Fastened (All Seats)",
+          "Pre Takeoff|Flaps => Flaps – Up (25° Short/Soft)",
           "Pre Takeoff|Trim => Trim – Set",
           "Pre Takeoff|Controls => Controls – Free",
           "Pre Takeoff|Doors => Doors – Latched",
@@ -148,7 +148,7 @@
         "lines": [
           "Normal Takeoff|Flaps => Flaps – Up",
           "Normal Takeoff|Throttle => Throttle – Full Open",
-          "Normal Takeoff|Static RPM => Static RPM – Check (Tbc)",
+          "Normal Takeoff|Static RPM => Static RPM – Check (TBC)",
           "Normal Takeoff|Engine Instruments => Engine Instruments – Check",
           "Normal Takeoff|Rotate => Rotate – 45 to 55 KIAS",
           "Normal Takeoff|Climb => Climb – 79 KIAS"
@@ -162,7 +162,7 @@
         "lines": [
           "Climb|Best Rate (Vy) => Best Rate (Vy) – 79 KIAS",
           "Climb|Best Angle (Vx) => Best Angle (Vx) – 63 KIAS",
-          "Climb|Electric Fuel Pump => Electric Fuel Pump – Off at Altitude",
+          "Climb|Electric Fuel Pump => Elec. Fuel Pump – Off at Alt.",
           "Climb|Engine Instruments => Engine Instruments – Check"
         ]
       },
@@ -171,12 +171,8 @@
         "color": "purple",
         "lines": [
           "Cruise|Power => Power – Set Per Table",
-          "Cruise|Mixture~1 => Mixture – Full Rich Above 75%",
-          "Cruise|Best Power Throttle => Best Power Throttle – 35 RPM Below",
+          "Cruise|Mixture~1 => Mixture – Full Rich >75% Pwr",
           "Cruise|Mixture~2 => Mixture – Lean to Peak RPM",
-          "Cruise|Throttle => Throttle – Adjust to Final RPM",
-          "Cruise|Fuel Pump => Fuel Pump – On Before Switching",
-          "Cruise|Fuel Selector => Fuel Selector – Alternate Tanks",
           "Cruise|Engine Instruments => Engine Instruments – Check"
         ]
       },
@@ -187,9 +183,8 @@
           "Descent|Throttle => Throttle – 2500 RPM",
           "Descent|Airspeed => Airspeed – 126 KIAS Max",
           "Descent|Mixture => Mixture – Rich",
-          "Descent|Carburetor Heat => Carburetor Heat – On If Required",
-          "Descent|Power Off => Power Off – Heat on, Close",
-          "Descent|Power Check => Power Check – Every 30 Seconds"
+          "Descent|Carburetor Heat => Carb. Heat – As Required",
+          "Descent|Power Off => Power Off – Heat on, Close"
         ]
       },
       {
@@ -198,10 +193,10 @@
         "lines": [
           "Before Landing|Fuel Selector => Fuel Selector – Fullest Tank",
           "Before Landing|Seat Backs => Seat Backs – Erect",
-          "Before Landing|Belts, Harness => Belts, Harness – Fasten, Adjust",
+          "Before Landing|Belts, Harness => Belts, Harness – Fasten",
           "Before Landing|Electric Fuel Pump => Electric Fuel Pump – On",
-          "Before Landing|Mixture => Mixture – Full Rich",
-          "Before Landing|Carburetor Heat => Carburetor Heat – Only If Icing"
+          "Before Landing|Mixture => Mixt. – Rich (Best Pwr - Mtn)",
+          "Before Landing|Carburetor Heat => Carb Heat – As Required"
         ]
       },
       {
@@ -210,7 +205,7 @@
         "lines": [
           "Normal Landing|Flaps => Flaps – Set (103 KIAS Max)",
           "Normal Landing|Trim => Trim – 70 KIAS",
-          "Normal Landing|Final Approach => Final Approach – 63 KIAS, Flaps 40°",
+          "Normal Landing|Final Approach => Final – 63 KIAS, Flaps 40°",
           "Normal Landing|Touchdown => Touchdown – Mains First"
         ]
       }
