@@ -1029,14 +1029,32 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Magnetos (L, R)",
-              "expectation": "DROP 25-150, DIFF 50",
+              "prompt": "MFD Engine Display",
+              "expectation": "ALL CYLINDER EGTS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Magnetos (Both)",
-              "expectation": "EGTS DROP",
+              "prompt": "Select the MFD page that shows every cylinder's EGT. Confirm the page in this airplane (not in the POH).",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Magneto L",
+              "expectation": "ALL EGTS RISE",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Magneto R",
+              "expectation": "ALL EGTS RISE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Magnetos",
+              "expectation": "BOTH (R/L)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Some RPM drop should always occur on one mag. No drop may mean a hot mag: fix before flight.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Propeller",
@@ -1077,10 +1095,6 @@
               "prompt": "Transponder",
               "expectation": "VERIFY CODE",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "No RPM drop on a magneto may mean a hot mag. Correct before further operation.",
-              "type": "ITEM_WARNING"
             },
             {
               "prompt": "Plug fouling: hold brakes, 2200 RPM, lean to peak RPM 10 sec, full rich, 1700, recheck mags.",
