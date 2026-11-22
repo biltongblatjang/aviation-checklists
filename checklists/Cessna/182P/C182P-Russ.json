@@ -574,6 +574,11 @@
           "title": "Before Taxi",
           "items": [
             {
+              "type": "ITEM_CHALLENGE_RESPONSE",
+              "prompt": "Mixture",
+              "expectation": "LEAN FOR TAXI"
+            },
+            {
               "prompt": "Radio Master",
               "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"

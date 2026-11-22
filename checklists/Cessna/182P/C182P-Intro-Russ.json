@@ -635,6 +635,15 @@
           "title": "Before Taxi",
           "items": [
             {
+              "type": "ITEM_CHALLENGE_RESPONSE",
+              "prompt": "Mixture",
+              "expectation": "LEAN FOR TAXI"
+            },
+            {
+              "type": "ITEM_NOTE",
+              "prompt": "Club practice: lean on the ground to avoid plug fouling. Best power again for the runup."
+            },
+            {
               "prompt": "# Radio Master",
               "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
