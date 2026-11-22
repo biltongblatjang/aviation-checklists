@@ -22,14 +22,6 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Panel: GI 275 PFD, GI 275 HSI and GI 275 engine monitor (EIS).",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "GTN 650, GFC 500 with ESP and electric trim, GDL 88 ADS-B In/Out.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "No vacuum system: the turn coordinator is electric. NAV 2 drives a separate analog CDI.",
               "type": "ITEM_NOTE"
             },
@@ -75,7 +67,7 @@
           "title": "V Speeds (KIAS) MGW 2,950 lb #",
           "items": [
             {
-              "prompt": "N1080M reads knots (N100FP reads MPH).",
+              "prompt": "N1080M reads knots (N100FP MPH).",
               "type": "ITEM_NOTE"
             },
             {
@@ -108,10 +100,6 @@
             },
             {
               "prompt": "Stall speeds are KIAS, power off, 2,950 lb (POH Fig. 5-3). The horn sounds 5 to 10 knots above the stall.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Up to 160 ft is lost in a stall recovery.",
               "type": "ITEM_NOTE"
             },
             {
@@ -163,7 +151,7 @@
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "The checkout form lists VX 57 at sea level.",
+              "prompt": "The checkout form lists VX 57 at S.L.",
               "type": "ITEM_NOTE"
             },
             {
@@ -253,11 +241,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Find the AUTOPILOT circuit breaker before flight.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Pulling it is the last step of the trim runaway drill (GFC 500 AFMS).",
+              "prompt": "Find the AUTOPILOT circuit breaker before flight. Pulling it is the last step of the trim runaway drill (GFC 500 AFMS).",
               "type": "ITEM_NOTE"
             },
             {
@@ -271,11 +255,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "The alternate static source valve is below the pilot side panel.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Pull it ON only if static instruments are suspect (POH).",
+              "prompt": "The alternate static source valve is below the pilot side panel. Pull it ON only if static instruments are suspect (POH).",
               "type": "ITEM_NOTE"
             },
             {
@@ -476,11 +456,7 @@
           "title": "Start",
           "items": [
             {
-              "prompt": "FLOW BY ZONE: cabin (seat, belts), left panel (avionics, autopilot), floor (brakes, cowl flaps, fuel).",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Then engine controls (mixture, propeller, carb heat, throttle), then master and start.",
+              "prompt": "FLOW BY ZONE: cabin (seat, belts), left panel (avionics, autopilot), floor (brakes, cowl flaps, fuel). Then engine controls (mixture, propeller, carb heat, throttle), then master and start.",
               "type": "ITEM_NOTE"
             },
             {
@@ -538,14 +514,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Start with the propeller full in so it is already set for takeoff.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "A constant-speed propeller needs high RPM for takeoff, climb and any go-around.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Carb Heat",
               "expectation": "COLD (IN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -567,10 +535,6 @@
             },
             {
               "prompt": "POH: one or two strokes in warm weather, up to six when cold. A warm engine needs no priming.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Lock the primer IN after priming.",
               "type": "ITEM_NOTE"
             },
             {
@@ -596,7 +560,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "It is never the primary fuel quantity: the tanks are (GI 275 AFMS).",
+              "prompt": "It is never the primary fuel quantity: the tanks gauges are (GI 275 AFMS).",
               "type": "ITEM_NOTE"
             },
             {
@@ -694,7 +658,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Club practice: lean on the ground to avoid plug fouling. Full rich again for the runup.",
+              "prompt": "Club practice: lean on the ground to avoid plug fouling. Full rich for the runup.",
               "type": "ITEM_NOTE"
             },
             {
@@ -708,11 +672,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "PFT shows in the autopilot status box on the GI 275 ADI during the preflight test.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "It must pass before you use the autopilot, flight director or electric trim.",
+              "prompt": "PFT shows in the autopilot status box on the GI 275 ADI during the preflight test. It must pass before you use the autopilot, flight director or electric trim.",
               "type": "ITEM_NOTE"
             },
             {
@@ -873,11 +833,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Outer knob to the CHT/EGT page, then inner knob to Normalized mode (GI 275 AFMS).",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Normalized mode zooms the EGT and CHT bars so small changes show. On one magneto every EGT should rise.",
+              "prompt": "Outer knob to the CHT/EGT page, then inner knob to Normalized mode (GI 275 AFMS).This zooms the EGT and CHT bars so small changes show. On one magneto every EGT should rise.",
               "type": "ITEM_NOTE"
             },
             {
@@ -903,10 +859,6 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "This proves the governor works before you need it.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Carb Heat",
               "expectation": "CHECK RPM DROP, COLD",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -922,11 +874,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "For night or instrument flights, load the system with the landing light for 3 to 5 seconds at 1700 RPM.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "The ammeter should stay within a needle width of the first reading (POH).",
+              "prompt": "For night or instrument flights, load the system with the landing light for 3 to 5 seconds at 1700 RPM. The ammeter should stay within a needle width of the first reading (POH).",
               "type": "ITEM_NOTE"
             },
             {
@@ -964,14 +912,6 @@
           "title": "Pre Takeoff",
           "items": [
             {
-              "prompt": "FLOW BY ZONE: briefings, then switches (autopilot, pitot heat).",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Then pedestal (trim, flaps, fuel), engine controls (carb heat, mixture), then lights and transponder.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Departure Briefing",
               "expectation": "REVIEW",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -987,11 +927,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "The GI 275 HSI selects its own CDI source.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "The autopilot follows the source shown on the HSI, not the GTN (GI 275 AFMS 4.2.2).",
+              "prompt": "The GI 275 HSI selects its own CDI source. The autopilot follows the source shown on the HSI, not the GTN (GI 275 AFMS 4.2.2).",
               "type": "ITEM_NOTE"
             },
             {
@@ -1031,11 +967,11 @@
             },
             {
               "prompt": "Mixture",
-              "expectation": "RICH",
+              "expectation": "RICH (BEST PWR MTN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Above 5,000 ft field elevation, lean for maximum power in a full throttle static runup (POH takeoff distance chart).",
+              "prompt": "Above 5,000 ft D.A., lean for maximum power in a full throttle static runup (POH takeoff distance chart).",
               "type": "ITEM_NOTE"
             },
             {
@@ -1780,14 +1716,6 @@
               "prompt": "FPI Tach Logbook",
               "expectation": "COMPLETE",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Write clearly: name, refueling tach time, final tach time, oil level and oil added (club information sheet).",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "For a split flight, give each pilot a line with that pilot's tach time and bracket both names.",
-              "type": "ITEM_NOTE"
             },
             {
               "prompt": "# Refuel",
