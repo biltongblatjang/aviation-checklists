@@ -418,6 +418,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Beacon",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Propeller Area",
               "expectation": "CLEAR",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -508,6 +513,15 @@
         {
           "title": "Before Taxi",
           "items": [
+            {
+              "prompt": "Mixture",
+              "expectation": "LEAN FOR TAXI",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Club practice: lean on the ground to avoid plug fouling. Rich again for the runup.",
+              "type": "ITEM_NOTE"
+            },
             {
               "prompt": "Brakes",
               "expectation": "CHECK",
