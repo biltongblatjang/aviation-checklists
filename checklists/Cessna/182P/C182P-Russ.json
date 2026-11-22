@@ -1418,6 +1418,16 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "type": "ITEM_CHALLENGE_RESPONSE",
+              "prompt": "FPI: Keys",
+              "expectation": "ON DASH"
+            },
+            {
+              "type": "ITEM_CHALLENGE_RESPONSE",
+              "prompt": "FPI: Tach",
+              "expectation": "RECORD"
+            },
+            {
               "prompt": "Master Switch",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1435,11 +1445,6 @@
             {
               "prompt": "Control Lock",
               "expectation": "INSTALL",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Tach Time",
-              "expectation": "RECORD",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
