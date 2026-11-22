@@ -1122,12 +1122,22 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "FPI: Keys",
+              "expectation": "ON DASH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "FPI: Tach",
+              "expectation": "RECORD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Master Switch",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Control Wheel Lock",
+              "prompt": "Control Lock",
               "expectation": "INSTALL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
