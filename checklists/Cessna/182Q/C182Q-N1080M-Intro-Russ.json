@@ -54,6 +54,14 @@
               "type": "ITEM_NOTE"
             },
             {
+              "prompt": "The analog altimeter is the primary altimeter: set it with every altimeter setting.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "GI 275 steps follow the generic GI 275 AFMS 190-02246-12 Rev. 11. TBC against N1080M's own AFMS.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Club limits: hottest CHT below 380°F for extended periods, redline 400°F. Refuel after every flight.",
               "type": "ITEM_NOTE"
             },
@@ -271,9 +279,13 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "FPI Tach Logbook",
-              "expectation": "CHECK",
+              "prompt": "# FPI Tach Logbook",
+              "expectation": "CHECK VS EIS TACH",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tach time: EIS outer knob to the Summary page, Timers, TACH. It should match the last logbook entry.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "# Baggage Door",
@@ -461,7 +473,7 @@
           ]
         },
         {
-          "title": "Cold Start",
+          "title": "Start",
           "items": [
             {
               "prompt": "FLOW BY ZONE: cabin (seat, belts), left panel (avionics, autopilot), floor (brakes, cowl flaps, fuel).",
@@ -545,11 +557,20 @@
             },
             {
               "prompt": "Primer",
-              "expectation": "AS REQUIRED, LOCK",
+              "expectation": "COLD: AS REQD, LOCK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "POH: one or two strokes when warm, up to six when cold. Lock the primer IN after priming.",
+              "prompt": "Primer",
+              "expectation": "WARM: NONE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "POH: one or two strokes in warm weather, up to six when cold. A warm engine needs no priming.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Lock the primer IN after priming.",
               "type": "ITEM_NOTE"
             },
             {
@@ -558,16 +579,24 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "# GI 275 EIS",
-              "expectation": "SET START FUEL",
+              "prompt": "# EIS Fuel",
+              "expectation": "SET TO PREFLIGHT QTY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "The engine monitor asks for the fuel on board at power up.",
+              "prompt": "Enter the fuel you saw in the tanks at preflight. Outer knob to the Fuel page, then set the estimated fuel.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "It only knows what it is told: check the tanks visually every flight (GI 275 AFMS).",
+              "prompt": "Fuel Est and Act Used help (GI 275 AFMS 7.16.7).",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "The fuel computer only subtracts fuel flow from what you enter.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "It is never the primary fuel quantity: the tanks are (GI 275 AFMS).",
               "type": "ITEM_NOTE"
             },
             {
@@ -732,8 +761,17 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "# Altimeter",
-              "expectation": "SET (GI 275)",
+              "prompt": "Altimeter (Analog)",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "The analog altimeter is the primary altimeter.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "# Altimeter (GI 275)",
+              "expectation": "SET",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -830,12 +868,29 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "# EIS",
+              "expectation": "CHT/EGT PAGE, NORMALIZE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Outer knob to the CHT/EGT page, then inner knob to Normalized mode (GI 275 AFMS).",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Normalized mode zooms the EGT and CHT bars so small changes show. On one magneto every EGT should rise.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "This checks the health of every spark plug and lead.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Magnetos",
               "expectation": "R, L | DROP 150, DIFF 50",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "On one magneto, all EGT columns should rise together. A column that drops points to a fouled plug.",
+              "prompt": "A column that drops or does not rise points to a fouled plug or a lead problem.",
               "type": "ITEM_NOTE"
             },
             {
@@ -878,6 +933,15 @@
               "prompt": "Throttle",
               "expectation": "IDLE CHECK, 1000 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "# EIS",
+              "expectation": "MONITOR MODE, MAIN PAGE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Inner knob back to Monitor mode, outer knob to the Main page.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Radios, Avionics",
@@ -947,7 +1011,7 @@
             },
             {
               "prompt": "Flaps",
-              "expectation": "0-20° (20° SHORT/SOFT)",
+              "expectation": "10° (20° SHORT/SOFT)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1000,9 +1064,13 @@
           "title": "Normal Takeoff",
           "items": [
             {
-              "prompt": "Flaps",
-              "expectation": "0° TO 20°",
+              "prompt": "# Flaps",
+              "expectation": "10° (CLUB)",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "The POH allows 0° to 20° for a normal takeoff. Club convention is 10°.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Carb Heat",
@@ -1026,6 +1094,15 @@
               "prompt": "Engine Instruments",
               "expectation": "CHECK, GREEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "# EGT",
+              "expectation": "LOW 1400s °F",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Club check: with the mixture set correctly, EGT on the takeoff roll should be in the low 1400s °F.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Airspeed Indicator",
@@ -1178,6 +1255,11 @@
               "prompt": "# Engine Instruments",
               "expectation": "CHECK, CHT <380°F",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "CHT Rising",
+              "expectation": "REDUCE POWER, SPEED UP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
         },
@@ -1313,59 +1395,8 @@
           ]
         },
         {
-          "title": "Before Approach (5 A'S)",
-          "items": [
-            {
-              "prompt": "ATIS",
-              "expectation": "RECORD",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Altimeter",
-              "expectation": "SET",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Avionics",
-              "expectation": "SET",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "# CDI Source (GTN, HSI)",
-              "expectation": "MATCH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "On an ILS, LOC or VOR approach, press CDI on the GI 275 HSI as soon as the GTN changes to VLOC.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "The GI 275 does not follow the GTN's automatic change, and the autopilot couples to what the HSI shows.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Approach Briefing",
-              "expectation": "REVIEW",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Airplane Configuration",
-              "expectation": "REVIEW",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            }
-          ]
-        },
-        {
           "title": "Descent",
           "items": [
-            {
-              "prompt": "Plan the descent early. Slow down before the pattern, not in it.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Reduce manifold pressure in steps instead of chopping the throttle.",
-              "type": "ITEM_NOTE"
-            },
             {
               "prompt": "Power",
               "expectation": "AS DESIRED, IN STEPS",
@@ -1520,7 +1551,7 @@
           ]
         },
         {
-          "title": "Short Field Landing",
+          "title": "Short Field Landing #",
           "items": [
             {
               "prompt": "Airspeed",
@@ -1564,10 +1595,6 @@
             },
             {
               "prompt": "With all three wheels down: flaps up, full up elevator, and brake hard without sliding the tires (POH).",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Checkout item: one short field landing at Livermore, off at the first exit.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -1731,7 +1758,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Tach time is shown on the GI 275 engine monitor (familiarization sheet).",
+              "prompt": "Tach time: EIS outer knob to the Summary page, Timers, TACH (GI 275 AFMS 7.16.9).",
               "type": "ITEM_NOTE"
             },
             {
@@ -1773,11 +1800,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "LEFT or RIGHT stops cross-feeding so the tanks fill fully (POH 2-8; its securing list says RIGHT).",
+              "prompt": "LEFT or RIGHT stops cross-feeding so the tanks fill fully (POH 2-8). Return it to BOTH at the next preflight.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Return it to BOTH at the next preflight. Use self-service fuel when available.",
+              "prompt": "Use self-service fuel when available.",
               "type": "ITEM_NOTE"
             },
             {
