@@ -926,7 +926,7 @@
             },
             {
               "prompt": "N1080M runs hot: cowl flaps open, mixture rich. If CHT climbs, lower the nose and enrichen.",
-              "type": "ITEM_NOTE"
+              "type": "ITEM_WARNING"
             },
             {
               "prompt": "Cowl Flaps",
@@ -1013,7 +1013,7 @@
             },
             {
               "prompt": "N1080M runs hot: expect cowl flaps open and a mixture richer than best lean to hold CHT below 380°F.",
-              "type": "ITEM_NOTE"
+              "type": "ITEM_WARNING"
             },
             {
               "prompt": "Engine Instruments",
@@ -1102,10 +1102,6 @@
             },
             {
               "prompt": "Full rich at low airports (POH).",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "At high elevation airports set best power instead: full rich loses power for a go around.",
               "type": "ITEM_NOTE"
             },
             {
