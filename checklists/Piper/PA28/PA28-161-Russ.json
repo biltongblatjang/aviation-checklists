@@ -62,6 +62,14 @@
               "type": "ITEM_PLAINTEXT"
             },
             {
+              "prompt": "Short field landing 65 (2,440 lb)",
+              "type": "ITEM_PLAINTEXT"
+            },
+            {
+              "prompt": "63 (2,200), 60 (2,000), 55 (1,800)",
+              "type": "ITEM_PLAINTEXT"
+            },
+            {
               "prompt": "Max crosswind 17",
               "type": "ITEM_PLAINTEXT"
             }
@@ -130,6 +138,16 @@
             },
             {
               "prompt": "Master Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ELT",
+              "expectation": "ARMED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Alternate Static (TBC)",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -437,6 +455,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Beacon",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Propeller Area",
               "expectation": "CLEAR",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -498,6 +521,11 @@
             {
               "prompt": "Mixture",
               "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Beacon",
+              "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -578,6 +606,11 @@
             {
               "prompt": "Warm up no more than 2 minutes in warm weather, 4 in cold. Avoid prolonged idling.",
               "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "LEAN FOR TAXI",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Radios, Transponder",
@@ -678,6 +711,16 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Idle",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle Friction",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Throttle",
               "expectation": "RETARD",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -739,7 +782,7 @@
             },
             {
               "prompt": "Flaps",
-              "expectation": "SET",
+              "expectation": "UP (25° SHORT/SOFT)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -761,6 +804,16 @@
               "prompt": "Departure Briefing",
               "expectation": "DONE",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Lights",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Transponder",
+              "expectation": "ALT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
         },
@@ -776,6 +829,15 @@
               "prompt": "Throttle",
               "expectation": "FULL OPEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Static RPM",
+              "expectation": "CHECK (TBC)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "TBC by propeller: 74DM6-0-60 2330 to 2430 RPM, 74DM6-0-58 2365 to 2465 RPM (sea level, ISA).",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Engine Instruments",
@@ -927,18 +989,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Best Power Throttle",
-              "expectation": "35 RPM BELOW",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Mixture",
               "expectation": "LEAN TO PEAK RPM",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Throttle",
-              "expectation": "ADJUST TO FINAL RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -946,17 +998,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Fuel Pump",
-              "expectation": "ON BEFORE SWITCHING",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Fuel Selector",
-              "expectation": "ALTERNATE TANKS",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Use one tank 1 hour after takeoff, then the other 2 hours. Pump off again after a short time. Never run a tank dry.",
+              "prompt": "Alternate tanks: one for 1 hour after takeoff, then the other 2 hours. Fuel pump ON to switch, then OFF. Never run a tank dry.",
               "type": "ITEM_NOTE"
             },
             {
@@ -1030,8 +1072,12 @@
             },
             {
               "prompt": "Mixture",
-              "expectation": "FULL RICH",
+              "expectation": "RICH (BEST PWR - MTN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Full rich at low airports (POH). At high elevation airports set best power instead: full rich loses power for a go around.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Carburetor Heat",
@@ -1089,7 +1135,7 @@
             },
             {
               "prompt": "Final Approach",
-              "expectation": "63 KIAS",
+              "expectation": "65 KIAS (MAX WEIGHT)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1174,7 +1220,7 @@
             },
             {
               "prompt": "Mixture",
-              "expectation": "AS REQUIRED",
+              "expectation": "LEAN FOR TAXI",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1190,6 +1236,11 @@
             {
               "prompt": "Electric Fuel Pump",
               "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ELT",
+              "expectation": "VERIFY SILENT (121.5)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1421,12 +1472,17 @@
             },
             {
               "prompt": "Ammeter",
-              "expectation": "VERIFY ZERO",
+              "expectation": "CHECK, VERIFY INOP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "If Zero: ALT Switch",
+              "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Electrical Load",
-              "expectation": "REDUCE",
+              "expectation": "REDUCE TO MINIMUM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1436,17 +1492,17 @@
             },
             {
               "prompt": "ALT Switch",
-              "expectation": "OFF 1 SEC, THEN ON",
+              "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "If Not Restored",
-              "expectation": "ALT SWITCH OFF",
+              "prompt": "If Not Restored: ALT",
+              "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Landing",
-              "expectation": "ASAP",
+              "expectation": "AS SOON AS PRACTICAL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
