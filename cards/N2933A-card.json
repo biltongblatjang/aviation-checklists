@@ -208,6 +208,32 @@
           "Normal Landing|Final Approach => Final – 63 KIAS, Flaps 40°",
           "Normal Landing|Touchdown => Touchdown – Mains First"
         ]
+      },
+      {
+        "head": "AFTER LANDING",
+        "color": "green",
+        "lines": [
+          "After Landing|Flaps => Flaps – Up",
+          "After Landing|Electric Fuel Pump => Electric Fuel Pump – Off",
+          "After Landing|Carburetor Heat => Carburetor Heat – Off",
+          "After Landing|Lights, Transponder => Lights, XPDR – Off, STBY",
+          "After Landing|Mixture => Mixture – Lean for Taxi"
+        ]
+      },
+      {
+        "head": "SECURING",
+        "color": "green",
+        "lines": [
+          "Securing Airplane|Electric Fuel Pump => Elec. Fuel Pump – Off",
+          "Securing Airplane|ELT => ELT – Verify Silent (121.5)",
+          "Securing Airplane|Mixture => Mixture – Idle Cutoff",
+          "Securing Airplane|Ignition => Ignition – Off, Key Out",
+          "Securing Airplane|FPI: Keys => FPI: Keys – On Dash",
+          "Securing Airplane|FPI: Tach => FPI: Tach – Record",
+          "Securing Airplane|Master Switch => Master – Off",
+          "Securing Airplane|Control Lock => Control Lock – Belt (POH)",
+          "Securing Airplane|Oil Level => Oil Level – Check, 2 Qt Spare"
+        ]
       }
     ]
   ],
@@ -346,29 +372,6 @@
       }
     ],
     [
-      {
-        "head": "AFTER LANDING",
-        "color": "green",
-        "lines": [
-          "After Landing|Flaps => Flaps – Up",
-          "After Landing|Electric Fuel Pump => Electric Fuel Pump – Off",
-          "After Landing|Carburetor Heat => Carburetor Heat – Off",
-          "After Landing|Lights, Transponder => Lights, Transponder – Off, STBY",
-          "After Landing|Mixture => Mixture – Lean for Taxi"
-        ]
-      },
-      {
-        "head": "SECURING",
-        "color": "green",
-        "lines": [
-          "Securing Airplane|Electric Fuel Pump => Electric Fuel Pump – Off",
-          "Securing Airplane|ELT => ELT – Verify Silent (121.5)",
-          "Securing Airplane|Mixture => Mixture – Idle Cutoff",
-          "Securing Airplane|Magnetos => Magnetos – Off, Key Out",
-          "Securing Airplane|Master Switch => Master Switch – Off",
-          "Securing Airplane|Oil Level => Oil Level – Check, 2 Qt Spare"
-        ]
-      },
       {
         "head": "CARB ICE",
         "color": "orange",

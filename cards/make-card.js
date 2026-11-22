@@ -95,7 +95,7 @@ else{
     colsG=[[],[],[]];let acc=0;
     for(const g of groups){const idx=Math.min(2,Math.floor(acc/(total/3)+0.0001));colsG[idx].push(g);acc+=g.lines.length+1.6;}
   }
-  doc.font('Helvetica-Bold').fontSize(6.4).fillColor('#12233f').text(spKey.toUpperCase(),M,by,{lineBreak:false});
+  doc.font('Helvetica-Bold').fontSize(6.4).fillColor('#12233f').text((side.speedsTitle||spKey).toUpperCase(),M,by,{lineBreak:false});
   const top=by+9;let maxY=top;
   colsG.forEach((gs,i)=>{
     let y=top;const x=M+i*(w3+G);

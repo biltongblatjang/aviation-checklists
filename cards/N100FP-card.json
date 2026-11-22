@@ -224,17 +224,18 @@
         "lines": [
           "Securing Airplane|Avionics, Electrical => Avionics – Off",
           "Securing Airplane|Mixture => Mixture – Idle Cutoff",
-          "Securing Airplane|Ignition => Mags – Off, Key Out",
+          "Securing Airplane|Ignition => Ignition – Off, Key Out",
+          "Securing Airplane|FPI: Keys => FPI: Keys – On Dash",
+          "Securing Airplane|FPI: Tach => FPI: Tach – Record",
           "Securing Airplane|Master Switch => Master – Off",
           "Securing Airplane|EMERG AVIONICS => EMERG AVIONICS – Off",
           "Securing Airplane|ELT => ELT – Verify Silent",
-          "Securing Airplane|Control Lock => Control Lock",
+          "Securing Airplane|Control Lock => Control Lock – Install",
           "Securing Airplane|FPI Tach Logbook => FPI Logbook – Complete",
           "Securing Airplane|Fuel Selector (Refuel) => Refuel – Selector L or R",
           "Securing Airplane|Chocks, Tie-Downs => Chocks · Ties",
           "Securing Airplane|Pitot Cover => Pitot Cover",
-          "Securing Airplane|Squawks => Squawks – ScheduleMaster",
-          "Securing Airplane|Flight Plan => Close Flight Plan"
+          "Securing Airplane|Squawks => Squawks – ScheduleMaster"
         ]
       }
     ]

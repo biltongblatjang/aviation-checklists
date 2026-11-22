@@ -70,9 +70,9 @@
         "color": "green",
         "lines": [
           "Before Starting|Preflight => Preflight – Complete",
-          "Before Starting|Seats, Belts, Harnesses => Seats, Belts, Harnesses – Adjust, Lock",
+          "Before Starting|Seats, Belts, Harnesses => Seats · Belts – Adjust, Lock",
           "Before Starting|Fuel Selector => Fuel Selector – Both",
-          "Before Starting|Avionics Master, Electrical => Avionics Master, Electrical – Off",
+          "Before Starting|Avionics Master, Electrical => Avionics, Elec. – Off",
           "Before Starting|Brakes => Brakes – Test, Set",
           "Before Starting|Circuit Breakers => Circuit Breakers – In",
           "Starting Engine|Mixture => Mixture – Rich",
@@ -83,7 +83,7 @@
           "Starting Engine|Beacon => Beacon – On",
           "Starting Engine|Propeller Area => Propeller Area – Clear",
           "Starting Engine|Ignition => Ignition – Start",
-          "Starting Engine|Oil Pressure => Oil Pressure – Check in 30 Sec",
+          "Starting Engine|Oil Pressure => Oil Press. – Check in 30s",
           "Starting Engine|Throttle~2 => Throttle – 1000 RPM",
           "Starting Engine|Ammeter => Ammeter – Check",
           "Starting Engine|Avionics Master => Avionics Master – On",
@@ -109,12 +109,12 @@
           "Runup|Fuel Selector => Fuel Selector – Both",
           "Runup|Mixture => Mixture – Rich",
           "Runup|Throttle~1 => Throttle – 1700 RPM",
-          "Runup|Magnetos => Magnetos – Check, 125 Max Drop",
-          "Runup|Carburetor Heat => Carburetor Heat – On, RPM Drop, Cold",
+          "Runup|Magnetos => Mags – 125 Max Drop",
+          "Runup|Carburetor Heat => Carb Heat – On, Drop, Cold",
           "Runup|Engine Instruments => Engine Instruments – Green",
-          "Runup|Ammeter, Suction Gauge => Ammeter, Suction Gauge – Check",
-          "Runup|Throttle~2 => Throttle – Idle, Then 1000 RPM",
-          "Runup|Flight Controls => Flight Controls – Free, Correct"
+          "Runup|Ammeter, Suction Gauge => Ammeter, Suction – Check",
+          "Runup|Throttle~2 => Throttle – Idle, 1000 RPM",
+          "Runup|Flight Controls => Controls – Free, Correct"
         ]
       }
     ],
@@ -123,14 +123,14 @@
         "head": "PRE-TAKEOFF",
         "color": "orange",
         "lines": [
-          "Pre Takeoff|Doors, Windows => Doors, Windows – Closed, Locked",
+          "Pre Takeoff|Doors, Windows => Doors, Windows – Locked",
           "Pre Takeoff|Flight Instruments => Flight Instruments – Set",
           "Pre Takeoff|Fuel Selector => Fuel Selector – Both",
-          "Pre Takeoff|Mixture => Mixture – Rich (Lean Above 3000 Ft)",
-          "Pre Takeoff|Elevator, Rudder Trim => Elevator, Rudder Trim – Takeoff",
+          "Pre Takeoff|Mixture => Mixture – Rich (Lean >3000)",
+          "Pre Takeoff|Elevator, Rudder Trim => Trim – Takeoff",
           "Pre Takeoff|Flaps => Flaps – Set",
           "Pre Takeoff|Carburetor Heat => Carburetor Heat – Cold",
-          "Pre Takeoff|Lights, Transponder => Lights, Transponder – As Required",
+          "Pre Takeoff|Lights, Transponder => Lights, XPDR – As Req'd",
           "Pre Takeoff|Throttle Friction => Throttle Friction – Adjust",
           "Pre Takeoff|Departure Briefing => Departure Briefing – Done",
           "Pre Takeoff|Brakes => Brakes – Release"
@@ -154,7 +154,7 @@
         "lines": [
           "Climb|Flaps => Flaps – Up",
           "Climb|Throttle => Throttle – Full Open",
-          "Climb|Mixture => Mixture – Rich (Lean Above 3000 Ft)",
+          "Climb|Mixture => Mixture – Rich (Lean >3000)",
           "Climb|Airspeed => Airspeed – 70 to 85 KIAS",
           "Climb|Engine Instruments => Engine Instruments – Check"
         ]
@@ -166,7 +166,7 @@
           "Cruise|Power => Power – 2200 to 2700 RPM",
           "Cruise|Elevator Trim => Elevator Trim – Adjust",
           "Cruise|Mixture => Mixture – Lean",
-          "Cruise|Carburetor Heat => Carburetor Heat – As Required",
+          "Cruise|Carburetor Heat => Carb Heat – As Required",
           "Cruise|Fuel Selector => Fuel Selector – Both",
           "Cruise|Engine Instruments => Engine Instruments – Check"
         ]
@@ -177,7 +177,7 @@
         "lines": [
           "Descent|Mixture => Mixture – Adjust, Smooth",
           "Descent|Power => Power – As Desired",
-          "Descent|Carburetor Heat => Carburetor Heat – As Required",
+          "Descent|Carburetor Heat => Carb Heat – As Required",
           "Descent|ATIS, Altimeter => ATIS, Altimeter – Set"
         ]
       }
@@ -187,7 +187,7 @@
         "head": "BEFORE LANDING",
         "color": "red",
         "lines": [
-          "Before Landing|Seat Belts, Harnesses => Seat Belts, Harnesses – Secure",
+          "Before Landing|Seat Belts, Harnesses => Belts, Harnesses – Secure",
           "Before Landing|Fuel Selector => Fuel Selector – Both",
           "Before Landing|Mixture => Mixture – Rich",
           "Before Landing|Carburetor Heat => Carburetor Heat – On",
@@ -224,7 +224,7 @@
         "lines": [
           "After Landing|Flaps => Flaps – Up",
           "After Landing|Carburetor Heat => Carburetor Heat – Cold",
-          "After Landing|Lights, Transponder => Lights, Transponder – Off, STBY",
+          "After Landing|Lights, Transponder => Lights, XPDR – Off, STBY",
           "After Landing|Mixture => Mixture – Lean for Taxi"
         ]
       },
@@ -236,12 +236,14 @@
           "Securing Airplane|Avionics Master, Lights => Avionics Master, Lights – Off",
           "Securing Airplane|Mixture => Mixture – Idle Cutoff",
           "Securing Airplane|Ignition => Ignition – Off, Key Out",
-          "Securing Airplane|Master Switch => Master Switch – Off",
-          "Securing Airplane|Control Wheel Lock => Control Wheel Lock – Install",
-          "Securing Airplane|Refuel If Required => Refuel If Required – Selector L or R",
+          "Securing Airplane|FPI: Keys => FPI: Keys – On Dash",
+          "Securing Airplane|FPI: Tach => FPI: Tach – Record",
+          "Securing Airplane|Master Switch => Master – Off",
+          "Securing Airplane|Control Lock => Control Lock – Install",
+          "Securing Airplane|Refuel If Required => Refuel – Selector L or R",
           "Securing Airplane|Oil Level => Oil Level – Check, 2 Qt Spare",
           "Securing Airplane|Tach Logbook => Tach Logbook – Complete",
-          "Securing Airplane|Squawks => Squawks – Schedulemaster",
+          "Securing Airplane|Squawks => Squawks – ScheduleMaster",
           "Securing Airplane|Cabin => Cabin – Clean, No Trash",
           "Securing Airplane|Throttle Lock => Throttle Lock – Install",
           "Securing Airplane|Doors, Hangar => Doors, Hangar – Lock",
