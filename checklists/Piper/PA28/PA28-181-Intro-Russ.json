@@ -36,6 +36,10 @@
             {
               "prompt": "Club rule: a private pilot certificate is required to fly N5525V.",
               "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "N5525V: single axis autopilot, model TBC (AutoFlite II or AutoControl IIIB). Max 149 KIAS; OFF for takeoff and landing.",
+              "type": "ITEM_NOTE"
             }
           ]
         },
@@ -96,6 +100,10 @@
             },
             {
               "prompt": "Max crosswind 17 (20 MPH)",
+              "type": "ITEM_PLAINTEXT"
+            },
+            {
+              "prompt": "Autopilot max 149 (25V)",
               "type": "ITEM_PLAINTEXT"
             },
             {
@@ -461,6 +469,11 @@
             },
             {
               "prompt": "Radios, Avionics",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Autopilot (25V)",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
@@ -862,6 +875,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Autopilot (25V)",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Departure Briefing",
               "expectation": "DONE",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1139,6 +1157,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Autopilot (25V)",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Mixture",
               "expectation": "RICH (BEST PWR - MTN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1339,8 +1362,18 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Magnetos",
+              "prompt": "Ignition",
               "expectation": "OFF, KEY OUT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "FPI: Keys",
+              "expectation": "ON DASH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "FPI: Tach",
+              "expectation": "RECORD",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1349,13 +1382,17 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Parking Brake",
-              "expectation": "SET",
+              "prompt": "Control Lock",
+              "expectation": "BELT (POH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Control Wheel",
-              "expectation": "SECURE WITH BELTS",
+              "prompt": "Loop the seat belt through the control wheel and pull it snug (POH).",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Parking Brake",
+              "expectation": "SET",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1587,6 +1624,39 @@
             },
             {
               "prompt": "The OFF then ON resets the overvoltage relay. With ALT off the battery is the only power.",
+              "type": "ITEM_NOTE"
+            }
+          ]
+        },
+        {
+          "title": "Autopilot Malfunction (25V)",
+          "items": [
+            {
+              "prompt": "Control Wheel",
+              "expectation": "HOLD, OVERPOWER",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Wheel Disconnect",
+              "expectation": "HOLD (IF FITTED)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Autopilot Rocker",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Autopilot Breaker",
+              "expectation": "PULL IF REQUIRED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "AutoFlite II: wheel switch, then rocker OFF. AutoControl IIIB: rocker OFF or pull the breaker (POH Supplements 2, 3).",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "A 3 second delay can give 45° bank and 180 ft lost; on approach, 1 second gives 18° and 10 ft.",
               "type": "ITEM_NOTE"
             }
           ]

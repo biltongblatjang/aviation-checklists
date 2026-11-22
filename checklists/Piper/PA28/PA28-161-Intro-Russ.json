@@ -1344,8 +1344,18 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Magnetos",
+              "prompt": "Ignition",
               "expectation": "OFF, KEY OUT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "FPI: Keys",
+              "expectation": "ON DASH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "FPI: Tach",
+              "expectation": "RECORD",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1354,13 +1364,17 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Parking Brake",
-              "expectation": "SET",
+              "prompt": "Control Lock",
+              "expectation": "BELT (POH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Control Wheel",
-              "expectation": "SECURE WITH BELTS",
+              "prompt": "Loop the seat belt through the control wheel and pull it snug (POH).",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Parking Brake",
+              "expectation": "SET",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
