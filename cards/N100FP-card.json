@@ -77,11 +77,11 @@
         "head": "BEFORE TAXI",
         "color": "green",
         "lines": [
+          "Before Taxi|Mixture => Mixture – Lean for Taxi",
           "Before Taxi|Radio Master => Radio Master – On",
           "Before Taxi|ATIS, Radios => ATIS · Radios – Set",
           "Before Taxi|Altimeter => Altimeter – Set",
           "Before Taxi|Transponder => XPDR – Alt, VFR",
-          "Before Taxi|Carb Heat => Carb Heat – Cold",
           "Before Taxi|Brakes => Brakes – Test",
           "Before Taxi|Flight Instruments => Instruments – Check"
         ]

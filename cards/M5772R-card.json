@@ -116,6 +116,7 @@
           "Cold Start|Mixture~2 => Mixture – Rich",
           "Cold Start|Boost Pump~2 => Boost Pump – 3-5 Sec, Off",
           "Cold Start|Mixture~3 => Mixture – Idle Cutoff",
+          "Cold Start|Beacon => Beacon – On",
           "Cold Start|Propeller Area => Prop Area – Clear",
           "Cold Start|Ignition Switch~2 => Ignition – Start",
           "Cold Start|Mixture~4 => Mixture – Advance Slowly",

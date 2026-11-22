@@ -80,6 +80,7 @@
           "Starting Engine|Master Switch => Master Switch – On",
           "Starting Engine|Primer => Primer – 2 to 6 Strokes, Lock",
           "Starting Engine|Throttle~1 => Throttle – Open 1/8 Inch",
+          "Starting Engine|Beacon => Beacon – On",
           "Starting Engine|Propeller Area => Propeller Area – Clear",
           "Starting Engine|Ignition => Ignition – Start",
           "Starting Engine|Oil Pressure => Oil Pressure – Check in 30 Sec",
@@ -93,6 +94,7 @@
         "head": "BEFORE TAXI",
         "color": "green",
         "lines": [
+          "Before Taxi|Mixture => Mixture – Lean for Taxi",
           "Before Taxi|Brakes => Brakes – Check",
           "Before Taxi|Flight Instruments => Flight Instruments – Check",
           "Before Taxi|ATIS, Clearance => ATIS, Clearance – Obtain",
