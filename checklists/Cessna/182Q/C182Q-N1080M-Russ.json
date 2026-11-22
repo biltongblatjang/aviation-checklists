@@ -761,7 +761,7 @@
             },
             {
               "prompt": "Mixture",
-              "expectation": "RICH",
+              "expectation": "RICH (BEST PWR MTN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
