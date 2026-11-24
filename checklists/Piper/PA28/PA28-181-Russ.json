@@ -132,10 +132,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Gauges are only a guide: look in the tanks.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Annunciator Panel",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
