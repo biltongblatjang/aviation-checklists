@@ -544,8 +544,12 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "ADJUST, 800 RPM",
+              "expectation": "ADJUST, 800-1000 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Hold 800 to 1000 RPM until oil pressure rises and steadies, then warm up at 1000 to 1200.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Oil Pressure",
@@ -622,8 +626,12 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "ADJUST, 800 RPM",
+              "expectation": "ADJUST, 800-1000 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Hold 800 to 1000 RPM until oil pressure rises and steadies, then warm up at 1000 to 1200.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Oil Pressure",
@@ -682,11 +690,11 @@
           "items": [
             {
               "prompt": "Warm-Up",
-              "expectation": "800 TO 1200 RPM",
+              "expectation": "1000 TO 1200 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Lycoming (O-360 manual 60297-12): warm up at about 1000 to 1200 RPM. Long idling at low RPM fouls plugs.",
+              "prompt": "Lycoming (O-360 manual 60297-12): about 1000 to 1200 RPM. POH: 800 to 1200. Long idling at low RPM fouls plugs.",
               "type": "ITEM_NOTE"
             },
             {

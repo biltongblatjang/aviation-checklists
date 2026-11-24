@@ -471,7 +471,7 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "ADJUST, 800 RPM",
+              "expectation": "ADJUST, 800-1000 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -545,7 +545,7 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "ADJUST, 800 RPM",
+              "expectation": "ADJUST, 800-1000 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -605,7 +605,7 @@
           "items": [
             {
               "prompt": "Warm-Up",
-              "expectation": "800 TO 1200 RPM",
+              "expectation": "1000 TO 1200 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
