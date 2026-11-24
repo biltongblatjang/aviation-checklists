@@ -14,59 +14,59 @@
           "title": "V Speeds (KIAS) MGW 2,550 lb",
           "items": [
             {
-              "prompt": "VNE 154 (58K arc 148)",
+              "prompt": "VNE 154 (58K 171 MPH)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VNO 125 (58K arc 121)",
+              "prompt": "VNO 125 (58K 140 MPH)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VA 113 (58K 108), 89 at 1,634 lb",
+              "prompt": "VA 113 (58K 124 MPH), 89 at 1,634 lb",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VFE 102 (58K arc 100)",
+              "prompt": "VFE 102 (58K 115 MPH)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VS 55 (58K arc 59)",
+              "prompt": "VS 55 (58K 68 MPH)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VSO 49 (58K arc 53)",
+              "prompt": "VSO 49 (58K 61 MPH)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VR 52 to 65",
+              "prompt": "VR 52 to 65 (60 to 75 MPH)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VX 64",
+              "prompt": "VX 64 (74 MPH)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VY 76",
+              "prompt": "VY 76 (87 MPH)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "Cruise climb 87",
+              "prompt": "Cruise climb 87 (100 MPH)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VG 76",
+              "prompt": "VG 76 (87 MPH)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "VREF 66, flaps 40°",
+              "prompt": "VREF 66 (76 MPH), flaps 40°",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "Short field takeoff 41-49",
+              "prompt": "Short field takeoff 41-49 (47-56 MPH)",
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "Max crosswind 17",
+              "prompt": "Max crosswind 17 (20 MPH)",
               "type": "ITEM_PLAINTEXT"
             },
             {
@@ -74,7 +74,7 @@
               "type": "ITEM_PLAINTEXT"
             },
             {
-              "prompt": "N9658K: fly the inner (knot) ring. Its arcs follow VB-760 CAS, a few knots off 25V's. Fly the arcs.",
+              "prompt": "N9658K: fly the inner (knot) ring. MPH in brackets is 58K's outer ring and arcs (VB-760).",
               "type": "ITEM_NOTE"
             }
           ]
@@ -430,11 +430,6 @@
           "title": "Cold Start",
           "items": [
             {
-              "prompt": "Primer",
-              "expectation": "4 STROKES, LOCK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Throttle",
               "expectation": "OPEN 1/4 INCH",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -457,6 +452,11 @@
             {
               "prompt": "Beacon",
               "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Primer",
+              "expectation": "4 STROKES, LOCK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -852,12 +852,12 @@
             },
             {
               "prompt": "Rotate",
-              "expectation": "52-65 KIAS",
+              "expectation": "52-65 KIAS (60-75 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Climb",
-              "expectation": "76 KIAS",
+              "expectation": "76 KIAS (87 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -882,17 +882,17 @@
             },
             {
               "prompt": "Rotate",
-              "expectation": "49 KIAS",
+              "expectation": "49 KIAS (56 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "After Liftoff",
-              "expectation": "54 KIAS",
+              "expectation": "54 KIAS (62 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Obstacle (Vx)",
-              "expectation": "64 KIAS",
+              "expectation": "64 KIAS (74 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -902,7 +902,7 @@
             },
             {
               "prompt": "After Clear",
-              "expectation": "76 KIAS",
+              "expectation": "76 KIAS (87 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -922,17 +922,17 @@
             },
             {
               "prompt": "Liftoff",
-              "expectation": "41-49 KIAS",
+              "expectation": "41-49 KIAS (47-56 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Ground Effect",
-              "expectation": "54 KIAS",
+              "expectation": "54 KIAS (62 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Then",
-              "expectation": "76 KIAS",
+              "expectation": "76 KIAS (87 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -952,17 +952,17 @@
             },
             {
               "prompt": "Best Rate (Vy)",
-              "expectation": "76 KIAS",
+              "expectation": "76 KIAS (87 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Best Angle (Vx)",
-              "expectation": "64 KIAS",
+              "expectation": "64 KIAS (74 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "En Route",
-              "expectation": "87 KIAS",
+              "expectation": "87 KIAS (100 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1101,7 +1101,7 @@
           "items": [
             {
               "prompt": "Flaps",
-              "expectation": "SET (102 KIAS MAX)",
+              "expectation": "SET (102 KIAS/115 MPH MAX)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1111,7 +1111,7 @@
             },
             {
               "prompt": "Final Approach",
-              "expectation": "66 KIAS",
+              "expectation": "66 KIAS (76 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1141,7 +1141,7 @@
             },
             {
               "prompt": "Final Approach",
-              "expectation": "66 KIAS",
+              "expectation": "66 KIAS (76 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1196,7 +1196,7 @@
             },
             {
               "prompt": "Airspeed",
-              "expectation": "76 KIAS",
+              "expectation": "76 KIAS (87 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1565,7 +1565,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "87 KIAS",
+              "expectation": "87 KIAS (100 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1699,7 +1699,7 @@
           "items": [
             {
               "prompt": "Airspeed",
-              "expectation": "76 KIAS",
+              "expectation": "76 KIAS (87 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1758,7 +1758,7 @@
           "items": [
             {
               "prompt": "Trim",
-              "expectation": "76 KIAS",
+              "expectation": "76 KIAS (87 MPH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1773,7 +1773,7 @@
             },
             {
               "prompt": "Field Made",
-              "expectation": "66 KIAS, FLAPS",
+              "expectation": "66 KIAS (76 MPH), FLAPS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
