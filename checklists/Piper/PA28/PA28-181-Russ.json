@@ -11,7 +11,7 @@
       "category": "normal",
       "checklists": [
         {
-          "title": "V Speeds (KIAS) MGW 2,550 lb",
+          "title": "V Speeds KIAS MGW 2,550 lb",
           "items": [
             {
               "prompt": "VNE 154 (58K 171 MPH)",
@@ -452,7 +452,7 @@
             },
             {
               "prompt": "Primer",
-              "expectation": "4 STROKES, LOCK",
+              "expectation": "3-4 STROKES, LOCK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -768,7 +768,7 @@
             },
             {
               "prompt": "Mixture",
-              "expectation": "FULL RICH",
+              "expectation": "RICH (BEST PWR - MTN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1296,7 +1296,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Refuel if over 1 tach hour since last fill.",
+              "prompt": "Refuel if >1 tach hr. since last fill.",
               "type": "ITEM_NOTE"
             },
             {

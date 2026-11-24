@@ -513,11 +513,19 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Pull the primer out slowly so it fills with fuel, push it in firmly and lock it. An unlocked primer can leak fuel into the engine: rough running or power loss. POH power loss checks include it.",
+              "prompt": "Pull the primer out slowly so it fills with fuel, push it in firmly and lock it.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Never pump the throttle before cranking: the accelerator pump puts raw fuel in the intake, a fire risk on a backfire. Pumping the throttle is a common habit, even among experienced pilots. Break it. The primer is there for a reason.",
+              "prompt": "An unlocked primer leaks fuel into the engine: rough running or power loss.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Never pump the throttle before cranking: raw fuel in the intake is a fire risk on a backfire.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "A common habit, even among experienced pilots. Break it: the primer is there for a reason.",
               "type": "ITEM_NOTE"
             },
             {
@@ -695,7 +703,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Club practice: lean on the ground to avoid plug fouling. Enrichen as required again before takeoff.",
+              "prompt": "Club practice: lean on the ground to avoid plug fouling. Enrich again before takeoff.",
               "type": "ITEM_NOTE"
             },
             {
@@ -865,8 +873,12 @@
             },
             {
               "prompt": "Mixture",
-              "expectation": "FULL RICH",
+              "expectation": "RICH (BEST PWR - MTN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Full rich at low airports (POH). At high elevation airports lean to best power for takeoff.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Primer",
