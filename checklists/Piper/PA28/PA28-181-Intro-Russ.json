@@ -30,21 +30,17 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "180 HP, fixed pitch, electric fuel pump, no MP gauge: set power by RPM. No working autopilot.",
-              "type": "ITEM_NOTE"
-            },
-            {
               "prompt": "Club rule: a private pilot certificate is required to fly N5525V.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "N5525V: single axis autopilot, model TBC (AutoFlite II or AutoControl IIIB). Max 149 KIAS; OFF for takeoff and landing.",
+              "prompt": "N5525V: single axis autopilot. Max 149 KIAS; OFF for takeoff and landing.",
               "type": "ITEM_NOTE"
             }
           ]
         },
         {
-          "title": "V Speeds (KIAS) MGW 2,550 lb #",
+          "title": "V Speeds KIAS MGW 2,550 lb #",
           "items": [
             {
               "prompt": "VNE 154 (58K 171 MPH)",
@@ -216,7 +212,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Spare Oil (2 qt)",
+              "prompt": "# Spare Oil (2 qt)",
               "expectation": "IN BAGGAGE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -509,27 +505,19 @@
             },
             {
               "prompt": "Primer",
-              "expectation": "4 STROKES, LOCK",
+              "expectation": "3-4 STROKES, LOCK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Four strokes is club practice, primed last so the fuel stays atomized. No start in 5 to 10 seconds: prime and try again.",
+              "prompt": "3-4 strokes is club practice, primed last so the fuel stays atomized. No start in 5 to 10 seconds: prime and try again.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Pull the primer out slowly so it fills with fuel, push it in firmly and lock it. A leaking primer upsets the idle mixture.",
+              "prompt": "Pull the primer out slowly so it fills with fuel, push it in firmly and lock it. An unlocked primer can leak fuel into the engine: rough running or power loss. POH power loss checks include it.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "An unlocked primer can leak fuel into the engine: rough running or power loss. POH power loss checks include it.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Never pump the throttle before cranking: the accelerator pump puts raw fuel in the intake, a fire risk on a backfire.",
-              "type": "ITEM_NOTE"
-            },
-            {
-              "prompt": "Pumping the throttle is a common habit, even among experienced pilots. Break it.",
+              "prompt": "Never pump the throttle before cranking: the accelerator pump puts raw fuel in the intake, a fire risk on a backfire. Pumping the throttle is a common habit, even among experienced pilots. Break it. The primer is there for a reason.",
               "type": "ITEM_NOTE"
             },
             {
@@ -707,7 +695,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Club practice: lean on the ground to avoid plug fouling. Full rich again before takeoff.",
+              "prompt": "Club practice: lean on the ground to avoid plug fouling. Enrichen as required again before takeoff.",
               "type": "ITEM_NOTE"
             },
             {
@@ -1449,7 +1437,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Refuel if over 1 tach hour since last fill.",
+              "prompt": "Refuel if >1 tach hr. since last fill.",
               "type": "ITEM_NOTE"
             },
             {
