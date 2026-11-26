@@ -18,7 +18,7 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Rev Switch on top left of panel does failover of the GI-275.",
+              "prompt": "Rev Switch (top left of panel): OFF is normal (auto). ON forces the PFD page onto the second GI 275 and holds it there.",
               "type": "ITEM_NOTE"
             },
             { 
@@ -130,7 +130,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Club policy is to refuel tanks to 25 gal/side.",
+              "prompt": "FPI at LVK: refuel to 25 gal per side using the visual fuel gauges on the wing. Do not top off.",
               "type": "ITEM_NOTE"
             },
            {
@@ -505,7 +505,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Limit cranking to 30 seconds; allow several minutes between cranking periods for the starter to cool.",
+              "prompt": "Sky-Tec starter placard: crank no more than 10 seconds, allow 20 seconds to cool between attempts, up to 6 attempts, then let the starter cool for 30 minutes.",
               "type": "ITEM_NOTE"
             },
             {
@@ -617,7 +617,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Limit cranking to 30 seconds; allow several minutes between cranking periods for the starter to cool.",
+              "prompt": "Sky-Tec starter placard: crank no more than 10 seconds, allow 20 seconds to cool between attempts, up to 6 attempts, then let the starter cool for 30 minutes.",
               "type": "ITEM_NOTE"
             },
             {
@@ -702,6 +702,20 @@
             {
               "prompt": "Avionics Master",
               "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Rev Switch",
+              "expectation": "OFF (NORMAL, AUTO)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Use ON only if the primary GI 275 fails: it puts the PFD on the second GI 275, which then cannot show the HSI.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Attitude & HDG Displays",
+              "expectation": "CHECK ALIGNED (GI 275 ADI & HSI)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -834,6 +848,10 @@
               "prompt": "Vacuum Gauge",
               "expectation": "NONE - UNINSTALLED",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "The Precise Flight standby vacuum placard on the sidewall is legacy: the vacuum system has been removed.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Oil Temp & Pressure",
@@ -1009,6 +1027,11 @@
             {
               "prompt": "The red Emergency Gear Extension T-handle check is critical.",
               "type": "ITEM_WARNING"
+            },
+            {
+              "prompt": "Lineup",
+              "expectation": "CONFIRM RUNWAY (HEADING & SIGNS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
         },
@@ -1657,6 +1680,10 @@
           "expectation": "VERIFY GPS (LPV/LNAV) OR NAV1 (ILS)",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
+            {
+              "prompt": "NAV 2 GS INOP (placard): fly an ILS on the GTN (NAV 1).",
+              "type": "ITEM_NOTE"
+            },
         {
           "prompt": "Inbound Course (ILS / VLOC)",
           "expectation": "VERIFY SET ON GI 275 HSI",
