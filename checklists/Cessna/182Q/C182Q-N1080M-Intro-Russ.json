@@ -3,7 +3,7 @@
     "name": "C182Q",
     "makeAndModel": "Cessna Skylane 182Q (C182)",
     "aircraftInfo": "N1080M-Intro",
-    "copyrightInfo": "© 2026 Flying Particles, Inc. For Flying Particles club use only. Expanded checklist for instruction based on the 1977 Cessna Model 182Q POH, Garmin GFC 500 AFMS 190-02291-06 Rev. 8 (S/N 18266034, N1080M), Garmin GI 275 AFMS 190-02246-12 and the FPI Cessna 182 Checkout Form and N1080M Familiarization Sheet rev. 11/18/2026"
+    "copyrightInfo": "© 2026 Flying Particles, Inc. For Flying Particles club use only. Expanded checklist for instruction based on the 1978 Cessna Model 182Q POH (D1114-13), Garmin GFC 500 AFMS 190-02291-06 Rev. 8 (S/N 18266034, N1080M), Garmin GI 275 AFMS 190-02246-12 Rev. 8 (S/N 18266034, N1080M) and the FPI Cessna 182 Checkout Form and N1080M Familiarization Sheet rev. 11/18/2026"
   },
   "groups": [
     {
@@ -18,7 +18,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "N1080M: 1977 C182Q, S/N 18266034. O-470-U, 230 HP, max 2400 RPM. Speeds are KIAS.",
+              "prompt": "N1080M: 1978 C182Q, S/N 18266034. O-470-U, 230 HP, max 2400 RPM. Speeds are KIAS.",
               "type": "ITEM_NOTE"
             },
             {
@@ -30,7 +30,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "The 1977 POH describes a 14 volt system: TBC which POH or supplement applies.",
+              "prompt": "The POH is the 1978 Model 182Q (S/N 182-66034), which covers the 28 volt system.",
               "type": "ITEM_NOTE"
             },
             {
@@ -50,7 +50,7 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "GI 275 steps follow the generic GI 275 AFMS 190-02246-12 Rev. 11. TBC against N1080M's own AFMS.",
+              "prompt": "GI 275 steps follow N1080M's GI 275 AFMS 190-02246-12 Rev. 8. Section numbers cited are from Rev. 11: TBC.",
               "type": "ITEM_NOTE"
             },
             {
@@ -579,6 +579,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Sky-Tec starter placard: crank 10 seconds max, cool 20 seconds between tries, up to 6 tries, then cool 30 minutes.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Throttle",
               "expectation": "1000 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -694,21 +698,16 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Reversion Switch",
-              "expectation": "ON, CHECK STANDBY",
+              "prompt": "Display Backup Switch",
+              "expectation": "AUTO",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Reversion Switch",
-              "expectation": "AUTO, NORMAL",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "ON: the attitude display moves to the other GI 275 with no flags.",
+              "prompt": "Placard: DISPLAY BACKUP, POSITION 1: ON, POSITION 2: AUTO. Leave it in AUTO.",
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "AUTO: both return to normal (GI 275 AFMS 4.1.1).",
+              "prompt": "ON forces the PFD (attitude) to the backup GI 275. AUTO reverts on a detected fault (GI 275 AFMS 1.2).",
               "type": "ITEM_NOTE"
             },
             {
@@ -753,6 +752,10 @@
               "prompt": "Brakes",
               "expectation": "RELEASE, TEST",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Placard: STAY OFF BRAKES. Do not ride the brakes while taxiing.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Turn Coordinator",
@@ -1916,11 +1919,16 @@
           ]
         },
         {
-          "title": "Excessive Charge (Over-Voltage)",
+          "title": "Excessive Charge (High Voltage)",
           "items": [
             {
-              "prompt": "Procedure from the 1977 POH (14 volt system). TBC against the 28 volt installation's paperwork.",
+              "prompt": "HIGH VOLTAGE light: the alternator is shut down and the battery carries the load (1978 POH Section 7).",
               "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Avionics Power Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Master Switch (BAT, ALT)",
@@ -1928,13 +1936,18 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Over-Voltage Light",
+              "prompt": "HIGH VOLTAGE Light",
               "expectation": "CHECK OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Avionics Power Switch",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Light Again",
-              "expectation": "LAND ASAP",
+              "expectation": "LAND SOON AS PRACTICAL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {

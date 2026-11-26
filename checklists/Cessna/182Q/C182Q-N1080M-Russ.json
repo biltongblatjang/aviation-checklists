@@ -3,7 +3,7 @@
     "name": "C182Q",
     "makeAndModel": "Cessna Skylane 182Q (C182)",
     "aircraftInfo": "N1080M",
-    "copyrightInfo": "© 2026 Flying Particles, Inc. For Flying Particles club use only. Based on the 1977 Cessna Model 182Q POH, Garmin GFC 500 AFMS 190-02291-06 Rev. 8 (S/N 18266034, N1080M), Garmin GI 275 AFMS 190-02246-12 and the FPI Cessna 182 Checkout Form and N1080M Familiarization Sheet rev. 11/18/2026"
+    "copyrightInfo": "© 2026 Flying Particles, Inc. For Flying Particles club use only. Based on the 1978 Cessna Model 182Q POH (D1114-13), Garmin GFC 500 AFMS 190-02291-06 Rev. 8 (S/N 18266034, N1080M), Garmin GI 275 AFMS 190-02246-12 Rev. 8 (S/N 18266034, N1080M) and the FPI Cessna 182 Checkout Form and N1080M Familiarization Sheet rev. 11/18/2026"
   },
   "groups": [
     {
@@ -454,6 +454,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Starter placard: crank 10 sec max, 20 sec cool, 6 tries, then 30 min.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Throttle",
               "expectation": "1000 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -533,13 +537,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Reversion Switch",
-              "expectation": "ON, CHECK STANDBY",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Reversion Switch",
-              "expectation": "AUTO, NORMAL",
+              "prompt": "Display Backup Switch",
+              "expectation": "AUTO",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -580,6 +579,10 @@
               "prompt": "Brakes",
               "expectation": "RELEASE, TEST",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Placard: STAY OFF BRAKES (do not ride them).",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Turn Coordinator",
@@ -1530,21 +1533,31 @@
           ]
         },
         {
-          "title": "Excessive Charge (Over-Voltage)",
+          "title": "Excessive Charge (High Voltage)",
           "items": [
+            {
+              "prompt": "Avionics Power Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
             {
               "prompt": "Master Switch (BAT, ALT)",
               "expectation": "OFF, THEN ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Over-Voltage Light",
+              "prompt": "HIGH VOLTAGE Light",
               "expectation": "CHECK OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Avionics Power Switch",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Light Again",
-              "expectation": "LAND ASAP",
+              "expectation": "LAND SOON AS PRACTICAL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {

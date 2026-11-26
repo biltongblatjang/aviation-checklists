@@ -22,7 +22,11 @@
               "type": "ITEM_NOTE"
             },
             {
-              "prompt": "Autopilot and Dynon are inoperative. The engine has no manifold pressure gauge: set power by RPM.",
+              "prompt": "The Dynon EFIS and Century IIB autopilot are placarded INOP. No manifold pressure gauge: set power by RPM.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "The winterization kit placard is legacy: no kit is fitted.",
               "type": "ITEM_NOTE"
             }
           ]
@@ -433,6 +437,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Sky-Tec starter placard: crank 10 seconds max, cool 20 seconds between tries, up to 6 tries, then cool 30 minutes.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "# Oil Pressure",
               "expectation": "CHECK IN 30 SEC",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -460,6 +468,15 @@
               "prompt": "Radios, CDI",
               "expectation": "SET",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ADS-B (GDL 88)",
+              "expectation": "NO FAIL ANNUNCIATION",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "The GDL 88 self tests at power up and shows failures as annunciations (Garmin ICA 190-01310-01).",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Avoid carburetor heat after starting unless icing conditions exist.",
@@ -985,7 +1002,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Avoid steep slips with flaps greater than 20°: the elevator can oscillate.",
+              "prompt": "Placard: avoid slips with flaps extended. POH: avoid steep slips above 20° flaps (elevator oscillation).",
               "type": "ITEM_NOTE"
             }
           ]
@@ -1300,7 +1317,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Over-Voltage Light",
+              "prompt": "HIGH VOLTAGE Light",
               "expectation": "CHECK OUT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },

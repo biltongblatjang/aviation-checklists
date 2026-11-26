@@ -392,6 +392,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Starter placard: crank 10 sec max, 20 sec cool, 6 tries, then 30 min.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Oil Pressure",
               "expectation": "CHECK IN 30 SEC",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -418,6 +422,11 @@
             {
               "prompt": "Radios, CDI",
               "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ADS-B (GDL 88)",
+              "expectation": "NO FAIL ANNUNCIATION",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -910,6 +919,10 @@
               "prompt": "Brakes",
               "expectation": "MINIMUM",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Placard: avoid slips with flaps extended.",
+              "type": "ITEM_NOTE"
             }
           ]
         },
@@ -1219,7 +1232,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Over-Voltage Light",
+              "prompt": "HIGH VOLTAGE Light",
               "expectation": "CHECK OUT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
