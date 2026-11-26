@@ -94,36 +94,53 @@
           "Preflight Inspection|Baggage Door => Baggage Door – Secure",
           "Preflight Inspection|Final Walkaround => Final Walkaround – Done"
         ]
-      }
-    ],
-    [
+      },
       {
-        "head": "START",
+        "head": "BEFORE START",
         "color": "green",
         "lines": [
           "Cold Start|Avionics Master Switch => Avionics Master – Off",
           "Cold Start|ELT => ELT – Arm",
           "Cold Start|Fuel Selector => Fuel Selector – Fuller Tank",
           "Cold Start|Cowl Flaps => Cowl Flaps – Open",
-          "Cold Start|Ram Air => Ram Air – Off",
           "Cold Start|Landing Gear Switch => Gear Switch – Down",
           "Cold Start|Brakes => Brakes – Hold",
           "Cold Start|Propeller => Prop – Full Forward",
           "Cold Start|Boost Pump~1 => Boost Pump – Off",
-          "Cold Start|Throttle~1 => Throttle – ¼ In",
+          "Cold Start|Throttle~1 => Throttle – ¼ In (Warm: Leave)",
           "Cold Start|Mixture~1 => Mixture – Idle Cutoff",
           "Cold Start|Master Switch => Master – On",
+          "Cold Start|Beacon => Beacon – On"
+        ]
+      }
+    ],
+    [
+      {
+        "head": "COLD START: PRIME",
+        "color": "green",
+        "lines": [
           "Cold Start|Mixture~2 => Mixture – Rich",
           "Cold Start|Boost Pump~2 => Boost Pump – 3-5 Sec, Off",
-          "Cold Start|Mixture~3 => Mixture – Idle Cutoff",
-          "Cold Start|Beacon => Beacon – On",
+          "Cold Start|Mixture~3 => Mixture – Idle Cutoff"
+        ]
+      },
+      {
+        "head": "WARM START: NO PRIME",
+        "color": "orange",
+        "lines": [
+          "Warm Start|Boost Pump => Boost Pump – Off"
+        ]
+      },
+      {
+        "head": "START",
+        "color": "green",
+        "lines": [
           "Cold Start|Propeller Area => Prop Area – Clear",
           "Cold Start|Ignition Switch~2 => Ignition – Start",
           "Cold Start|Mixture~4 => Mixture – Advance Slowly",
           "Cold Start|Throttle~2 => Throttle – 1000 RPM",
           "Cold Start|Oil Pressure => Oil Press – Green, 30 Sec",
-          "Cold Start|Mixture~5 => Mixture – Lean for Taxi",
-          "Warm Start|Boost Pump => Hot Start: Boost Pump – Off"
+          "Cold Start|Mixture~5 => Mixture – Lean for Taxi"
         ]
       },
       {
@@ -132,6 +149,8 @@
         "lines": [
           "Before Taxi|Flaps => Flaps – Up",
           "Before Taxi|Avionics Master => Avionics Master – On",
+          "Before Taxi|Rev Switch => Rev Switch – Off",
+          "Before Taxi|Attitude & HDG Displays => ATT, HDG – Aligned",
           "Before Taxi|ATIS / AWOS => ATIS / AWOS – Record",
           "Before Taxi|Altimeter => Altimeter – Set",
           "Before Taxi|Transponder => Transponder – Set",
@@ -152,11 +171,13 @@
           "Runup|Oil Temp => Oil Temp – Off Dot (75°F)",
           "Runup|Throttle => Throttle – 1900 RPM",
           "Runup|Engine Gauges, Annunc => Gauges, Annunc – Green",
+          "Runup|Engine Monitor~1 => JPI – Hold LF 3s",
           "Runup|Magnetos R, L => Mags R, L – Max 175, Diff 50",
           "Runup|Propeller => Prop – Cycle 3X",
           "Runup|Alternator / Volts => Alt / Volts – Load, Voltage",
           "Runup|Oil Temp & Pressure => Oil Temp, Pressure – Green",
           "Runup|Throttle~2 => Throttle – Idle, then 1000",
+          "Runup|Engine Monitor~2 => JPI – Exit Normalize",
           "KAP 150 Autopilot & Trim Preflight Test|KAP 150 Self-Test => KAP 150 Self-Test – 5 Beeps"
         ]
       }

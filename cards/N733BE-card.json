@@ -83,11 +83,13 @@
           "Starting Engine|Beacon => Beacon – On",
           "Starting Engine|Propeller Area => Propeller Area – Clear",
           "Starting Engine|Ignition => Ignition – Start",
+          "!Crank 10s Max, Cool 20s",
           "Starting Engine|Oil Pressure => Oil Press. – Check in 30s",
           "Starting Engine|Throttle~2 => Throttle – 1000 RPM",
           "Starting Engine|Ammeter => Ammeter – Check",
           "Starting Engine|Avionics Master => Avionics Master – On",
-          "Starting Engine|Radios, CDI => Radios, CDI – Set"
+          "Starting Engine|Radios, CDI => Radios, CDI – Set",
+          "Starting Engine|ADS-B (GDL 88) => ADS-B – No Fail"
         ]
       },
       {
@@ -203,7 +205,8 @@
           "Normal Landing|Airspeed~2 => Airspeed – 55 to 65 KIAS",
           "Normal Landing|Touchdown => Touchdown – Mains First",
           "Normal Landing|Nose Wheel => Nose Wheel – Lower Gently",
-          "Normal Landing|Brakes => Brakes – Minimum"
+          "Normal Landing|Brakes => Brakes – Minimum",
+          "!Avoid Slips With Flaps"
         ]
       },
       {
@@ -415,7 +418,7 @@
         "lines": [
           "Excessive Rate of Charge|Master Switch~1 => Master Switch – Off, Both Sides",
           "Excessive Rate of Charge|Master Switch~2 => Master Switch – On",
-          "Excessive Rate of Charge|Over-Voltage Light => Over-Voltage Light – Check Out",
+          "Excessive Rate of Charge|HIGH VOLTAGE Light => HIGH VOLTAGE Light – Check Out",
           "Excessive Rate of Charge|If Light On Again => If Light On Again – Land ASAP"
         ]
       },

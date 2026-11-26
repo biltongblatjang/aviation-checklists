@@ -112,14 +112,14 @@
           "Before Taxi|Autopilot PFT => Autopilot PFT – Complete",
           "Before Taxi|GI 275 ADI, HSI~1 => ADI, HSI – No Flags",
           "Before Taxi|GI 275 Battery Icon => GI 275 Battery – No Icon",
-          "Before Taxi|Reversion Switch~1 => Reversion – On, Check",
-          "Before Taxi|Reversion Switch~2 => Reversion – Auto, Normal",
+          "Before Taxi|Display Backup Switch => Display Backup – Auto",
           "Before Taxi|ADS-B => ADS-B – No Fail",
           "Before Taxi|Altimeter (Analog) => Altimeter (Analog) – Set",
           "Before Taxi|Altimeter (GI 275) => Altimeter (GI 275) – Set",
           "Before Taxi|ATIS, Radios, NAV 2 => ATIS, Radios, NAV 2 – Set",
           "Before Taxi|Transponder => Transponder – ALT, VFR",
           "Before Taxi|Brakes => Brakes – Release, Test",
+          "!Stay Off Brakes (Placard)",
           "Before Taxi|Turn Coordinator => Turn Coord., ADI – Check"
         ]
       },
@@ -443,13 +443,15 @@
         ]
       },
       {
-        "head": "OVER-VOLTAGE",
+        "head": "HIGH VOLTAGE LIGHT",
         "color": "orange",
         "lines": [
-          "Excessive Charge (Over-Voltage)|Master Switch (BAT, ALT) => Master (BAT, ALT) – Off, On",
-          "Excessive Charge (Over-Voltage)|Over-Voltage Light => Over-Voltage Light – Check Off",
-          "Excessive Charge (Over-Voltage)|Light Again => Light Again – Land ASAP",
-          "Excessive Charge (Over-Voltage)|Electrical Load => Electrical Load – Minimize"
+          "Excessive Charge (High Voltage)|Avionics Power Switch~1 => Avionics Power – Off",
+          "Excessive Charge (High Voltage)|Master Switch (BAT, ALT) => Master (BAT, ALT) – Off, On",
+          "Excessive Charge (High Voltage)|HIGH VOLTAGE Light => HIGH VOLTAGE Light – Check Off",
+          "Excessive Charge (High Voltage)|Avionics Power Switch~2 => Avionics Power – On",
+          "Excessive Charge (High Voltage)|Light Again => Light Again – Land Soon as Practical",
+          "Excessive Charge (High Voltage)|Electrical Load => Electrical Load – Minimize"
         ]
       },
       {
