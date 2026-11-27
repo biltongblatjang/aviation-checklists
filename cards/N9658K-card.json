@@ -106,7 +106,7 @@
           "Cold Start|Electric Fuel Pump~2 => Electric Fuel Pump – Off",
           "Cold Start|Fuel Pressure => Fuel Pressure – Check",
           "Cold Start|Avionics => Avionics – On, Set",
-          "Cold Start|ADS-B (58K) => ADS-B – No Fail Annunc."
+          "Cold Start|ADS-B (GDL 88) => ADS-B – No Fail Annunc."
         ]
       }
     ],

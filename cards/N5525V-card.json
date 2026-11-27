@@ -106,7 +106,8 @@
           "Cold Start|Oil Pressure => Oil Press. – Check in 30s",
           "Cold Start|Electric Fuel Pump~2 => Electric Fuel Pump – Off",
           "Cold Start|Fuel Pressure => Fuel Pressure – Check",
-          "Cold Start|Avionics => Avionics – On, Set"
+          "Cold Start|Avionics => Avionics – On, Set",
+          "Cold Start|ADS-B (GDL 88) => ADS-B – No Fail Annunc."
         ]
       }
     ],
@@ -433,7 +434,6 @@
         "color": "orange",
         "lines": [
           "Autopilot Malfunction (25V)|Control Wheel => Control Wheel – Hold, Overpower",
-          "Autopilot Malfunction (25V)|Wheel Disconnect => Wheel Disconnect – Hold",
           "Autopilot Malfunction (25V)|Autopilot Rocker => AP Rocker – Off",
           "Autopilot Malfunction (25V)|Autopilot Breaker => AP Breaker – Pull if Req'd"
         ]
