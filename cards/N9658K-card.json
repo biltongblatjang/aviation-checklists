@@ -330,6 +330,7 @@
           "Power Off Landing|Fuel Selector => Fuel Selector – Off",
           "Power Off Landing|Mixture => Mixture – Idle Cutoff",
           "Power Off Landing|Seat Belts, Harness => Seat Belts, Harness – Tight",
+          "Power Off Landing|Passengers => Passengers – Brief",
           "Power Off Landing|Doors => Doors – Unlatch"
         ]
       }
