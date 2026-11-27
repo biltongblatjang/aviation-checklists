@@ -1524,6 +1524,66 @@
           ]
         },
         {
+          "title": "Lost Communications",
+          "items": [
+          {
+            "prompt": "Mic Button",
+            "expectation": "NOT STUCK",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Audio Panel",
+            "expectation": "CORRECT RADIO",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Volume, Squelch",
+            "expectation": "UP, CHECK",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Frequency",
+            "expectation": "CORRECT",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Headset, Mic Jacks",
+            "expectation": "PLUGGED IN",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Circuit Breakers",
+            "expectation": "IN",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Still No Contact: Transponder",
+            "expectation": "7600",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Class D",
+            "expectation": "STAY OUTSIDE",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Traffic Flow",
+            "expectation": "DETERMINE",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Pattern",
+            "expectation": "JOIN, WATCH TOWER",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Light Signals",
+            "expectation": "ACKNOWLEDGE",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          }
+          ]
+        },
+        {
           "title": "Autopilot Malfunction (25V)",
           "items": [
             {
@@ -1795,6 +1855,11 @@
             {
               "prompt": "Seat Belts, Harness",
               "expectation": "TIGHT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Passengers",
+              "expectation": "BRIEF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {

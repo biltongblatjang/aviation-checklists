@@ -933,6 +933,10 @@
               "prompt": "Transponder",
               "expectation": "ALT",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Lineup: confirm the runway. The heading matches and the signs and markings agree.",
+              "type": "ITEM_NOTE"
             }
           ]
         },
@@ -1148,7 +1152,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "VB-790 descent: 2500 RPM, mixture rich, 122 KIAS. VB-760 has no descent procedure.",
+              "prompt": "VB-790 descent: 2500 RPM, mixture rich, 126 KIAS (checklist page, 1984; 122 in 4.28 text). VB-760 has none.",
               "type": "ITEM_NOTE"
             },
             {
@@ -1265,6 +1269,10 @@
               "prompt": "Brakes",
               "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flat main tire, not POH: touch down on the good tire first and hold the flat side off with aileron.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Braking is most effective with flaps up and back pressure on the wheel.",
@@ -1681,6 +1689,78 @@
           ]
         },
         {
+          "title": "Lost Communications",
+          "items": [
+          {
+            "prompt": "Mic Button",
+            "expectation": "NOT STUCK",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Audio Panel",
+            "expectation": "CORRECT RADIO",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Volume, Squelch",
+            "expectation": "UP, CHECK",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Frequency",
+            "expectation": "CORRECT",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Headset, Mic Jacks",
+            "expectation": "PLUGGED IN",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Circuit Breakers",
+            "expectation": "IN",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Still No Contact: Transponder",
+            "expectation": "7600",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Class D",
+            "expectation": "STAY OUTSIDE",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Traffic Flow",
+            "expectation": "DETERMINE",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Pattern",
+            "expectation": "JOIN, WATCH TOWER",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Light Signals",
+            "expectation": "ACKNOWLEDGE",
+            "type": "ITEM_CHALLENGE_RESPONSE"
+          },
+          {
+            "prompt": "Acknowledge light signals: day, rock the wings; night, flash the landing or nav lights (AIM).",
+            "type": "ITEM_NOTE"
+          },
+          {
+            "prompt": "Steady green: cleared to land. Flashing green: return for landing. Steady red: give way, keep circling.",
+            "type": "ITEM_NOTE"
+          },
+          {
+            "prompt": "Flashing red: airport unsafe, do not land. Alternating red and green: exercise extreme caution (14 CFR 91.125).",
+            "type": "ITEM_NOTE"
+          }
+          ]
+        },
+        {
           "title": "Autopilot Malfunction (25V)",
           "items": [
             {
@@ -1955,6 +2035,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Passengers",
+              "expectation": "BRIEF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Doors",
               "expectation": "UNLATCH",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1994,6 +2079,14 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Technique, not POH: if power is essential, master ON, then avionics and switches one at a time to find the short.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Cabin fire, not POH: master OFF, vents and heat closed, extinguisher, then vents open to clear smoke. Land ASAP.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Engine: Fuel Selector",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -2027,6 +2120,10 @@
               "prompt": "Landing",
               "expectation": "POWER OFF LANDING",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Wing fire, not POH: nav, strobe and pitot heat OFF. Slip to keep flames away from the cabin. Land ASAP.",
+              "type": "ITEM_NOTE"
             }
           ]
         },
