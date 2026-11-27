@@ -11,6 +11,11 @@ const srcPath=path.resolve(path.dirname(sidecarPath),side.source);
 let srcDate;
 try{srcDate=require('child_process').execFileSync('git',['log','-1','--format=%cs','--',srcPath],{cwd:path.dirname(srcPath),encoding:'utf8'}).trim();}catch(e){}
 if(!srcDate)srcDate=fs.statSync(srcPath).mtime.toISOString().slice(0,10);
+let srcRev='';
+try{srcRev=require('child_process').execFileSync('git',['rev-list','--count','HEAD','--',srcPath],{cwd:path.dirname(srcPath),encoding:'utf8'}).trim();}catch(e){}
+const STAMP=process.env.BUILD_STAMP||('Local build '+new Date().toISOString().slice(0,16).replace('T',' ')+'Z');
+const DRAFT=process.env.CHECKLIST_DRAFT!=='0';
+const provenance=(srcRev?'Rev '+srcRev+' ('+srcDate+')':'Checklist dated '+srcDate)+' · '+STAMP;
 const lists={};
 for(const g of main.groups)for(const c of g.checklists)lists[strip(c.title)]=c.items;
 const problems=[],unlinked=[];let linked=0;
@@ -59,8 +64,11 @@ function cols(arr,top,limit,n,label){
 }
 function header(t,sub){
   doc.rect(0,0,W,16).fill('#12233f');
-  doc.fillColor('#fff').font('Helvetica-Bold').fontSize(9).text(t,M,4,{lineBreak:false});
-  doc.font('Helvetica').fontSize(6).text('Checklist dated '+srcDate,W-M-110,5.5,{width:110,align:'right',lineBreak:false});
+  doc.fillColor('#fff').font('Helvetica-Bold').fontSize(9).text(t,M,4,{lineBreak:false,continued:DRAFT});
+  if(DRAFT)doc.fillColor('#ff9a3c').text('   DRAFT',{lineBreak:false});
+  doc.fillColor('#fff').font('Helvetica').fontSize(6).text((srcRev?'Rev '+srcRev+' · ':'Checklist dated ')+srcDate,W-M-110,5.5,{width:110,align:'right',lineBreak:false});
+  doc.fillColor('#666').font('Helvetica').fontSize(5).text('Source: '+provenance+(DRAFT?' · DRAFT: not for operational use':''),M,H-7.5,{width:W-2*M,align:'right',lineBreak:false});
+  doc.y=18.5;
   doc.font('Helvetica').fontSize(5.6).fillColor('#222').text(sub,M,18.5,{width:W-2*M});
 }
 // FRONT
