@@ -3,7 +3,7 @@
     "name": "PA28",
     "makeAndModel": "Piper Cherokee Archer II PA-28-181",
     "aircraftInfo": "N9658K N5525V",
-    "copyrightInfo": "© 2026 Flying Particles, Inc. For Flying Particles club use only. Based on the Piper PA-28-181 Cherokee Archer II POHs VB-760 Rev. 5 (N9658K) and VB-790 (N5525V), and the FPI Piper PA28 Checkout Form rev. 11/18/2026"
+    "copyrightInfo": "© 2026 Flying Particles, Inc. For Flying Particles club use only. Based on the Piper PA-28-181 Cherokee Archer II POHs VB-760 Rev. 5 (N9658K) and VB-790 (N5525V, S/N 28-7790481, with Supplement 3 AutoControl IIIB and the GDL 88 AFMS 190-01310-02), and the FPI Piper PA28 Checkout Form rev. 11/18/2026"
   },
   "groups": [
     {
@@ -495,7 +495,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "ADS-B (58K)",
+              "prompt": "ADS-B (GDL 88)",
               "expectation": "NO FAIL ANNUNCIATION",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
@@ -1532,11 +1532,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Wheel Disconnect",
-              "expectation": "HOLD (IF FITTED)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Autopilot Rocker",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1547,7 +1542,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "AutoFlite II: wheel switch, then rocker OFF. AutoControl IIIB: rocker OFF or pull the breaker (POH Supplements 2, 3).",
+              "prompt": "Rocker OFF or pull the AP breaker. Overpower at either wheel (POH Supplement 3).",
               "type": "ITEM_NOTE"
             },
             {
