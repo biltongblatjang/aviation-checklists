@@ -86,7 +86,7 @@
           "Preflight Inspection|Wing Fuel Sump Drains~2 => R Sump – Drain",
           "Preflight Inspection|Main Gear, Tire, Brake~2 => R Main Gear – 30 PSI",
           "Preflight Inspection|Fuel Drain, Gascolator => Gascolator – Drain",
-          "Preflight Inspection|Oil (Min 6, Max 8 qt) => Oil – 6 Min, 8 Max",
+          "Preflight Inspection|Oil (Min 5, Max 8 qt) => Oil – 5 Min, 8 Max",
           "Preflight Inspection|Cowl Fasteners & Flaps => Cowl, Cowl Flaps – Secure",
           "Preflight Inspection|Prop & Spinner => Prop, Spinner – Check",
           "Preflight Inspection|Air Inlets & Filter => Air Inlets – Clear, Plugs Out",
@@ -540,7 +540,7 @@
   "backData": {
     "head": "N5772R DATA",
     "lines": [
-      "Preflight Inspection|Oil (Min 6, Max 8 qt) => Oil: 6 qt min, 8 qt full",
+      "Preflight Inspection|Oil (Min 5, Max 8 qt) => Oil: 5 qt min, 8 qt full",
       "Preflight Inspection|Nose Gear, Tire, Linkage => Tires: nose 49 PSI",
       "Preflight Inspection|Main Gear, Tire, Brake~1 => Tires: main 30 PSI",
       "!Fuel: 64 gal usable (2 tanks, AFM 2-9)",
