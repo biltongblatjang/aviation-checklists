@@ -45,6 +45,9 @@ jobs:
               | .groups |= map(.checklists |= map(if .title == "Preflight Inspection" then .items = [{prompt: ($r.metadata.copyrightInfo + ". Rev " + $n + ", updated " + $d + ". " + $s + "." + (if $dr != "" then " DRAFT: not for operational use." else "" end)), type: "ITEM_NOTE"}] + .items else . end))' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
           done
 
+      - name: Install protoc (so the compiler does not download it from GitHub)
+        run: sudo apt-get update -q && sudo apt-get install -y -q protobuf-compiler libprotobuf-dev && protoc --version
+
       - name: Compile checklists
         uses: alexnj/aviation-checklist-compiler-action@main
         with:
