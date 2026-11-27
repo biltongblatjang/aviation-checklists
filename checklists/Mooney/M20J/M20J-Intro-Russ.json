@@ -278,9 +278,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Engine Oil Level (Min 6 qts, Capacity 8 qts)",
+              "prompt": "Engine Oil Level (Min 5 qts, Capacity 8 qts)",
               "expectation": "CHECK, SECURE CAP",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Checkout sheet and POH Section I (1-5): 5 qt minimum for flight. The POH preflight (4-5) says 6 qt minimum and full for extended flight.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Cowl Fasteners & Cowl Flaps (L & R)",

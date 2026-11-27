@@ -280,7 +280,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Oil (Min 6, Max 8 qt)",
+              "prompt": "Oil (Min 5, Max 8 qt)",
               "expectation": "CHECK, CAP ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
