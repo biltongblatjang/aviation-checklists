@@ -140,6 +140,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "FPI at LVK: refuel to 25 gal/side (wing gauges). No top-off.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Pitot & Stall Vane",
               "expectation": "COVER OFF, CLEAR",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -495,7 +499,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Crank 30 sec max; allow several minutes to cool between.",
+              "prompt": "Starter placard: crank 10 sec max, 20 sec cool, 6 tries, then 30 min.",
               "type": "ITEM_NOTE"
             },
             {
@@ -610,7 +614,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Crank 30 sec max; allow several minutes to cool between.",
+              "prompt": "Starter placard: crank 10 sec max, 20 sec cool, 6 tries, then 30 min.",
               "type": "ITEM_NOTE"
             },
             {
@@ -695,6 +699,16 @@
             {
               "prompt": "Avionics Master",
               "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Rev Switch",
+              "expectation": "OFF (NORMAL)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Attitude & HDG Displays",
+              "expectation": "CHECK ALIGNED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -792,6 +806,15 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Engine Monitor",
+              "expectation": "HOLD LF 3S",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Hold LF about 3 seconds until the JPI shows Normalize.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Magnetos R, L",
               "expectation": "MAX 175, DIFF 50",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -823,6 +846,11 @@
             {
               "prompt": "Throttle",
               "expectation": "IDLE, THEN 1000 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Engine Monitor",
+              "expectation": "HOLD LF, EXIT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1568,6 +1596,10 @@
           "expectation": "GPS (LPV) OR NAV1 (ILS)",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
+            {
+              "prompt": "NAV 2 GS INOP (placard): fly an ILS on the GTN (NAV 1).",
+              "type": "ITEM_NOTE"
+            },
         {
           "prompt": "ILS Inbound Course",
           "expectation": "SET ON HSI",
