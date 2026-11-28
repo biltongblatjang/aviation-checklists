@@ -78,6 +78,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "The white button at the center of the pilot's yoke is the map light; the right rheostat sets brightness (POH Section VII).",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Master Switch",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -469,11 +473,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Beacon",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Annunciator Lights",
               "expectation": "TEST (GEAR DOWN & L/R FUEL LOW ON, VOLTS FLASHING; IGNORE VAC LIGHT)",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -492,6 +491,15 @@
               "prompt": "Mixture",
               "expectation": "IDLE CUTOFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Recog Lights",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "No beacon is fitted. FPI: turn on the wingtip recognition lights before start in place of a beacon.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Propeller Area",
@@ -599,12 +607,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {"prompt": "Master Switch", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
-            {"prompt": "Beacon", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "Annunciator Lights",
               "expectation": "TEST (GEAR DOWN & L/R FUEL LOW ON, VOLTS FLASHING; IGNORE VAC LIGHT)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
+            {"prompt": "Recog Lights", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "Propeller Area",
               "expectation": "CLEAR",

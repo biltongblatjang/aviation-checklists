@@ -455,11 +455,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Beacon",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Annunciator Lights",
               "expectation": "TEST",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -481,6 +476,11 @@
             {
               "prompt": "Mixture",
               "expectation": "IDLE CUTOFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Recog Lights",
+              "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -588,7 +588,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {"prompt": "Master Switch", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
-            {"prompt": "Beacon", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "Annunciator Lights",
               "expectation": "TEST",
@@ -598,6 +597,7 @@
               "prompt": "Expect GEAR DOWN, L/R FUEL LOW, VOLTS flashing. Ignore VAC.",
               "type": "ITEM_NOTE"
             },
+            {"prompt": "Recog Lights", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "Propeller Area",
               "expectation": "CLEAR",
