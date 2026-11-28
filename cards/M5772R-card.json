@@ -109,8 +109,7 @@
           "Cold Start|Boost Pump~1 => Boost Pump – Off",
           "Cold Start|Throttle~1 => Throttle – ¼ In (Warm: Leave)",
           "Cold Start|Mixture~1 => Mixture – Idle Cutoff",
-          "Cold Start|Master Switch => Master – On",
-          "Cold Start|Beacon => Beacon – On"
+          "Cold Start|Master Switch => Master – On"
         ]
       }
     ],
@@ -135,6 +134,7 @@
         "head": "START",
         "color": "green",
         "lines": [
+          "Cold Start|Recog Lights => Recog Lights – On",
           "Cold Start|Propeller Area => Prop Area – Clear",
           "Cold Start|Ignition Switch~2 => Ignition – Start",
           "Cold Start|Mixture~4 => Mixture – Advance Slowly",
