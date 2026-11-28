@@ -25,12 +25,28 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Stamp copyright and update date into Preflight
+      - name: Set build stamp (official release, no DRAFT)
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          echo "BUILD_STAMP=Release ${VERSION} (${GITHUB_SHA::7}) $(date -u +'%Y-%m-%d %H:%MZ')" >> "$GITHUB_ENV"
+          echo "DRAFT_LABEL=" >> "$GITHUB_ENV"
+          echo "CHECKLIST_DRAFT=0" >> "$GITHUB_ENV"
+
+      - name: Stamp copyright, revision and build into each checklist
         run: |
           for f in $(find checklists -name '*.json'); do
             d=$(git log -1 --format=%cs -- "$f")
-            jq --arg d "$d" '. as $r | .groups |= map(.checklists |= map(if .title == "Preflight Inspection" then .items = [{prompt: ($r.metadata.copyrightInfo + ". Updated " + $d + "."), type: "ITEM_NOTE"}] + .items else . end))' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
+            n=$(git rev-list --count HEAD -- "$f")
+            jq --arg d "$d" --arg n "$n" --arg s "$BUILD_STAMP" --arg dr "$DRAFT_LABEL" '
+              .metadata.makeAndModel = ((.metadata.makeAndModel // "") + (if $dr != "" then " " + $dr else "" end))
+              | .metadata.aircraftInfo = ((.metadata.aircraftInfo // "") + " · Rev " + $n + " (" + $d + ") · " + $s)
+              | . as $r
+              | .groups |= map(.checklists |= map(if .title == "Preflight Inspection" then .items = [{prompt: ($r.metadata.copyrightInfo + ". Rev " + $n + ", updated " + $d + ". " + $s + "." + (if $dr != "" then " DRAFT: not for operational use." else "" end)), type: "ITEM_NOTE"}] + .items else . end))' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
           done
+
+      - name: Install protoc (so the compiler does not download it from GitHub)
+        run: sudo apt-get update -q && sudo apt-get install -y -q protobuf-compiler libprotobuf-dev && protoc --version
 
       - name: Compile checklists
         uses: alexnj/aviation-checklist-compiler-action@main

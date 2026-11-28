@@ -18,7 +18,7 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Rev Switch on top left of panel does failover of the GI-275.",
+              "prompt": "Rev Switch (top left of panel): OFF is normal (auto). ON forces the PFD page onto the second GI 275 and holds it there.",
               "type": "ITEM_NOTE"
             },
             { 
@@ -78,6 +78,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "The white button at the center of the pilot's yoke is the map light; the right rheostat sets brightness (POH Section VII).",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Master Switch",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -130,7 +134,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Club policy is to refuel tanks to 25 gal/side.",
+              "prompt": "FPI at LVK: refuel to 25 gal per side using the visual fuel gauges on the wing. Do not top off.",
               "type": "ITEM_NOTE"
             },
            {
@@ -278,9 +282,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Engine Oil Level (Min 6 qts, Capacity 8 qts)",
+              "prompt": "Engine Oil Level (Min 5 qts, Capacity 8 qts)",
               "expectation": "CHECK, SECURE CAP",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Checkout sheet and POH Section I (1-5): 5 qt minimum for flight. The POH preflight (4-5) says 6 qt minimum and full for extended flight.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Cowl Fasteners & Cowl Flaps (L & R)",
@@ -352,6 +360,10 @@
           "title": "Cold Start",
           "items": [
             {
+              "prompt": "FLOW BY ZONE: the items are grouped by where your hand goes, so the checklist can become a flow you learn. Cabin and seats, then left panel switches (ignition, lights, avionics, breakers, ELT), then the floor (fuel selector), then the center console (flap switch, cowl flaps, ram air, gear, brakes), then the power quadrant (prop, boost pump, throttle, mixture). Do the flow, then use the checklist to confirm.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Preflight Inspection",
               "expectation": "COMPLETE",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -367,21 +379,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Ignition Switch",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Lights & Pitot Heat",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Flap Switch",
-              "expectation": "CENTERED (FLAPS UP)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Cabin Heat & Defrost",
               "expectation": "PUSH OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -392,8 +389,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "ELT",
-              "expectation": "ARM",
+              "prompt": "Ignition Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Lights & Pitot Heat",
+              "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -407,8 +409,18 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "ELT",
+              "expectation": "ARM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Fuel Selector",
               "expectation": "L OR R (FULLER TANK)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flap Switch",
+              "expectation": "CENTERED (FLAPS UP)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -461,11 +473,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Beacon",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Annunciator Lights",
               "expectation": "TEST (GEAR DOWN & L/R FUEL LOW ON, VOLTS FLASHING; IGNORE VAC LIGHT)",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -486,6 +493,15 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Recog Lights",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "No beacon is fitted. FPI: turn on the wingtip recognition lights before start in place of a beacon.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Propeller Area",
               "expectation": "CLEAR",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -501,7 +517,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Limit cranking to 30 seconds; allow several minutes between cranking periods for the starter to cool.",
+              "prompt": "Sky-Tec starter placard: crank no more than 10 seconds, allow 20 seconds to cool between attempts, up to 6 attempts, then let the starter cool for 30 minutes.",
               "type": "ITEM_NOTE"
             },
             {
@@ -534,24 +550,10 @@
         {
           "title": "Warm Start",
           "items": [
+            {"prompt": "FLOW BY ZONE: same zone order as the Cold Start: cabin and seats, left panel switches, the floor (fuel selector), the center console, then the power quadrant.", "type": "ITEM_NOTE"},
             {"prompt": "Preflight Inspection", "expectation": "COMPLETE", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Passenger Briefing (SAFETY)", "expectation": "COMPLETE", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Seats & Seat Belts/Harnesses", "expectation": "ADJUST & LOCKED", "type": "ITEM_CHALLENGE_RESPONSE"},
-            {
-              "prompt": "Ignition Switch",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Lights & Pitot Heat",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Flap Switch",
-              "expectation": "CENTERED (FLAPS UP)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
             {
               "prompt": "Cabin Heat & Defrost",
               "expectation": "PUSH OFF",
@@ -563,13 +565,28 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "ELT",
-              "expectation": "ARM",
+              "prompt": "Ignition Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Lights & Pitot Heat",
+              "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {"prompt": "Avionics Master Switch", "expectation": "OFF", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Circuit Breakers", "expectation": "CHECK IN", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {
+              "prompt": "ELT",
+              "expectation": "ARM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
             {"prompt": "Fuel Selector", "expectation": "L OR R (FULLER TANK)", "type": "ITEM_CHALLENGE_RESPONSE"},
+            {
+              "prompt": "Flap Switch",
+              "expectation": "CENTERED (FLAPS UP)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
             {"prompt": "Cowl Flaps", "expectation": "OPEN", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Ram Air", "expectation": "OFF", "type": "ITEM_CHALLENGE_RESPONSE"},
             {"prompt": "Landing Gear Switch", "expectation": "DOWN", "type": "ITEM_CHALLENGE_RESPONSE"},
@@ -590,12 +607,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {"prompt": "Master Switch", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
-            {"prompt": "Beacon", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "Annunciator Lights",
               "expectation": "TEST (GEAR DOWN & L/R FUEL LOW ON, VOLTS FLASHING; IGNORE VAC LIGHT)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
+            {"prompt": "Recog Lights", "expectation": "ON", "type": "ITEM_CHALLENGE_RESPONSE"},
             {
               "prompt": "Propeller Area",
               "expectation": "CLEAR",
@@ -612,7 +629,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Limit cranking to 30 seconds; allow several minutes between cranking periods for the starter to cool.",
+              "prompt": "Sky-Tec starter placard: crank no more than 10 seconds, allow 20 seconds to cool between attempts, up to 6 attempts, then let the starter cool for 30 minutes.",
               "type": "ITEM_NOTE"
             },
             {
@@ -697,6 +714,20 @@
             {
               "prompt": "Avionics Master",
               "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Rev Switch",
+              "expectation": "OFF (NORMAL, AUTO)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Use ON only if the primary GI 275 fails: it puts the PFD on the second GI 275, which then cannot show the HSI.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Attitude & HDG Displays",
+              "expectation": "CHECK ALIGNED (GI 275 ADI & HSI)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -831,6 +862,10 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "The Precise Flight standby vacuum placard on the sidewall is legacy: the vacuum system has been removed.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Oil Temp & Pressure",
               "expectation": "GREEN",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -944,6 +979,10 @@
           "title": "Pre Takeoff",
           "items": [
             {
+              "prompt": "FLOW BY ZONE: briefings first, then panel switches (lights, pitot heat, autopilot), then fuel and console (boost pump, fuel selector, flaps), then doors and the red emergency gear handle.",
+              "type": "ITEM_NOTE"
+            },
+            {
               "prompt": "Departure Briefing",
               "expectation": "REVIEW",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -959,16 +998,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Boost Pump",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Flaps (15° Takeoff)",
-              "expectation": "SET BY COUNTING 3 SECONDS",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Pitot Heat",
               "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -976,6 +1005,25 @@
             {
               "prompt": "Autopilot",
               "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Boost Pump",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Selector",
+              "expectation": "CONFIRM TANK, NO SWITCHING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "FPI procedure: no tank switching just before takeoff. Confirm the selector is on the fuller tank chosen earlier (see the Runup note).",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Flaps (15° Takeoff)",
+              "expectation": "SET BY COUNTING 3 SECONDS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -991,6 +1039,11 @@
             {
               "prompt": "The red Emergency Gear Extension T-handle check is critical.",
               "type": "ITEM_WARNING"
+            },
+            {
+              "prompt": "Lineup",
+              "expectation": "CONFIRM RUNWAY (HEADING & SIGNS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
         },
@@ -1249,28 +1302,12 @@
           "title": "Before Landing",
           "items": [
             {
-              "prompt": "Seat Backs / Belts",
-              "expectation": "UPRIGHT / SECURE",
-              "type": "ITEM_CHALLENGE_RESPONSE"
+              "prompt": "FLOW BY GUMPS: Gas (boost pump), Undercarriage (gear down, then check the indicators), Mixture, Prop, Seat belts and switches, then flaps. Gear is second on purpose, so a distraction cannot push it to the end of the list.",
+              "type": "ITEM_NOTE"
             },
             {
               "prompt": "Boost Pump",
               "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Mixture",
-              "expectation": "FULL RICH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Propeller",
-              "expectation": "FULL FORWARD (HIGH RPM)",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Ram Air",
-              "expectation": "OFF (IN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1290,6 +1327,26 @@
             {
               "prompt": "The floor-mounted visual gear indicator (mechanical alignment marks, independent of the electrical gear-down lights) is a Mooney-specific backup. Teach students to actually check it, not just glance past it — it's there specifically because it can't fail the same way an electrical indication can.",
               "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "FULL FORWARD (HIGH RPM)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Ram Air",
+              "expectation": "OFF (IN)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Seat Backs / Belts",
+              "expectation": "UPRIGHT / SECURE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Flaps",
@@ -1635,6 +1692,10 @@
           "expectation": "VERIFY GPS (LPV/LNAV) OR NAV1 (ILS)",
           "type": "ITEM_CHALLENGE_RESPONSE"
         },
+            {
+              "prompt": "NAV 2 GS INOP (placard): fly an ILS on the GTN (NAV 1).",
+              "type": "ITEM_NOTE"
+            },
         {
           "prompt": "Inbound Course (ILS / VLOC)",
           "expectation": "VERIFY SET ON GI 275 HSI",
